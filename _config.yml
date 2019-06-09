@@ -1,1 +1,1038 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: WTM Zaragoza 2019
+email: womentechmakerszgz@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# User setting
+owner:
+#email: womentechmakerszgz@gmail.com
+email: wtmz@mullerestech.es
+facebook_username:
+twitter_username: WTMZaragoza
+github_username: MulleresTechZgz
+address:
+  - line: ETOPIA Centro de Arte y Tecnología
+  - line: Av. de la Ciudad de Soria, 8 (50003) Zaragoza
+  # Feel free to add more lines here 
+telephone:
+copyright:
+
+# Timezone
+timezone: Europe/Madrid
+
+# API settings
+google_api_key:
+
+# Build settings
+markdown: kramdown
+theme: 
+
+#Dates
+end_c4p: 10/09/2017 23:59:59
+
+#Introduction
+intro_event:
+
+#List for event info
+event_infos:
+  - title: ¿Qué es Women Techmakers?
+    content: Se trata de una iniciativa promovida a nivel global por Google para <strong>visibilizar a las mujeres</strong> en el ámbito de la tecnología.<br/><br/>Women Techmakers quiere crear una comunidad con visibilidad, generando recursos que impulsen la innovación y la participación de las mujeres en este campo.<br/>
+    image: img/wtmz18/wtmz18_organizacion_y_ponentes.jpg
+  - title: ¿A quién está dirigido el evento?
+    content: Se trata de un <strong>evento abierto</strong> a cualquier persona interesada en el mundo de la tecnología.<br/><br/>Queremos abarcar diferentes temas como <strong>nuevas tecnologías, agile, comunicación, desarrollo web, UX</strong> o cualquier tema interesante del sector.<br/><br/>La asistencia al evento está abierta tanto a hombres como a mujeres, pero las ponentes serán únicamente mujeres, ya que uno de los objetivos es darles visibilidad así como ofrecer ayuda y colaboración.
+    image: img/wtmz18/wtmz18_foto_grupo.jpg
+  - title: ¿Dónde se ha celebrado hasta ahora?
+    content: En Barcelona con <span class="wtm-highlight">18</span> ponentes<br/>En Gijón <span class="wtm-highlight">12</span> ponentes<br/>En Jaén <span class="wtm-highlight">3</span> ponentes<br/>En Logroño <span class="wtm-highlight">5</span> ponentes<br/>En Madrid <span class="wtm-highlight">38</span> ponentes<br/>En Tenerife <span class="wtm-highlight">9</span> ponentes<br/>En Valencia <span class="wtm-highlight">16</span> ponentes<br/>En Vigo <span class="wtm-highlight">6</span> ponentes
+    image: img/imgs_dossier/MapaSpainWTM.jpg
+  - title: Cifras de WTM Zaragoza 2018
+    content: Más de 285 asistentes<br/><br/>Repartidos en 2 tracks de charlas más 2 aulas de talleres<br/><br/>94 propuestas recibidas en el Call for Papers<br/><br/>35 ponentes mujeres y 4 mentoras<br/><br/>22 charlas impartidas y 3 talleres<br/><br/>30 patrocinadores y colaboradores<br/><br/>10 medios de comunicacion se hicieron eco de nuestro evento<br/><br/>Conseguimos alcanzar los 1000 followers en Twitter
+    image: img/wtmz18/wtmz18_organizadoras_power.jpg
+
+#List for organizers
+organizers:
+  - name: Esther Borao
+    text: 
+    image: img/organizadoras/EstherBorao
+    image_card: img/organizadoras/fichas/EstherBorao
+    twitter_account: EstherBorao
+    linkedin_account: 
+    mail_account: esther@mullerestech.es
+  - name: Miriam Durán
+    text: 
+    image: img/organizadoras/MiriamDuran
+    image_card: img/organizadoras/fichas/MiriamDuran
+    twitter_account: miripi
+    linkedin_account: 
+    mail_account: miriam@mullerestech.es
+  - name: Cynthia Gálvez
+    text: 
+    image: img/organizadoras/CynthiaGalvez
+    image_card: img/organizadoras/fichas/CynthiaGalvez
+    twitter_account: icynthia
+    linkedin_account: 
+    mail_account: cynthia@mullerestech.es
+  - name: Patricia Heredia
+    text: 
+    image: img/organizadoras/PatriciaHeredia
+    image_card: img/organizadoras/fichas/PatriciaHeredia
+    twitter_account: pherediagil
+    linkedin_account: 
+    mail_account: patricia@mullerestech.es
+  - name: Laura Lacarra
+    text: 
+    image: img/organizadoras/LauraLacarra
+    image_card: img/organizadoras/fichas/LauraLacarra
+    twitter_account: LauraLacarra
+    linkedin_account: 
+    mail_account: laura@mullerestech.es
+  - name: Cristina Pérez
+    text: 
+    image: img/organizadoras/CristinaPerez
+    image_card: img/organizadoras/fichas/CristinaPerez
+    twitter_account: cristinapg
+    linkedin_account: 
+    mail_account: cristina@mullerestech.es
+  - name: Jessica Redrado
+    text: 
+    image: img/organizadoras/JessicaRedrado
+    image_card: img/organizadoras/fichas/JessicaRedrado
+    twitter_account: Jessi_Redrado
+    linkedin_account: jessica-redrado-martinez
+    mail_account: jessica@mullerestech.es
+  #- name: Paloma Royo
+    #text: 
+    #image: img/organizadoras/PalomaRoyo
+    #image_card: img/organizadoras/fichas/PalomaRoyo
+    #twitter_account: plmrc_
+    #linkedin_account: 
+    #mail_account: paloma@mullerestech.es
+  - name: Ana Sánchez
+    text: 
+    image: img/organizadoras/AnaSanchez
+    image_card: img/organizadoras/fichas/AnaSanchez
+    twitter_account: anasanalva
+    linkedin_account: anasanchezalvarez
+    mail_account: ana@mullerestech.es
+  - name: Nieves Sancho
+    text: 
+    image: img/organizadoras/NievesSancho
+    image_card: img/organizadoras/fichas/NievesSancho
+    twitter_account: Nievesancho
+    linkedin_account: 
+    mail_account: nieves@mullerestech.es
+
+#List for guests
+guests:
+  - name: Pilar Alegría
+    bio: ''
+    image: img/ponentes/PilarAlegria
+    image_card: 
+    twitter_account: Pilar_Alegria
+    linkedin_account: 
+  - name: Cristina Aranda
+    bio: 'Cristina Aranda es PR, Pre-Sales & Innovation Research en Intelygenz, empresa dedicada al desarrollo de Software y tecnologías con impacto en negocio con sedes en Madrid y San Francisco. Cristina tiene más de 16 años de experiencia en marketing, innovación y transformación digital con empresas del Ibex35, Top500, Pymes y Startups. Además, es cofundadora de Mujeres Tech, una asociación sin ánimo de lucro que tiene por objetivo promover iniciativas entre niñas, jóvenes y mujeres y hombres para aumentar la presencia femenina en el sector digital, y, al mismo tiempo, establecer lazos con hombres dispuestos a generar las mismas posibilidades al talento femenino.<br/>Aranda es Social Innovation Fellow del Meridian Intl. Center y la Embajada de EE.UU. en Madrid, miembro del comité de Mujeres Líderes de América y del Comité de Expertos de Empresas de Base Tecnológica, Startups y Talento de la Comunidad de Madrid. Además, Cristina es asesora sobre Diversidad en las STEAM de diferentes stakeholders públicos y privados. Pertenece a la mesa de género de la Secretaría de Estado de Agenda Digital. El pasado mes de abril impartió una charla TEDx sobre la necesidad de desaprender sobre cómo somos educados a partir de estereotipos y el pasado mes de febrero fue considerada por Business Insider como una de las 25 españoles del mundo de la tecnología que se deben seguir en Twitter.<br/>Cristina es doctora en Lingüística Teórica y Aplicada por la UAM y el IUI. Ortega y Gasset, licenciada en Filología Hispánica por la UAM, Máster en Internet Business por el ISDI y Digital Technology for Business Program por IGZ Academy. Ahora está profundizando en el procesamiento natural del lenguaje para su aplicación en el Internet de las cosas y la inteligencia artificial.'
+    image: img/ponentes/CristinaAranda
+    image_card: img/ponentes/fichas/CristinaAranda
+    twitter_account: cris_aranda_
+    linkedin_account: cristinaaranda
+  - name: Elena Giner
+    bio: ''
+    image: img/ponentes/ElenaGiner
+    image_card: 
+    twitter_account: 
+    linkedin_account:
+
+#List for speakers
+speakers:
+  - name: Pilar Barbero Iriarte y Laura Fernando López
+    short_name: Pilar Barbero y Laura Fernando
+    bio: 'Pilar Barbero Iriarte<br/>Licenciada en matemáticas e intrusista laboral. Durante mis estudios descubrí que esto de los ordenadores era lo mío y decidí poner remedio a ello empapándome de todo lo que pudiera, a través de distintas optativas durante la carrera y mi erasmus, asistir a ponencias, largas charlas con colegas en bares... Actualmente trabajo desarrollando software en Vueling (cosicas para avioncitos). Apasionada de la cerveza y amante de las chinchillas.<br/><br/>Laura Fernando López<br/>Soy Ingeniera Informática por la Universidad de Zaragoza y desde 2017 ocupo el puesto de Analista de la Información en la Oficina de Participación, Transparencia y Gobierno Abierto en el Ayuntamiento de Zaragoza. Apasionada de las tecnologías de la información y en continuo aprendizaje. Me encanta conocer, analizar y aplicar, si es posible, las nuevas tecnologías favoreciendo la transparencia, la accesibilidad de la información y fomentando la reutilización de los datos publicando en formatos abiertos según el marco legal vigente.'
+    image: img/ponentes/PilarBarberoLauraFernando
+    image_card: img/ponentes/fichas/PilarBarberoLauraFernando
+    twitter_account: pbarberoiriarte
+    twitter_account_2: lafelop
+    linkedin_account:
+  - name: Maria Berenguer
+    bio: 'Agilista, informática, teatrera y pianista. Siempre aprendiz, ahora Scrum Master. Desde que un día me dijeron: "Tú eres ágil, y todavía no lo sabes", invierto mi tiempo en aprender y descubrir qué es. Agile como forma de vida.'
+    image: img/ponentes/MariaBerenguer
+    image_card: img/ponentes/fichas/MariaBerenguer
+    twitter_account: merybere
+    linkedin_account:
+  - name: Sandra Escudero Sanchez
+    bio: 'Soy Sandra Escudero, Ingeniera Informática por la Universidad de Zaragoza. Llevo 3 años en keensoft UST Global trabajando en el desarrollo de software, y más específicamente en gestión de proyectos. El interés por la tecnología desde que era pequeña y el querer afrontar nuevos retos me llevó hasta este increíble mundo de la informática. Lo que más me gusta de mi carrera es la oportunidad de crecer cada día y de aprender cosas nuevas, y es que con ganas e ilusión somos capaces de desarrollar todo lo que tenemos en nuestra mente.'
+    image: img/ponentes/SandraEscudero
+    image_card: img/ponentes/fichas/SandraEscudero
+    twitter_account: SandraEscS
+    linkedin_account:
+  - name: Azahara Fernandéz Guizán
+    bio: 'Soy desarrolladora de software (.Net y Angular) reconvertida en 2015, tras obtener un doctorado en Inmunología. Desde Abril de 2018 trabajo en Sngular, en la sede de Oviedo.<br/>Me encanta desarrollar, aprender idiomas, asistir a eventos y compartir con la comunidad. Formo parte de AsturiasHacking y también de Afaya tratando de ayudar en todo lo que se me necesite. Siempre positiva y buscando el lado bueno de las cosas.'
+    image: img/ponentes/AzaharaFernandez
+    image_card: img/ponentes/fichas/AzaharaFernandez
+    twitter_account: azahara_fergui
+    linkedin_account:  
+  - name: María Fernández Rodriguez
+    bio: 'María Fernández (minimeri) es una diseñadora senior con un amplio bagaje multidisciplinar: grafismo de videojuegos, diseño gráfico y web... centrándose finalmente en el diseño centrado en usuario , diseño de interfaz para nuevos dispositivos, diseño de producto y liderando equipos de UX.<br/>Ultimamente se ha centrado en estudiar neurociencia vinculándola con la teoría del diseño.'
+    image: img/ponentes/MariaFernandez
+    image_card: img/ponentes/fichas/MariaFernandez
+    twitter_account: meri_minimeri
+    linkedin_account: 
+  - name: Vanessa Galcerà Reales
+    bio: 'Ingeniera Informática con 4 años como formadora certificada de Sun Microsystems y Red Hat. Desde 2012 realiza tareas de Lead Software Engineer en proyectos con Oracle ADF.<br/>Lleva más de 7 años involucrada en diferentes iniciativas orientadas a divulgar y formar en nuevas tecnologías como el GDGTarragona. Desde 2014, también está colaborando en dar visibilidad y potenciar la presencia de las mujeres en el campo de la tecnología organizando eventos Women Techmakers en Tarragona.'
+    image: img/ponentes/VanessaGalcera
+    image_card: img/ponentes/fichas/VanessaGalcera
+    twitter_account: VanessaGaRe
+    linkedin_account:
+  - name: Cynthia Gálvez López
+    bio: ''
+    image: img/ponentes/CynthiaGalvez
+    image_card: img/ponentes/fichas/CynthiaGalvez
+    twitter_account: icynthia
+    linkedin_account: 
+  - name: Girls to Program (G2P)
+    bio: 'Girls to Program (G2P) es el nombre de una aplicación que hemos desarrollado un grupo de niñas de 10 años de Huesca, somos: Alejandra Bagé, Paula Sanclemente, Sara Miravé y Valeria Corrales. Nos encanta el deporte, el inglés y la tecnología, tanto es así que este año participamos en un concurso internacional, Technovation Challenge, y desarrollamos una app para ayudar a niñas en entornos rurales a encontrar recursos para aprender tecnología.'
+    image: img/ponentes/Girls2Program
+    image_card: img/ponentes/fichas/Girls2Program
+    twitter_account: Girls2Program 
+    linkedin_account:
+  - name: Susana González Ruisanchez
+    bio: 'Abogada especialista en Derecho Tecnológico y ciberseguridad. Socia en ECIX Group. Auditora Jefe ISO 27001 Aenor Seguridad de la Información. Formadora y ponente en congresos y eventos de las áreas de especialización y asidua colaboradora en diversas publicaciones de referencia en el sector legal tecnológico y ciberseguridad. Miembro de junta fundadora de la Asociación nacional de profesionales del hacking ético, juristas y miembros de seguridad del estado. Colaboradora experta en la Red de Conocimiento de Computer World. Docente del curso de experto universitario en derecho tecnológico e informática forense de la UNEX, del máster de compliance de ICAB, del Curso de Ciberderecho de ICAM. Promotora de www.CONPilar.es Zaragoza Congreso anual de ciberseguridad de Zaragoza.'
+    image: img/ponentes/SusanaGonzalez
+    image_card: img/ponentes/fichas/SusanaGonzalez
+    twitter_account: sudigitallawyer
+    linkedin_account: susanagonzalezruisanchez
+  - name: 'Andrea Gracia García y Eva Omedes Domene'
+    short_name: 'Andrea Gracia y Eva Omedes'
+    bio: 'Somos Andrea Gracia García y Eva Omedes Domene, y ambas vivimos en Zaragoza.<br/>A pesar de haber estudiado diferentes cosas anteriormente, nos conocimos en el Grado de Proyectos de Obra Civil, y en la actualidad, trabajamos también juntas en atBIM, así que ya llevamos 3 años juntas.<br/>Nos gusta la edificación, las estructuras, modelar edificios y formas singulares, y siempre, con la ambición de aprender cosas nuevas y mejorar.'
+    image: img/ponentes/AndreaGraciaEvaOmedes
+    image_card: img/ponentes/fichas/AndreaGraciaEvaOmedes
+    twitter_account: 
+    linkedin_account: andrea-gracia-garcia-290b94145
+    linkedin_account_2: eva-omedes-366315128
+  - name: Laura Lacarra
+    bio: 'Laura Lacarra es una maña muy mañosa.  Estudió Ingeniería Informática en el famoso y  extinguido nombre CPS y acumula 9 años de experiencia en el desarrollo de software tocando Java y Python. Recientemente trabaja como Devops en el equipo de BI y BigData producción de Telefónica. Se lo pasa muy bien asistiendo a eventos y organizando unos cuantos. Colabora con Mulleres Tech, WTM Zaragoza, Cachirulo Valley en la actualidad. Ha colaborado en comunidades Betabeers Zaragoza y Agile Aragón. '
+    image: img/ponentes/LauraLacarra
+    image_card: img/ponentes/fichas/LauraLacarra
+    twitter_account: LauraLacarra 
+    linkedin_account:
+  - name: Keka Lopez
+    bio: 'Realizadora aragonesa y activista por la soberanía tecnológica.<br/>Trabaja con diversos colectivos de artistas interdisciplinares mezclando técnicas de video,sonido y fotografiá desde el mediactivismo y la televisión experimental utilizando herramientas de software libre y licencias creative commons. <br/> Dirige mydogisa.ninja donde ha producido contenidos para organizaciones internacionaels desde campañas de protección del medio ambiente a la defensa de llos derechos humanos en Suiza, Alemania,Mexico y Reino Unido. <br/>Ha realizado dos documentales Con el Corazon en la Calle y La Hipocresía del deseo que recibió varias menciones internacionales. <br/>Su primer largo documental se encuentra en fase de grabación El Derecho a Soñar una fábula social protagonizada por hackers y comunidades indígenas sobre la primera red de telefonía celular independiente del mundo. Donde sus protagonistas hablan de la necesidad de desdibujar los horizontes , imaginar imposibles, de las posibilidades de la tecnología ,la colaboración , la gestión comunitaria y del conocimiento abierto. <br/>Este documental está siendo grabado con cámaras de video hackeadas, ampliando las posibilidades que su hardware les posibilita.'
+    image: img/ponentes/KekaLopez
+    image_card: img/ponentes/fichas/KekaLopez
+    twitter_account: TheRightToDream
+    linkedin_account:  
+  - name: Laura López Navaz
+    bio: 'Laura López Navaz es la autora del blog Cómo ser tu Digital Manager. Blog personal donde comparte artículos sobre Búsqueda de Empleo y Redes Sociales. Laura está en aprendizaje continuo, en periodo de formación para convertirse en una referente del sector enfocando su web en la Transformación Digital y la Gestión de la Reputación Online'
+    image: img/ponentes/LauraLopez
+    image_card: img/ponentes/fichas/LauraLopez
+    twitter_account: lauralopeznavaz
+    linkedin_account:
+  - name: Nerea Luis Mingueza
+    bio: 'Estudiante de doctorado en el campo del razonamiento y la planificación multiagente (Inteligencia Artificial). Fundadora de T3chFest. Experta en #Los100de Cotec en Tecnología, Talento y Género. Técnico de asesoramiento científico en Ciencia en el Parlamento. Women Techmaker Scholar en 2016. Me encantan los robots <3'
+    image: img/ponentes/NereaLuis
+    image_card: img/ponentes/fichas/NereaLuis
+    twitter_account: sailormerqury
+    linkedin_account: 
+  - name: Susana Luna y Nerea Tamayo
+    bio: 'Nerea Tamayo, 33 años y procedente de Bilbao, estudió Ingeniería Técnica en Informática en la Universidad del País Vasco (UPV).<br/>Comenzó su vida laboral como desarrolladora de software, hasta que descubrió  su pasión por el testing, disciplina a la que se ha dedicado en exclusiva desde 2013 y en la que se ha especializado. Nerea está certificada por el ISTQB (International Software Testing Qualifications Board), como Software Tester (Foundation Level), como Test Manager (Advanced Level) y como Ingeniera de Automatización de Pruebas (Advanced Level).<br/>Actualmente trabaja en adidas, definiendo los procesos, herramientas y estándares de testing en la Plataforma de Ingeniería y Arquitectura de la compañía (Global IT – PE&A).'
+    image: img/ponentes/SusanaLunaNereaTamayo
+    image_card: img/ponentes/fichas/SusanaLunaNereaTamayo
+    twitter_account: 
+    linkedin_account: nerea-tamayo-garcía
+  - name: Mayte Ortin
+    bio: 'Diplomada en Estadística por la Universidad de Zaragoza.<br/>Actualmente Directora Gerente de Aragonesa de Servicios Telemáticos, entidad pública del Gobierno de Aragón responsable de las infraestructuras y servicios en el ámbito de las tecnologías de la información y las telecomunicaciones.<br/>Su andadura profesional comenzó en 1999 en el sector TIC donde ha desempeñado funciones de dirección, gestión de proyectos e ingeniería del software.'
+    image: img/ponentes/MayteOrtin
+    image_card: img/ponentes/fichas/MayteOrtin
+    twitter_account:  
+    linkedin_account: MayteOrtin
+  - name: Alba Pardo Ortiz
+    bio: 'Soy Alba Pardo, de Zaragoza, y allí es donde me matriculé en Matemáticas sin pensármelo demasiado. Desde que acabé estoy en el mundo de la informática, descubriendo su amplio abanico de posibilidades, siempre atraída por aprender y enfrentarme a nuevos retos. Actualmente trabajo en keensoft UST Global, aprendiendo de la mano de grandes profesionales.'
+    image: img/ponentes/AlbaPardo
+    image_card: img/ponentes/fichas/AlbaPardo
+    twitter_account: albapo15 
+    linkedin_account: 
+  - name: Veronica Rodriguez Perez
+    bio: 'Especialista en Realidad Virtual, Transmedia Storytelling y Branded Content, apasionada de las historias y sus formatos. Ha trabajado en empresas de publicidad y audiovisuales y participado en diferentes proyectos de realidad virtual. Actualmente es organizadora de la comunidad de VR / AR / MR de Madrid xR World y escribe en su blog I AM VR'
+    image: img/ponentes/VeronicaRodriguez
+    image_card: img/ponentes/fichas/VeronicaRodriguez
+    twitter_account: veronica_IamVR
+    linkedin_account:
+  - name: Sonsoles Valero
+    bio: 'Cofounder y CLO en Botmyself, startup legaltech de desarrollo de chatbots personalizados. Abogada y formadora especializada en Derecho de Consumo y Atención al Cliente. Firme creyente de equipos mixtos  “letras y ciencias” para proyectos tecnológicos. Ayuda a que la inteligencia artificial que se utiliza en la creación de chatbots sea entrenada con la calidad, la ética y la legalidad necesarias.'
+    image: img/ponentes/SonsolesValero
+    image_card: img/ponentes/fichas/SonsolesValero
+    twitter_account: sonvalero
+    linkedin_account:
+
+#List for workshops speakers
+workshop_speakers:
+  - name: Academia de Inventores
+    bio: 'Hasta llegar a ser inventor primero hay que pasar un camino de exploración, descubrimiento, investigación y creación. Academia de inventores nace en colaboración con Edelvives como un espacio donde los niños puedan desarrollar sus capacidades, descubrir nuevas tecnologías, experimentar y aprender haciendo.'
+    image: img/ponentes/AcademiaDeInventores
+    image_card: img/ponentes/fichas/AcademiaDeInventores
+    twitter_account: ainventores
+    linkedin_account: 
+  - name: Alexandra Carramiñana, Vanessa Cazzola, Begoña Cuello y Elena Montañés
+    short_name: Alexandra C., Vanessa C., Begoña C. y Elena M.
+    bio: 'Vanessa Cazzola<br/>Me llamo Vanessa y soy traductora freelance. Traduzco del español al italiano y del inglés al italiano y estoy especializada en moda, turismo, marketing y sistemas ERP. Además de traductora, a lo largo de mi carrera profesional me he ocupado también de comercio exterior y de atención al cliente, y he trabajado en tres países distintos: España, Italia e Inglaterra.<br/><br/>Begoña Cuello<br/>Informática de profesión y con 9 años de experiencia en el desarrollo de software en las tecnologías de Microsoft, especializada en los entornos web. Suelo mantenerme al día en las tecnologías, siempre y cuando el tiempo y el trabajo me lo permite. Recientemente adherida al negocio de la banca y los seguros.<br/><br/>Elena Montañés<br/>Extrovertida y perfeccionista, en definitiva, soy una mente inquieta. Todo eso me ha llevado a trabajar en diferentes empresas punteras de Aragón. Con más de 10 años de experiencia en el sector, sigo siendo una apasionada del mundo digital y la tecnología en general. En la actualidad, sigo desarrollándome profesionalmente al frente de proyectos en Flat101 como Digital Project Manager.'
+    image: img/ponentes/AlexandraCarraminanaVanessaCazzolaBegoñaCuelloElenaMontanes
+    image_card: img/ponentes/fichas/AlexandraCarraminanaVanessaCazzolaBegoñaCuelloElenaMontanes
+    twitter_account: 
+    linkedin_account:
+  - name: África Sanjuán Duarte
+    bio: 'África Sanjuán Duarte, emprendedora y freelance. Especializada en museografía interactiva y también en diseño web y comunicación, apasionada por experimentar y crear mezclando el emprendimiento con diseño, creatividad, programación y electrónica. En 2013 fundó Crearium, un espacio multidisciplinar y colaborativo en Monzón; un espacio de coworking, arte y formación pionero en la provincia de Huesca, y en el que la tecnología y la creatividad tienen un peso importante en forma de talleres y campus para peques bajo el nombre de Crearium Kids.'
+    image: img/ponentes/AfricaSanjuan
+    image_card: img/ponentes/fichas/AfricaSanjuan
+    twitter_account: crearium
+    linkedin_account:       
+  - name: Anita de Arbués
+    bio: ''
+    image: img/ponentes/comodinw
+    image_card: img/ponentes/fichas/AnitaDeArbues
+    twitter_account: 
+    linkedin_account: 
+
+#List for mentors
+mentors:
+  - name: María Jesus Fernández Ruiz
+    bio: 'María Jesús Fernández Ruiz es Jefa de la Oficina de Participación, Transparencia y Gobierno Abierto. Desde su inicio en 1994 se ocupa del desarrollo, dirección y gestión de la Sede Electrónica del Ayuntamiento de Zaragoza y desde 2012 es la responsable de la Plataforma de Gobierno Abierto y de las iniciativas relacionadas con Open Data en el Ayuntamiento de Zaragoza.  <br/>También es responsable de la gestión del Portal Corporativo, así como de la gestión de la información necesaria para dar una respuesta clara y concreta a las demandas que llegan del ciudadano a través del servicio 010. Actualmente también participa de manera activa en la “Comisión Técnica para la Implantación de la Administración Electrónica” en el Excmo Ayuntamiento de Zaragoza. <br/>Ejerce como ponente y formadora y ha participado en diferentes proyectos nacionales y europeos. A lo largo de su carrera ha recibido numerosos reconocimientos por su labor.'
+    image: img/ponentes/MariaJesusFernandez
+    twitter_account: 
+    linkedin_account:
+  - name: Diana Ruiz
+    bio: 'Desde que de adolescente sufriera un derrame cerebral tuvo claro que quería dedicarse a mejorar la calidad de la vida diaria de cualquier tipo de pacientes. Diana Ruiz es ahora doctora en robótica y se ha dedicado a explorar la relación entre el cerebro y coordinación motora con las señales biológicas del cuerpo humano para aplicaciones de sistemas exoesqueléticos y neuroprotésicos.<br/>Ha completado su formación con estancias de investigación en universidades internacionales. Ha estado inmersa en proyectos en el área de neurorehabilitación, lo que le ha permitido trabajar activamente en equipos multidisciplinares y colaborar con Hospitales de referencia.<br/>Actualmente, Diana es COO en Exovite, donde ha encontrado un lugar donde compatibilizar la investigación en señales biomédicas con su otra gran pasión, la de ser madre.'
+    image: img/ponentes/DianaRuiz
+    twitter_account: 
+    linkedin_account:
+  - name: Irene Luzán Gallego
+    bio: 'Irene Luzán (1986, Huesca)<br/>CEO - SHU DIGITAL y Técnico de escáner 3d<br/>Desde pequeña, en contacto directo con el mundo de la escenografía y tematización en la empresa familiar Tecmolde. Hace 15 años, Tecmolde apuesta por la tecnología 3d para desarrollar sus proyectos. Es aquí cuando surge la especialización en escáner 3d. Después de varios años de formación 3d compaginados con el trabajo de tematización en taller, surge la oportunidad de formar Shu Digital y sacar partido a todas las posibilidades que tiene el mundo 3d.'
+    image: img/ponentes/IreneLuzan
+    twitter_account: 
+    linkedin_account: shu-digital-2a0835101
+  - name: Laura Duato Ballesteros
+    bio: 'He estado trabajando con aplicaciones iOS desde que hice mi proyecto final de carrera en 2011 en la universidad.<br/>En el año 2015 participé en el WTM de Granada, donde hablamos acerca de la innovación, el papel de la mujer en el mundo tecnológico y sobre nuestra implicación en los procesos de innovación. Además, impartimos un taller de “design thinking”. <br/>Soy una persona activa y me gusta estar en continuo aprendizaje, por ello hace casi un año, tuve la suerte de poder unir mis dos pasiones, el deporte y la tecnología, y así poder seguir trabajando en el mundo de las aplicaciones en adidas.'
+    image: img/ponentes/LauraDuato
+    twitter_account: 
+    linkedin_account: laura-duato-ballesteros
+
+#List for sponsors
+sponsors_platinum:
+  - name: Fundacion Zaragoza Conocimiento
+    text: 
+    image: img/patrocinadores/platinum/fzc.png
+    web: http://www.fundacionzcc.org/
+    twitter: FundacionZCC
+  - name: Fundacion Ibercaja
+    text: 
+    image: img/patrocinadores/platinum/fundacion_ibercaja.png
+    web: https://obrasocial.ibercaja.es/
+    twitter: IbercajaSocial
+  - name: Etopia
+    text: 
+    image: img/patrocinadores/platinum/etopia.jpg
+    web: http://www.zaragoza.es/ciudad/etopia/
+    twitter: etopia_
+  - name: Ayuntamiento de Zaragoza
+    text: 
+    image: img/patrocinadores/platinum/ayuntamiento_zaragoza.jpg
+    web: https://www.zaragoza.es/
+    twitter: zaragoza_es
+  - name: Deiser
+    text: 
+    image: img/patrocinadores/platinum/deiser.png
+    web: https://deiser-enterprise-day.deiser.com/
+    twitter: deiser
+  - name: Tecnología esPublico
+    text: 
+    image: img/patrocinadores/platinum/esPublico.jpg
+    web: https://espublico.tech/
+    twitter: TEspublico
+  - name: Adidas
+    text: 
+    image: img/patrocinadores/platinum/adidas.png
+    web: https://www.adidas.es/
+    twitter: adidas_ES
+  - name: Enciende la Luz
+    text: 
+    image: img/patrocinadores/platinum/enciende_la_luz.png
+    web: https://enciendelaluz.es/
+    twitter: enciendelaluzya
+  - name: Autentia
+    text: 
+    image: img/patrocinadores/platinum/autentia.png
+    web: https://www.autentia.com/
+    twitter: autentia  
+  - name: Walgreens Boots Alliance
+    text: 
+    image: img/patrocinadores/platinum/walgreens_boots_alliance.jpg
+    web: http://www.walgreensbootsalliance.com/
+    twitter: 
+  - name: Zara
+    text: 
+    image: img/patrocinadores/platinum/zara.jpg
+    web: https://www.zara.com/es/
+    twitter: zaraes
+  - name: Telefonica
+    text: 
+    image: img/patrocinadores/platinum/telefonica.jpg
+    web: https://www.telefonica.com/es/home
+    twitter: telefonica
+
+sponsors_gold:
+  - name: GDG Zaragoza
+    text: 
+    image: img/patrocinadores/gold/gdgzaragoza.png
+    web: 
+    twitter: GDGZaragoza
+  - name: Vueling
+    text: 
+    image: img/patrocinadores/gold/vueling.png
+    web: https://www.vueling.com/es
+    twitter: vueling
+
+sponsors_silver:
+  - name: GeoSLab
+    text: 
+    image: img/patrocinadores/silver/geosLab.jpg
+    web: https://www.geoslab.com/
+    twitter: GeoSLab
+  - name: Elastic
+    text: 
+    image: img/patrocinadores/silver/elastic.png
+    web: https://www.elastic.co/
+    twitter: elastic
+  - name: Cuéntica
+    text: 
+    image: img/patrocinadores/silver/cuentica.png
+    web: https://cuentica.com/
+    twitter: cuentica
+  - name: Asociacion de mujeres investigadoras y tecnologas
+    text: 
+    image: img/patrocinadores/silver/amit.png
+    web: https://www.amit-es.org/
+    twitter: twitamit_es
+  - name: Commit Conf
+    text: 
+    image: img/patrocinadores/silver/commit.png
+    web: https://2018.commit-conf.com/
+    twitter: commitconf
+  - name: KeenSoft
+    text: 
+    image: img/patrocinadores/silver/keensoft.png
+    web: http://www.keensoft.es/
+    twitter: keensoft_es
+  - name: T3chFest
+    text: 
+    image: img/patrocinadores/silver/t3chfest.png
+    web: https://t3chfest.uc3m.es/2019/?lang=es
+    twitter: t3chfest
+  - name: Cabify
+    text: 
+    image: img/patrocinadores/silver/cabify.jpg
+    web: https://cabify.com/es
+    twitter: CabifyDev
+  - name: Codurance
+    text: 
+    image: img/patrocinadores/silver/codurance.png
+    web: https://codurance.es/
+    twitter: codurance_ES
+    
+
+sponsors_others:
+  - name: Ambar
+    text: 
+    image: img/patrocinadores/colaboradores/ambar.png
+    web: https://ambar.com
+    twitter: cervezasambar
+  - name: Donuts
+    text: 
+    image: img/patrocinadores/colaboradores/donuts.png
+    web: http://donuts.es/
+    twitter: Donuts_es
+  - name: Eboca
+    text: 
+    image: img/patrocinadores/colaboradores/eboca.png
+    web: https://www.eboca.com/
+    twitter: EbocaVending
+  - name: Eventbrite
+    text: 
+    image: img/patrocinadores/colaboradores/eventbrite.png
+    web: https://www.eventbrite.es/
+    twitter: eventbrite
+  - name: Te Neon Project
+    text: 
+    image: img/patrocinadores/colaboradores/the_neon_project.png
+    web: https://theneonproject.org/
+    twitter: tnpgram
+  - name: Agile Spain
+    text: 
+    image: img/patrocinadores/colaboradores/agile_spain.png
+    web: https://agile-spain.org/
+    twitter: agilespain
+  - name: San Jimes Estudio
+    text: 
+    image: img/patrocinadores/colaboradores/san_jimes.png
+    web: http://www.sanjimes.com/
+    instagram: sanjimes
+    facebook: sanjimes
+
+# Agenda
+talks_track_1:
+  - time: '09:00-09:45'
+    track: all
+    name: REGISTRO
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '09:45-10:30'
+    track: all
+    name: 'PRESENTACIÓN Staff WTM Zaragoza'
+    #second_name: 'Inauguración: Pilar Alegría, Consejera de Innovación, Investigación y Universidad y <br/> Elena Giner, Consejera de Participación, Transparencia y Gobierno Abierto'
+    second_name: 'Inauguración: Elena Giner (Ayuntamiento de Zaragoza) y Pilar Alegría (Gobierno de Aragón)'
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '10:30-10:55'
+    track: 1
+    name: 'Lo que nos hace humanos'
+    descrip: 'Con los avances en inteligencia artificial y robótica muchos se preguntan ¿nos van a sustituir las máquinas? En 20 minutos hablaré de las dos habilidades más complejas de replicar en cualquier sistema autónomo: la inferencia de conocimiento y la creatividad. Será una charla divulgativa sobre el estado del arte de la IA y la robótica a través del dilema de construir los sistemas autónomos para parecerse (o no) a los humanos.'
+    speaker: 'Nerea Luis Mingueza'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '11:00-11:25'
+    track: 1
+    name: 'Gestión TI en el Gobierno de Aragón: ¿y si te llaman 55.000 usuarios?'
+    descrip: 'Aragonesa de Servicios Telemáticos, AST, es la entidad pública del Gobierno de Aragón responsable de las tecnologías de la información y las telecomunicaciones. <br/>AST gestiona las infraestructuras, sistemas, aplicaciones y servicios TI de la administración autonómica aragonesa siendo una referencia por su volumetría y criticidad.<br/>En esta charla podrás conocer qué es ITSM, cómo gestiona AST sus servicios TI, cuáles son sus mejores prácticas, cómo es un día normal y cómo se gestiona una crisis que puede afectar a miles de usuarios.'
+    speaker: 'Mayte Ortín'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '11:30-11:55'
+    track: 1
+    name: '¡¡Tú tienes el PAGÜER!!'
+    descrip: 'En esta charla Cristina nos hablará de los diferentes niveles del lenguaje y de cómo intervienen en la persuasión. Lo hará con ejemplos y con ejercicios que puedes comenzar a usar para sacar el máximo partido a tu día a día.'
+    speaker: 'Cristina Aranda'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '12:00-12:25'
+    track: all
+    name: DESCANSO CAFÉ
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '12:30-12:55'
+    track: 1
+    name: 'G2P: Enseñando a programar con 10 años'
+    descrip: 'Hemos desarrollado una app con la que acercar la programación a muchas niñas y niños. Preparamos una campaña de marketing para llegar a unas docenas de personas y, con esto nos pasaron un montón de cosas que ni imaginábamos: a través de Twitter, nos conocieron miles de personas, nos apoyaron políticos y periodistas muy importantes en España, nos entrevistaron de un montón de medios, nos invitaron a empresas muy importantes en tecnología, … ¡nos hemos hecho famosas! Pero, lo más importante, es que hemos aprendido que podemos hacer cosas impresionantes, que podemos ayudar a mucha gente y que, podemos cambiar el mundo. Y si nosotras podemos hacerlo, ¡cualquier niña puede!'
+    speaker: 'Girls To Program'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '13:00-13:25'
+    track: 1
+    rowspan: '2'
+    name: 'Innovación, tecnología, negocio y género'
+    descrip: ''
+    speaker: 'Patrocinadores Platinum'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '13:30-13:55'
+    track: 1
+    rowspan: '0'
+    name: '-'
+    descrip: ''
+    speaker: '-'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '13:55-14:00'
+    track: all
+    name: Fotografía de grupo (Track 1)
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '14:00-15:55'
+    track: all
+    name: COMIDA
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '16:00-16:25'
+    track: 1
+    name: 'La era del <i>Big Data</i> en el deporte'
+    descrip: 'En los últimos años, los datos se han convertido en parte fundamental de las actividades deportivas y el ‘big data’ ya está avanzando con fuerza para cambiar el mundo. Datos para preparar la estrategia de cada partido, toma de decisiones, prevención de lesiones...'
+    speaker: 'Sandra Escudero Sánchez'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '16:30-16:55'
+    track: 1
+    name: 'No me toques las webs que me conozco - <i>Legal, Security & Compliance web</i>'
+    descrip: ''
+    speaker: 'Susana González Ruisanchez'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '17:00-17:25'
+    track: all
+    name: 'DESCANSO CAFÉ'
+    descrip: '-'
+    speaker: '-'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '17:30-17:55'
+    track: 1
+    name: 'Paciente 6.000.001 del síndrome del impostor'
+    descrip: '"He sacado buena nota por suerte", "no tengo nada de que hablar en un evento", "no voy a echar a este puesto de trabajo porque no me van a coger", "me van a echar de mi trabajo porque no soy buena".  ¿Os suenas estas frases? ¡Si solo se quedara en estas frases! Seguido de estas frases van problemas de autoestima, ansiedad o depresión. El síndrome del impostor es una patología que lo sufren muchas personas que ni si quiera lo saben y deriva en una serie de problemas que nos entorpece nuestra salud, nuestra progresión laboral y nuestra vida. El estudio de este síndrome me ha sorprendido, desde cómo detectaron el síndrome, desde sus descubridoras, de por qué viene y los problemas que acarrea. Me gustaría contaros la historia que hay detrás y cómo dar cara a nuestro peor enemigo: el síndrome del impostor.'
+    speaker: 'Laura Lacarra'
+    bio_speaker: ''
+    twitter_speaker: 
+    url_youtube: q0GqEHjrP5g
+  - time: '18:00-18:25'
+    track: 1
+    name: '<i>.Net Core</i> y <i>Aurelia.Js Challenge accepted</i>!'
+    descrip: 'En esta charla trataré de resumir cómo afronte un reto personal que me propuse este verano: descubrir que ventajas aportaba .Net Core y ver si realmente Aurelia.Js podía ser una alternativa a otros frameworks front. Contaré como lo planteé y lo estructuré, que recursos utilicé, dónde buscar información si os interesa y también que problemas tuve en el proceso. Porque las cosas no suelen salir bien a la primera! Y además detallaré que aporta .Net Core y que ventajas tiene Aurelia.Js'
+    speaker: 'Azahara Fernández Guizán'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '18:30-18:55'
+    track: 1
+    name: 'Retrospectivas, unas veces van en bici, otras veces huelen bien'
+    descrip: 'Mejorar, experimentar, aprender de los errores, y de los éxitos. ¿Quién no querría? Los equipos que trabajan en un proyecto, sea de desarrollo o no, deben buscar la mejora continua no sólo en sus habilidades técnicas, también en sus procesos, formas de comunicación, auto-organización, y cualquier cosa que les haga ser mejores juntos.<br/>Un equipo puede hacer una Retrospectiva sin necesidad de un Scrum Master o facilitador especializado. Dedicar un tiempo periódicamente a esto es independiente de Agile, Scrum, Lean u otras palabras tan de moda últimamente. Contaré algunos trucos y guías para tener Retrospectivas productivas'
+    speaker: 'María Berenguer'
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '19:00-19:45'
+    track: all
+    name: 'CIERRE Staff WTM Zaragoza'
+    #second_name: 'Clausura: Elena Giner, Consejera de Participación, Transparencia y Gobierno Abierto'
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '19:45-20:00'
+    track: all
+    name: Fotografía de grupo (Track 1)
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '20:00-22:00'  
+    track: all
+    name: 'DJ, NETWORKING Y CENA'
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+
+talks_track_2: 
+  - time: '09:00-09:45'
+    track: all
+    name: REGISTRO
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '09:45-10:30'
+    track: all
+    name: 'PRESENTACIÓN '
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '10:30-10:55'
+    track: 2
+    name: 'Buenas prácticas en redes sociales y reputación digital'
+    descrip: 'Charla dedicada al Análisis de la Identidad Digital y a la Gestión de la Reputación Online. Incluye prácticas orientadas a la optimización de perfiles y el buen uso de Internet.'
+    speaker: 'Laura López Navaz'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '11:00-11:25'
+    track: 2
+    name: 'Las matemáticas que no sabías que sabías'
+    descrip: 'Aplicaciones de la matemática teórica en el día a día. Las matemáticas tienen numerosas aplicaciones específicas y reales en nuestra vida cotidiana, permitiendo establecer un modelo de lo real. Si pensaste alguna vez que las clases de matemáticas no servían para nada, te equivocabas!'
+    speaker: 'Alba Pardo Ortiz'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '11:30-11:55'
+    track: 2
+    name: 'Digitalización del sector de la construcción, arquitectura e ingeniería'
+    descrip: 'En esta charla pretendemos explicar como el uso de softwares en conjunto con la metodología BIM han revolucionado el sector de la construcción, arquitectura e ingeniería.<br/>Pretendemos explicar para todo el público como usar herramientas digitales para modelar, maquetar y analizar información.'
+    speaker: 'Andrea Gracia García y Eva Omedes Domene'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '12:00-12:25'
+    track: all
+    name: DESCANSO CAFÉ
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '12:30-12:55'
+    track: 2
+    name: '<i>Women in XR: VR / AR / MR</i> - Una nueva realidad'
+    descrip: 'Las tecnologías inmersivas (realidad virtual, aumentada y mixta, conglomeradas como xR) han abierto una nueva realidad ante nosotros, ¿pero qué oportunidades ofrece, qué perfiles hay, qué hay que aprender? ¿Es un mundo al que las mujeres podamos entrar? ¿De qué forma?  <br/>Hablaremos de todas estas cuestiones a través de la historia personal de un viaje dentro de la tecnología que buscaba con anhelo ser parte de la industria y convertirla en su nueva realidad.'
+    speaker: 'Verónica Rodríguez Pérez'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: Fv81fHornQA
+  - time: '13:00-13:25'
+    track: 2
+    name: '"El derecho a soñar", un documental sobre hacker y comunidades indígenas'
+    descrip: ''
+    speaker: 'Keka Lopez'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '13:30-13:55'
+    track: 2
+    name: '<i>Perfect match</i>: colaboración entre plataforma y mobile'
+    descrip: ''
+    speaker: 'Susana Luna y Nerea Tamayo'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '15:55-14:00'
+    track: all
+    name: Foto de grupo
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '14:00-15:55'
+    track: all
+    name: COMIDA
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '16:00-16:25'
+    track: 2
+    name: 'Baby boomers y el uso de chatbots'
+    descrip: 'Un chatbot o asistente conversacional no es más que un software que es capaz de mantener un diálogo mediante lenguaje natural imitando una conversación humana. <br/No olvidemos que un chatbot puede ser por texto o voz y según algunos estudios en 2020, los chatbots se convertirán en la principal fuente de obtención de información sobre los consumidores y operarán en más del 85% de los centros de atención al cliente. Y es más, los Baby Boomers son un 24% más receptivos que los Millennials y verían un mayor beneficio de los chatbots en la mitad de los casos estudiados. No hay que olvidar que la mitad de los mayores de 64 a 72 años (baby boomers) usa el móvil en su vida cotidiana pero se pierden navegando por Internet. <br/>El impacto social de los asistentes conversacionales para derribar la brecha digital puede convertirse en uno de los mayores hitos que la tecnología puede alcanzar en las próximas décadas. Las llamadas #seniortech pueden suponer un cambio fundamental en el desarrollo de la calidad de vida de las personas mayores y los chatbots, como tecnología accesible y sencilla, pueden abanderar este cambio.<br/>Son múltiples los casos de uso de esta tecnología: en el sector salud, por ejemplo, con asistentes virtuales que respondan a dudas básicas y sencillas de forma más controlada y precisa que el Doctor Google o permitan hacer un seguimiento de tratamientos, incluso solicitar citas con su médico habitual; en el sector turismo, creando experiencias personalizadas a través de un interfaz sencillo; en el sector ecommerce, donde los usuarios son reticentes al uso de apps de marcas; en el sector de los medios de comunicación con divulgación de contenidos mediante suscripción;…. donde la imaginación nos lleve. Sólo hay que pensar en que estamos ante una tecnología que todo el mundo ya sabe manejar, sin ruido que dificulte la comunicación y que, bien desarrollada y con ayuda de inteligencia artificial, puede ayudar a una parte de nuestra población a disfrutar de las ventajas de estar hiperconectados.'
+    speaker: 'Sonsoles Valero'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: TNXyUV1X6yE
+  - time: '16:30-16:55'
+    track: 2
+    name: '¿Por qué mi abuela sabe usar WhatsApp y no la aplicación del banco?'
+    descrip: 'Al crear cualquier producto digital tenemos que entender a nuestros usuarios y conectar con sus emociones. En esta charla explicaré cómo funcionan las emociones desde un punto de vista neurologico y cómo podemos tomar ventaja de todo ese conocimiento para crear mejores productos.'
+    speaker: 'María Fernández Rodríguez'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: NQPA2rTQi94
+  - time: '17:00-17:25'
+    track: all
+    name: 'DESCANSO CAFÉ'
+    descrip: '-'
+    speaker: '-'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '17:30-17:55'
+    track: 2
+    name: '¿Qué sabe Google de mí?'
+    descrip: 'Análisis de las vulnerabilidades a las que estamos expuestos como usuarios de redes sociales e internet en general.'
+    speaker: 'Pilar Barbero Iriarte y Laura Fernando López'
+    bio_speaker: 
+    twitter_speaker:
+  - time: '18:00-18:25'
+    track: 2
+    name: 'Experiencias realizando mi primer videojuego'
+    descrip: 'Hace ya algún tiempo que me apetecía empezar un proyecto nuevo, y por fin he sacado el tiempo: aprender a hacer un pequeño videojuego y adentrarme en este mundo, del cual formo parte desde bien pequeña pero como jugadora, no como desarrolladora.<br/>En esta charla explicaré mis experiencias y pasos realizados para empezar a desarrollar mi primer videojuego con la plataforma Unity. Se plantearán los retos a afrontar y conceptos básicos a tener en cuenta para que toda persona que quiera empezar un proyecto así, se anime a hacerlo. Y si da tiempo, incluso podremos ver el resultado. '
+    speaker: 'Vanessa Galcerà Reales'
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube:  
+  - time: '18:30-18:55'
+    track: 2
+    name: 'AR: desde la tecnología a la calidad de contenidos'
+    descrip: 'Cada día aparecen más dispositivos hardware y plataformas software para crear proyectos de realidad aumentada, virtual y mixta. Estamos experimentando un cambio espectacular en la industria entonces, es un buen momento para desarrollar con esta tecnología, ¿no?<br/>Esta conferencia explora diferentes plataformas y herramientas para crear aplicaciones de realidad aumentada. Además quiere concienciar de la importancia de realizarlo desde un punto de vista de experiencia de usuario, poniendo como foco a las personas, y en la importancia de los contenidos.'
+    speaker: 'Cynthia Gálvez López'
+    bio_speaker: 
+    twitter_speaker:   
+  - time: '19:00-19:45'
+    track: all
+    name: 'CIERRE'
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '19:45-20:00'
+    track: all
+    name: 'Foto de grupo'
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '20:00-22:00'  
+    track: all
+    name: 'DJ, NETWORKING Y CENA'
+    descrip: 
+    speaker: 
+    bio_speaker: 
+    twitter_speaker: 
+
+workshops_track_1: 
+  - time: '09:00-09:45'
+    time_start: '09:00'
+    track: all
+    name: REGISTRO
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '09:45-10:30'
+    time_start: '09:45'
+    track: all
+    name: PRESENTACIÓN Staff WTM Zaragoza (Auditorio)'
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '10:30-12:00'
+    time_start: '10:30'
+    track: workshop
+    name: 'Taller Iniciación a la Programación'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>Entre 5 y 12 años <br/><br/>En este taller de 14 alumnos, aprenderemos muchísimo de tecnología, robot y videojuegos jugando! Lo primero que entenderemos cual es el trabajo de una informática. ¡Las informáticas hacemos cosas para el móvil! ¿Qué se puede hacer con un móvil? Luego jugaremos a ser robots! ¿Cómo movemos un robot por el aula? Y por último… Haremos nuestro primer video juego con la web una hora de código. ¡Será súper divertido!'
+    speaker: 'Alexandra Carramiñana, Vanessa Cazzola, Begoña Cuello y Elena Montañés'
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '12:00-12:25'
+    time_start: '12:00'
+    track: all
+    name: DESCANSO CAFÉ
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '12:30-13:55'
+    time_start: '12:30'
+    track: workshop
+    name: 
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '13:55-14:00'
+    time_start: '13:55'
+    track: all
+    name: Fotografía de grupo (Auditorio)
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '14:00-15:55'
+    time_start: '14:00'
+    track: all
+    name: COMIDA
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '16:00-16:55'
+    time_start: '16:00'
+    track: workshop
+    name: 
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '17:00-17:25'
+    time_start: '17:00'
+    track: all
+    name: 'DESCANSO CAFÉ'
+    descrip: '-'
+    speaker: '-'
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '17:30-18:55'
+    time_start: '17:30'
+    track: workshop
+    name: 
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: ''
+    twitter_speaker: 
+  - time: '19:00-19:45'
+    time_start: '19:00'
+    track: all
+    name: 'CIERRE Staff WTM Zaragoza (Auditorio)'
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '19:45-20:00'
+    time_start: '19:45'
+    track: all
+    name: Fotografía de grupo (Auditorio)
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '20:00-22:00' 
+    time_start: '20:00' 
+    track: all
+    name: 'DJ, NETWORKING Y CENA'
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+
+workshops_track_2: 
+  - time: '09:00-09:45'
+    time_start: '09:00'
+    track: all
+    name: REGISTRO
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '09:45-10:30'
+    time_start: '09:45'
+    track: all
+    name: 'PRESENTACIÓN (Auditorio)'
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '10:30-12:00'
+    time_start: '10:30'
+    track: workshop
+    name: 'Taller de libretas para ideas brillantes'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>A partir de 8 años <br/><br/>Conocemos las diferentes formas tradicionales de encuadernación ¡y fabricamos nuestra propia libreta de ideas! La decoramos y luego aprendemos cómo funciona un circuito básico para aplicarlo en ella de forma creativa, integrándolo en el diseño. Le ponemos una luz, una pila, y un circuito con tinta conductora para que cuando la cerremos, ¡nuestras ideas brillen de verdad! Una libreta 100% handmade que nos servirá para guardar en ella nuestras ideas más brillantes.'
+    speaker: 'África Sanjuán Duarte'
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '12:00-12:25'
+    time_start: '12:00'
+    track: all
+    name: DESCANSO CAFÉ
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '12:30-13:55'
+    time_start: '12:30'
+    track: workshop
+    name: 'Taller infantil de Inteligencia Emocional'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>Entre 5 y 9 años <br/><br/>Desarrollar la IE a través del juego. Aprender a identificar, nombrar, expresar y gestionar las emociones de forma saludable para uno mismo y para los demás'
+    speaker: 'Anita de Arbués'
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '13:55-14:00'
+    time_start: '13:55'
+    track: all
+    name: Fotografía de grupo (Track 1)
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '14:00-15:55'
+    time_start: '14:00'
+    track: all
+    name: COMIDA
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '16:00-16:55'
+    time_start: '16:00'
+    track: workshop
+    name: 
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '17:00-17:25'
+    time_start: '17:00'
+    track: all
+    name: 'DESCANSO CAFÉ'
+    descrip: '-'
+    speaker: '-'
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+    url_youtube: 
+  - time: '17:30-18:55'
+    time_start: '17:30'
+    track: workshop
+    name: 
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: ''
+    twitter_speaker: 
+  - time: '19:00-19:45'
+    time_start: '19:00'
+    track: all
+    name: 'CIERRE: Staff WTM Zaragoza (Auditorio)'
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '19:45-20:00'
+    time_start: '19:45'
+    track: all
+    name: Fotografía de grupo (Auditorio)
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 
+  - time: '20:00-22:00' 
+    time_start: '20:00' 
+    track: all
+    name: 'DJ, NETWORKING Y CENA'
+    descrip: 
+    speaker: 
+    duration: 1
+    bio_speaker: 
+    twitter_speaker: 

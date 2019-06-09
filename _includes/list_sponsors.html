@@ -1,0 +1,215 @@
+<section id="list-sponsors" class="sponsors">
+
+  <div class="container">
+
+    <div class="row text-center">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>Nuestros patrocinadores</h2>
+        <hr class="small">
+      </div>
+    </div>
+
+    {% if site.sponsors_platinum %}
+    <div class="row text-center">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3 class="ribbon ribbon-lg">PLATINUM</h3>
+      </div>
+    </div>
+    <div class="row text-center sponsor-md">
+      <div class="col-lg-10 col-lg-offset-1">
+
+        {% for sponsor in site.sponsors_platinum %}
+
+        <div class="sponsor-wrapper">
+          <div class="sponsor-item">
+            <span class="fa-stack fa-10x">
+              <img src="{{ sponsor.image }}" class="fa fa-stack-1x text-primary center-block"/>
+            </span>
+            <br/>
+            <!--<h4>
+              <strong>{{ sponsor.name }}</strong>
+            </h4>-->
+            <!--<strong>{{ sponsor.text }}</strong>-->
+            <div class="sponsor-media">
+                {% assign web_sponsor = sponsor.web | strip_newlines %}
+                {% assign twitter_sponsor = sponsor.twitter | strip_newlines %}
+                {% assign instagram_sponsor = sponsor.instagram | strip_newlines %}
+                {% assign facebook_sponsor = sponsor.facebook | strip_newlines %}
+
+                {% if web_sponsor != ""  %}
+                <a href="{{ sponsor.web }}" target="_blank"><i class="fa fa-link fa-fw fa-2x"></i></a>
+                {% endif %}
+
+
+                {% if twitter_sponsor != ""  %}
+                <a href="https://twitter.com/{{ sponsor.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                {% endif %}
+              </div>
+          </div>
+       </div>
+
+       {% endfor %}
+     </div>
+   </div>
+   {% endif %}
+
+   {% if site.sponsors_gold %}
+   <div class="row text-center">
+    <div class="col-lg-10 col-lg-offset-1">
+      <hr class="small"/>
+      <h3 class="ribbon ribbon-md">GOLD</h3>
+    </div>
+  </div>
+  <div class="row text-center sponsor-md">
+    <div class="col-lg-10 col-lg-offset-1">
+      {% for sponsor in site.sponsors_gold %}
+
+      <div class="sponsor-wrapper">
+        <div class="sponsor-item">
+          <span class="fa-stack fa-8x">
+            <img src="{{ sponsor.image }}" class="fa fa-stack-1x text-primary center-block"/>
+          </span>
+          <br/>
+          <!--<h4>
+              <strong>{{ sponsor.name }}</strong>
+            </h4>-->
+          <!--<p>{{ sponsor.text }}</p>-->
+          <div class="sponsor-media">
+                {% assign web_sponsor = sponsor.web | strip_newlines %}
+                {% assign twitter_sponsor = sponsor.twitter | strip_newlines %}
+                {% assign instagram_sponsor = sponsor.instagram | strip_newlines %}
+                {% assign facebook_sponsor = sponsor.facebook | strip_newlines %}
+
+                {% if web_sponsor != ""  %}
+                <a href="{{ sponsor.web }}" target="_blank"><i class="fa fa-link fa-fw fa-2x"></i></a>
+                {% endif %}
+
+
+                {% if twitter_sponsor != ""  %}
+                <a href="https://twitter.com/{{ sponsor.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                {% endif %}
+
+                {% if instagram_sponsor != ""  %}
+                <a href="https://www.instagram.com/{{ sponsor.instagram }}" target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+                {% endif %}
+
+                {% if facebook_sponsor != ""  %}
+                <a href="https://www.facebook.com/{{ sponsor.facebook }}" target="_blank"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+                {% endif %}
+            </div>
+        </div>
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if site.sponsors_silver %}
+  <div class="row text-center">
+    <div class="col-lg-10 col-lg-offset-1">
+      <hr class="small"/>
+      <h3 class="ribbon ribbon-sm">SILVER</h3>
+    </div>
+  </div>
+  <div class="row text-center sponsor-md">
+    <div class="col-lg-10 col-lg-offset-1">
+      {% for sponsor in site.sponsors_silver %}
+
+      <div class="sponsor-wrapper">
+        <div class="sponsor-item">
+          <span class="fa-stack fa-8x">
+            <img src="{{ sponsor.image }}" class="fa fa-stack-1x text-primary center-block"/>
+          </span>
+          <br/>
+          <!--<h4>
+              <strong>{{ sponsor.name }}</strong>
+            </h4>-->
+          <!--<p>{{ sponsor.text }}</p>-->
+            <div class="sponsor-media">
+                {% assign web_sponsor = sponsor.web | strip_newlines %}
+                {% assign twitter_sponsor = sponsor.twitter | strip_newlines %}
+                {% assign instagram_sponsor = sponsor.instagram | strip_newlines %}
+                {% assign facebook_sponsor = sponsor.facebook | strip_newlines %}
+
+                {% if web_sponsor != ""  %}
+                <a href="{{ sponsor.web }}" target="_blank"><i class="fa fa-link fa-fw fa-2x"></i></a>
+                {% endif %}
+
+
+                {% if twitter_sponsor != ""  %}
+                <a href="https://twitter.com/{{ sponsor.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                {% endif %}
+
+                {% if instagram_sponsor != ""  %}
+                <a href="https://www.instagram.com/{{ sponsor.instagram }}" target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+                {% endif %}
+
+                {% if facebook_sponsor != ""  %}
+                <a href="https://www.facebook.com/{{ sponsor.facebook }}" target="_blank"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+                {% endif %}
+            </div>
+        </div>
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if site.sponsors_others %}
+  <div class="row text-center">
+    <div class="col-lg-10 col-lg-offset-1">
+      <hr class="small"/>
+      <h3 class="ribbon ribbon-xs">Colaboradores</h3>
+    </div>
+  </div>
+  <div class="row text-center sponsor-md">
+    <div class="col-lg-10 col-lg-offset-1">
+      {% for sponsor in site.sponsors_others %}
+
+      <div class="sponsor-wrapper">
+        <div class="sponsor-item">
+          <span class="fa-stack fa-8x">
+            <img src="{{ sponsor.image }}" class="fa fa-stack-1x text-primary center-block"/>
+          </span>
+          <br/>
+          <!--<h4>
+              <strong>{{ sponsor.name }}</strong>
+            </h4>-->
+          <!--<p>{{ sponsor.text }}</p>-->
+            <div class="sponsor-media">
+                {% assign web_sponsor = sponsor.web | strip_newlines %}
+                {% assign twitter_sponsor = sponsor.twitter | strip_newlines %}
+                {% assign instagram_sponsor = sponsor.instagram | strip_newlines %}
+                {% assign facebook_sponsor = sponsor.facebook | strip_newlines %}
+
+                {% if web_sponsor != ""  %}
+                <a href="{{ sponsor.web }}" target="_blank"><i class="fa fa-link fa-fw fa-2x"></i></a>
+                {% endif %}
+
+
+                {% if twitter_sponsor != ""  %}
+                <a href="https://twitter.com/{{ sponsor.twitter }}" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                {% endif %}
+
+                {% if instagram_sponsor != ""  %}
+                <a href="https://www.instagram.com/{{ sponsor.instagram }}" target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+                {% endif %}
+
+                {% if facebook_sponsor != ""  %}
+                <a href="https://www.facebook.com/{{ sponsor.facebook }}" target="_blank"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+                {% endif %}
+            </div>
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+  {% endif %}
+</div>
+<!-- /.container -->
+</section>

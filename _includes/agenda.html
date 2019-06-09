@@ -1,0 +1,332 @@
+<section id="agenda" class="agenda-v2">
+
+  <div class="container">
+
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <h2>Agenda</h2>
+        <hr class="small">
+      </div>
+    </div>
+
+    {% if site.talks_track_1 %}
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <h3 class="ribbon ribbon-lg">PONENCIAS</h3>
+      </div>
+    </div>
+    <div class="row text-center sponsor-md">
+      <div class="col-lg-12">
+        <div class="table-wrapper">
+            <table class="col-lg-12 table">
+              <tr>
+                <th class="col-lg-2"></th>
+                <th class="col-lg-5 text-center">TRACK 1 - Auditorio</th>
+                <th class="col-lg-5 text-center">TRACK 2 - Open Urban Lab</th>
+
+              </tr>
+              {% for talk_track_1 in site.talks_track_1 %}
+              {% assign talk_track_2 = site.talks_track_2[forloop.index0] %}
+
+              <tr>
+                {% if talk_track_1.name == 'PRESENTACIÓN Staff WTM Zaragoza' %}
+                <td rowspan="2">{{ talk_track_1.time }}</td>
+                {% elsif talk_track_1.name == 'CIERRE Staff WTM Zaragoza' %}
+                <!--<td rowspan="2">{{ talk_track_1.time }}</td>-->
+                <td>{{ talk_track_1.time }}</td>
+                {% else %}
+                <td>{{ talk_track_1.time }}</td>
+                {% endif %}
+
+                {% if talk_track_1.track == 'all' %}
+                  {% if talk_track_1.name == 'PRESENTACIÓN Staff WTM Zaragoza' %}
+                  <td class="small" colspan="2">{{ talk_track_1.second_name }}</td>
+                  </tr>
+                  <tr>
+                  <td class="small" colspan="2">{{ talk_track_1.name }}</td>
+                  {% elsif talk_track_1.name == 'CIERRE Staff WTM Zaragoza' %}
+                  <!--<td class="small" colspan="2">{{ talk_track_1.second_name }}</td>
+                  </tr>
+                  <tr>-->
+                  <td class="small" colspan="2">{{ talk_track_1.name }}</td>
+                  {% else %}
+                  <td class="small" colspan="2">{{ talk_track_1.name }}</td>
+                  {% endif %}
+                  
+
+
+                {% else %}
+
+                  {% assign talk_track_1_name = talk_track_1.name | strip_newlines %}
+                  {% assign talk_track_2_name = talk_track_2.name | strip_newlines %}
+
+                  {% assign talk_track_1_descrip = talk_track_1.descrip | strip_newlines %}
+                  {% assign talk_track_2_descrip = talk_track_2.descrip | strip_newlines %}
+
+                  {% assign talk_track_1_youtube = talk_track_1.url_youtube | strip_newlines %}
+                  {% assign talk_track_2_youtube = talk_track_2.url_youtube | strip_newlines %}
+
+                  {% assign talk_track_1_rowspan = talk_track_1.rowspan | strip_newlines %}
+                  {% assign talk_track_2_rowspan = talk_track_2.rowspan | strip_newlines %}
+
+                  {% if talk_track_1_name == "" %}
+
+                <td class="empty"></td>
+
+                  {% else%}
+                    {% if talk_track_1_rowspan != '0' %}
+                      {% if talk_track_1_rowspan == '2' %}
+                <td rowspan="2">
+                      {% else %}
+                <td>
+                      {% endif %}
+                  <a href="#" data-toggle="modal" data-target="#talk-{{ forloop.index0 }}-{{ talk_track_1.track }}">
+                    {{ talk_track_1.name }}
+                    <hr class="small" style="margin-top: 5px;margin-bottom: 5px;border-top: 1px solid #d2d2d2;"/>
+                    <font style="font-size: 13px;">{{ talk_track_1.speaker }}</font>
+                  </a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="talk-{{ forloop.index0 }}-{{ talk_track_1.track }}" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title"><strong>{{ talk_track_1.name }}</strong></h4>
+                        </div>
+                        <div class="modal-body">
+                          {% if talk_track_1_descrip != ""  %}
+                          <p>{{ talk_track_1.descrip }}</p>
+                          {% else %}
+                          <p>Más información próximamente</p>
+                          {% endif %}
+                          <hr class="small">
+                          <p><strong>{{ talk_track_1.speaker }}</strong></p>
+                          <!--<hr class="small">
+                          <p>{{ talk_track_1.bio_speaker }}</p>-->
+                          {% if talk_track_1_youtube != ""  %}
+                          <hr class="small">
+                          <iframe width="90%" height="315" src="https://www.youtube.com/embed/{{ talk_track_1_youtube }}"  allowfullscreen></iframe>
+                          {% endif %}
+                          <div class="visible-xs-block text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+
+                  {% endif %}
+                  {% endif %}
+
+                  {% if talk_track_2_name == "" %}
+
+                <td class="empty"></td>
+
+                  {% else %}
+
+                <td>
+                  <a href="#" data-toggle="modal" data-target="#talk-{{ forloop.index0 }}-{{ talk_track_2.track }}">
+                    {{ talk_track_2.name }}
+                    <hr class="small" style="margin-top: 5px;margin-bottom: 5px;border-top: 1px solid #d2d2d2;"/>
+                    <font style="font-size: 13px;">{{ talk_track_2.speaker }}</font>
+                  </a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="talk-{{ forloop.index0 }}-{{ talk_track_2.track }}" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title"><strong>{{ talk_track_2.name }}</strong></h4>
+                        </div>
+                        <div class="modal-body">
+                          {% if talk_track_2_descrip != ""  %}
+                          <p>{{ talk_track_2.descrip }}</p>
+                          {% else %}
+                          <p>Más información próximamente</p>
+                          {% endif %}
+                          <hr class="small"/>
+                          <p><strong>{{ talk_track_2.speaker }}</strong></p>
+                          <!--<hr class="small"/>
+                          <p>{{ talk_track_2.bio_speaker }}</p>-->
+                          {% if talk_track_2_youtube != ""  %}
+                          <hr class="small">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ talk_track_2_youtube }}"  allowfullscreen></iframe>
+                          {% endif %}
+                          <div class="visible-xs-block text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+
+                  {% endif %}
+
+                {% endif %}
+              </tr>
+              {% endfor %}
+            </table>
+        </div>
+     </div>
+   </div>
+   {% endif %}
+
+   {% if site.workshops_track_1 %}
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <h3 class="ribbon ribbon-lg">TALLERES</h3>
+      </div>
+    </div>
+    <div class="row text-center sponsor-md">
+      <div class="col-lg-12">
+          <div class="table-wrapper">
+              <table class="col-lg-12 table">
+                  <tr>
+                    <th class="col-lg-2"></th>
+                    <th class="col-lg-5 text-center">AULA 2</th>
+                    <th class="col-lg-5 text-center">BOX 3</th>
+
+                  </tr>
+                  {% for workshop_track_1 in site.workshops_track_1 %}
+
+                  {% assign workshop_track_2 = site.workshops_track_2[forloop.index0] %}
+
+                  <tr>
+                    <td>{{ workshop_track_1.time }}</td>
+
+                    <!-- Taller sala 1 -->
+
+                    {% if workshop_track_1.track == 'all' %}
+
+                    <td class="small" colspan="2" rowspan="{{ workshop_track_1.duration }}">{{ workshop_track_1.name }}</td>
+
+                    {% else %}
+
+                      {% assign workshop_1_name = workshop_track_1.name | strip_newlines %}
+                      {% assign workshop_2_name = workshop_track_2.name | strip_newlines %}
+                      {% assign workshop_1_descrip = workshop_track_1.descrip | strip_newlines %}
+                      {% assign workshop_2_descrip = workshop_track_2.descrip | strip_newlines %}
+
+                      {% if workshop_1_name == "" %}
+
+                    <td class="empty" rowspan="{{ workshop_track_1.duration }}"></td>
+
+                      {% else %}
+
+                    <td rowspan="{{ workshop_track_1.duration }}">
+                    <a href="#" data-toggle="modal" data-target="#workshop-1-{{ forloop.index0 }}">
+                      {{ workshop_track_1.name }}
+                    <hr class="small" style="margin-top: 5px;margin-bottom: 5px;border-top: 1px solid #d2d2d2;"/>
+                    <font style="font-size: 13px;">{{ workshop_track_1.speaker }}</font>
+                    </a>
+                    <div class="modal fade" id="workshop-1-{{ forloop.index0 }}" role="dialog">
+                        <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title"><strong>{{ workshop_track_1.name }}</strong></h4>
+                            </div>
+                            <div class="modal-body">
+                              {% if workshop_1_descrip != ""  %}
+                              <p>{{ workshop_track_1.descrip }}</p>
+                              {% else %}
+                              <p>Más información próximamente</p>
+                              {% endif %}
+                              <hr class="small"/>
+                              <p><strong>{{ workshop_track_1.speaker }}</strong></p>
+                              <!--<hr class="small"/>
+                              <p>{{ workshop_track_1.bio_speaker }}</p>-->
+                              <div class="visible-xs-block text-center">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                      {% endif %}
+
+                      {% assign workshop_2_duration = workshop_track_2.duration | strip_newlines %}
+
+                      {% if workshop_2_duration != "0" %}
+
+                        {% if workshop_2_name == "" %}
+
+                      <td class="empty" rowspan="{{ workshop_track_2.duration }}"></td>
+
+                        {% else %}
+
+                      <td rowspan="{{ workshop_track_2.duration }}">
+                      <a href="#" data-toggle="modal" data-target="#workshop-2-{{ forloop.index0 }}">
+                        {{ workshop_track_2.name }}
+                        <hr class="small" style="margin-top: 5px;margin-bottom: 5px;border-top: 1px solid #d2d2d2;"/>
+                        <font style="font-size: 13px;">{{ workshop_track_2.speaker }}</font>
+                      </a>
+                      <div class="modal fade" id="workshop-2-{{ forloop.index0 }}" role="dialog">
+                          <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title"><strong>{{ workshop_track_2.name }}</strong></h4>
+                              </div>
+                              <div class="modal-body">
+                                {% if workshop_2_descrip != ""  %}
+                              <p>{{ workshop_track_2.descrip }}</p>
+                              {% else %}
+                              <p>Más información próximamente</p>
+                              {% endif %}
+                                <hr class="small"/>
+                                <p><strong>{{ workshop_track_2.speaker }}</strong></p>
+                                <!--<hr class="small"/>
+                                <p>{{ workshop_track_2.bio_speaker }}</p>-->
+                              <div class="visible-xs-block text-center">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+
+                        {% endif %}
+
+                      {% endif %}
+
+                    {% endif %}
+
+                  </tr>
+                  {% endfor %}
+                </table>
+          </div>
+     </div>
+   </div>
+   {% endif %}
+
+</div>
+<!-- /.container -->
+ <div class="container">
+
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <p class="lead">Y además disfruta, hasta las 17:30, de la batalla de RobotsGlobo que organiza Academia de Inventores. <br/>¿Conseguirás explotarlos todos? <br/></p>
+      </div>
+      <div class="col-lg-6 col-lg-offset-3">
+        <img class="img-responsive" src="img/batalla_robots/batalla_robots.jpg" alt="">
+      </div>
+      <div class="col-lg-12">
+        <p><br/>Apto para todos los públicos.</p>
+      </div>
+    </div>
+  </div>
+</section>

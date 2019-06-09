@@ -1,0 +1,546 @@
+<section id="list-speakers" class="speakers bg-bluish">
+  
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>Nuestras invitadas</h2>
+        <hr class="small">
+        <!--
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="lead">¡Proximamente publicaremos las ponentes de las charlas y talleres seleccionados! </p>
+            </div>
+        </div>
+        -->
+      </div>
+      <div class="col-lg-10 col-lg-offset-1" style="display:flex; flex-wrap:wrap; justify-content:center;">
+        {% for guest in site.guests %}
+
+          {% assign image_guest = guest.image | strip_newlines %}
+          {% assign image_card_guest = guest.image_card | strip_newlines %}
+          {% assign twitter_guest = guest.twitter_account | strip_newlines %}
+          {% assign linkedin_guest = guest.linkedin_account | strip_newlines %}
+          {% assign web_guest = guest.web | strip_newlines %}
+          {% assign bio_guest = guest.bio | strip_newlines %}
+            <div class="col-md-3 col-sm-3 col-xs-5">
+              <div class="speaker-item">
+                <a href="#" data-toggle="modal" data-target="#guest-{{ forloop.index0 }}">
+                    <span class="fa-stack fa-5x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+
+                      {% if image_guest != ""  %}
+                      <!--<img src="{{ image_guest }}_c.jpg" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.src='{{ image_guest }}_g.jpg'" onmouseout="this.src='{{ image_guest }}_c.jpg'"/>-->
+                      <img src="{{ image_guest }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises');"/>
+                      {% elsif twitter_speaker != "" %}
+                      <img src="https://avatars.io/twitter/{{ guest.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                      {% else %}
+                      <i class="fa fa-user fa-stack-1x text-primary"></i>
+                      {% endif %}
+                    </span>
+                      <h4 style="min-height: 40px !important;">
+                        {{ guest.name }}
+                      </h4>
+                      {% if twitter_guest != ""  %}
+                      <a href="https://twitter.com/{{ guest.twitter_account }}" target="_blank">
+                        <i class="fa fa-twitter fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if linkedin_guest != ""  %}
+                      <a href="https://www.linkedin.com/in/{{ guest.linkedin_account }}" target="_blank">
+                        <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                </a>
+                {% if image_card_guest != ""  %}
+                <!-- Modal -->
+                <div class="modal fade" id="guest-{{ forloop.index0 }}" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      {% if image_card_guest != ""  %}
+                      <div class="modal-body modal-image-card" style="background-image: url({{ image_card_guest }}.jpg);">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      {% else  %}
+                      <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <div class="wtm-modal-content-left">
+                            
+                            <span class="fa-stack fa-4x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+
+                              {% if image_guest != ""  %}
+                              <img src="{{ image_guest }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
+                              {% elsif twitter_guest != "" %}
+                              <img src="https://avatars.io/twitter/{{ guest.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                              {% else %}
+                              <i class="fa fa-user fa-stack-1x text-primary"></i>
+                              {% endif %}
+                            </span>
+                            <h4>{{ guest.name }}</h4>
+                              
+                               {% if twitter_guest != ""  %}
+                                <a href="https://twitter.com/{{ guest.twitter_account }}" target="_blank">
+                                    <i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if linkedin_guest != ""  %}
+                                <a href="https://www.linkedin.com/in/{{ guest.linkedin_account }}" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if web_guest != ""  %}
+                                <a href="{{ guest.web }}" target="_blank">
+                                    <i class="fa fa-link fa-fw fa-2x"></i></a>
+                                {% endif %}
+                              
+                          </div>
+                          <div class="wtm-modal-content-right text-left">
+                            
+                              {% if bio_guest != ""  %}
+                                <p>{{ guest.bio }}</p>
+                              {% else %}
+                                <p>Más información próximamente</p>
+                              {% endif %}
+                              <div class="visible-xs-block text-center">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+                              </div>
+                            
+                          </div>
+                      </div>
+                      {% endif %}
+                    </div>
+                    
+                  </div>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+
+        {% endfor %} 
+        
+        
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+<!-- /.container -->
+
+<div class="container">
+    <div class="row text-center">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>Nuestras ponentes</h2>
+        <hr class="small">
+        <!--
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="lead">¡Proximamente publicaremos las ponentes de las charlas y talleres seleccionados! </p>
+            </div>
+        </div>
+        -->
+        {% for speaker in site.speakers %}
+          {% assign short_name_speaker = speaker.short_name | strip_newlines %}
+          {% assign image_speaker = speaker.image | strip_newlines %}
+          {% assign image_card_speaker = speaker.image_card | strip_newlines %}
+          {% assign twitter_speaker = speaker.twitter_account | strip_newlines %}
+          {% assign linkedin_speaker = speaker.linkedin_account | strip_newlines %}
+          {% assign linkedin_2_speaker = speaker.linkedin_account_2 | strip_newlines %}
+          {% assign web_speaker = speaker.web | strip_newlines %}
+          {% assign bio_speaker = speaker.bio | strip_newlines %}
+        <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="speaker-item">
+                <a href="#" data-toggle="modal" data-target="#speaker-{{ forloop.index0 }}" title="{{ speaker.name }}">
+                    <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+
+                      {% if image_speaker != ""  %}
+                      <!--<img src="{{ image_speaker }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_speaker }}_g.jpg'" onmouseout="this.src='{{ image_speaker }}_c.jpg'"/>-->
+                      <img src="{{ image_speaker }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises');"/>
+                      {% elsif twitter_speaker != "" %}
+                      <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                      {% else %}
+                      <i class="fa fa-user fa-stack-1x text-primary"></i>
+                      {% endif %}
+                    </span>
+                      <h4 style="min-height: 40px !important;">
+                        {% if short_name_speaker != ""  %}
+                          {{ speaker.short_name }}
+                        {% else %}
+                          {{ speaker.name }}
+                        {% endif %}
+                      </h4>
+                      {% if twitter_speaker != ""  %}
+                      <a href="https://twitter.com/{{ speaker.twitter_account }}" target="_blank">
+                        <i class="fa fa-twitter fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if linkedin_speaker != ""  %}
+                      <a href="https://www.linkedin.com/in/{{ speaker.linkedin_account }}" target="_blank">
+                        <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if linkedin_2_speaker != ""  %}
+                      <a href="https://www.linkedin.com/in/{{ speaker.linkedin_account_2 }}" target="_blank">
+                        <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if web_speaker != ""  %}
+                      <a href="{{ speaker.web }}" target="_blank">
+                        <i class="fa fa-link fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="speaker-{{ forloop.index0 }}" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      {% if image_card_speaker != ""  %}
+                      <div class="modal-body modal-image-card" style="background-image: url({{ image_card_speaker }}.jpg);">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      {% else  %}
+                      <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <div class="wtm-modal-content-left">
+                            <span class="fa-stack fa-4x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+
+                              {% if image_speaker != ""  %}
+                              <img src="{{ image_speaker }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
+                              {% elsif twitter_speaker != "" %}
+                              <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                              {% else %}
+                              <i class="fa fa-user fa-stack-1x text-primary"></i>
+                              {% endif %}
+                            </span>
+                            <h4>{{ speaker.name }}</h4>
+                              
+                               {% if twitter_speaker != ""  %}
+                                <a href="https://twitter.com/{{ speaker.twitter_account }}" target="_blank">
+                                    <i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if linkedin_speaker != ""  %}
+                                <a href="https://www.linkedin.com/in/{{ speaker.linkedin_account }}" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if linkedin_2_speaker != ""  %}
+                                <a href="https://www.linkedin.com/in/{{ speaker.linkedin_account_2 }}" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                                </a>
+                                {% endif %}
+                                {% if web_speaker != ""  %}
+                                <a href="{{ speaker.web }}" target="_blank">
+                                    <i class="fa fa-link fa-fw fa-2x"></i></a>
+                                {% endif %}
+                          </div>
+                          <div class="wtm-modal-content-right text-left">
+                              {% if bio_speaker != ""  %}
+                                <p>{{ speaker.bio }}</p>
+                              {% else %}
+                                <p>Más información próximamente</p>
+                              {% endif %}
+                              <div class="visible-xs-block text-center">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+                              </div>
+                            
+                          </div>
+                      </div>
+                      {% endif %}
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        {% endfor %} 
+        
+        
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+<!-- /.container -->
+
+<div class="container">
+    <div class="row text-center">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>Nuestros talleres</h2>
+        <hr class="small">
+        <!--
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="lead">¡Proximamente publicaremos las ponentes de las charlas y talleres seleccionados! </p>
+            </div>
+        </div>
+        -->
+        {% for speaker in site.workshop_speakers %}
+          {% assign short_name_speaker = speaker.short_name | strip_newlines %}
+          {% assign image_speaker = speaker.image | strip_newlines %}
+          {% assign image_card_speaker = speaker.image_card | strip_newlines %}
+          {% assign twitter_speaker = speaker.twitter_account | strip_newlines %}
+          {% assign linkedin_speaker = speaker.linkedin_account | strip_newlines %}
+          {% assign linkedin_2_speaker = speaker.linkedin_account_2 | strip_newlines %}
+          {% assign web_speaker = speaker.web | strip_newlines %}
+          {% assign bio_speaker = speaker.bio | strip_newlines %}
+        <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="speaker-item">
+                <a href="#" data-toggle="modal" data-target="#wspeaker-{{ forloop.index0 }}" title="{{ speaker.name }}">
+                    <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+
+                      {% if image_speaker != ""  %}
+                      <!--<img src="{{ image_speaker }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_speaker }}_g.jpg'" onmouseout="this.src='{{ image_speaker }}_c.jpg'"/>-->
+                      <img src="{{ image_speaker }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises');"/>
+                      {% elsif twitter_speaker != "" %}
+                      <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                      {% else %}
+                      <i class="fa fa-user fa-stack-1x text-primary"></i>
+                      {% endif %}
+                    </span>
+                      <h4 style="min-height: 40px !important;">
+                        {% if short_name_speaker != ""  %}
+                          {{ speaker.short_name }}
+                        {% else %}
+                          {{ speaker.name }}
+                        {% endif %}
+                      </h4>
+                      {% if twitter_speaker != ""  %}
+                      <a href="https://twitter.com/{{ speaker.twitter_account }}" target="_blank">
+                        <i class="fa fa-twitter fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if linkedin_speaker != ""  %}
+                      <a href="https://www.linkedin.com/in/{{ speaker.linkedin_account }}" target="_blank">
+                        <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if linkedin_2_speaker != ""  %}
+                      <a href="https://www.linkedin.com/in/{{ speaker.linkedin_account_2 }}" target="_blank">
+                        <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if web_speaker != ""  %}
+                      <a href="{{ speaker.web }}" target="_blank">
+                        <i class="fa fa-link fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="wspeaker-{{ forloop.index0 }}" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      {% if image_card_speaker != ""  %}
+                      <div class="modal-body modal-image-card" style="background-color: #00A29A !important;background-image: url({{ image_card_speaker }}.jpg);">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      {% else  %}
+                      <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <div class="wtm-modal-content-left">
+                            <span class="fa-stack fa-4x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+
+                              {% if image_speaker != ""  %}
+                              <img src="{{ image_speaker }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
+                              {% elsif twitter_speaker != "" %}
+                              <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                              {% else %}
+                              <i class="fa fa-user fa-stack-1x text-primary"></i>
+                              {% endif %}
+                            </span>
+                            <h4>{{ speaker.name }}</h4>
+                              
+                               {% if twitter_speaker != ""  %}
+                                <a href="https://twitter.com/{{ speaker.twitter_account }}" target="_blank">
+                                    <i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if linkedin_speaker != ""  %}
+                                <a href="https://www.linkedin.com/in/{{ speaker.linkedin_account }}" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if linkedin_2_speaker != ""  %}
+                                <a href="https://www.linkedin.com/in/{{ speaker.linkedin_account_2 }}" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                                </a>
+                                {% endif %}
+                                {% if web_speaker != ""  %}
+                                <a href="{{ speaker.web }}" target="_blank">
+                                    <i class="fa fa-link fa-fw fa-2x"></i></a>
+                                {% endif %}
+                          </div>
+                          <div class="wtm-modal-content-right text-left">
+                              {% if bio_speaker != ""  %}
+                                <p>{{ speaker.bio }}</p>
+                              {% else %}
+                                <p>Más información próximamente</p>
+                              {% endif %}
+                              <div class="visible-xs-block text-center">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+                              </div>
+                            
+                          </div>
+                      </div>
+                      {% endif %}
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        {% endfor %} 
+        
+        
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+<!-- /.container -->
+
+<div class="container">
+    <div class="row text-center">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>Nuestras mentoras</h2>
+        <hr class="small">
+        <!--
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="lead">¡Proximamente publicaremos las ponentes de las charlas y talleres seleccionados! </p>
+            </div>
+        </div>
+        -->
+        {% for mentor in site.mentors %}
+          {% assign image_mentor = mentor.image | strip_newlines %}
+          {% assign image_card_mentor = mentor.image_card | strip_newlines %}
+          {% assign twitter_mentor = mentor.twitter_account | strip_newlines %}
+          {% assign linkedin_mentor = mentor.linkedin_account | strip_newlines %}
+          {% assign linkedin_2_mentor = mentor.linkedin_account_2 | strip_newlines %}
+          {% assign web_mentor = mentor.web | strip_newlines %}
+          {% assign bio_mentor = mentor.bio | strip_newlines %}
+        <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="speaker-item">
+                <a href="#" data-toggle="modal" data-target="#mentor-{{ forloop.index0 }}">
+                    <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+
+                      {% if image_mentor != ""  %}
+                      <!--<img src="{{ image_mentor }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_mentor }}_g.jpg'" onmouseout="this.src='{{ image_mentor }}_c.jpg'"/>-->
+                      <img src="{{ image_mentor }}_c.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle escala-grises"/>
+                      {% elsif twitter_mentor != "" %}
+                      <img src="https://avatars.io/twitter/{{ mentor.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                      {% else %}
+                      <i class="fa fa-user fa-stack-1x text-primary"></i>
+                      {% endif %}
+                    </span>
+                      <h4 style="min-height: 40px !important;">
+                        {{ mentor.name }}
+                      </h4>
+                      {% if twitter_mentor != ""  %}
+                      <a href="https://twitter.com/{{ mentor.twitter_account }}" target="_blank">
+                        <i class="fa fa-twitter fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if linkedin_mentor != ""  %}
+                      <a href="https://www.linkedin.com/in/{{ mentor.linkedin_account }}" target="_blank">
+                        <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if linkedin_2_mentor != ""  %}
+                      <a href="https://www.linkedin.com/in/{{ mentor.linkedin_account_2 }}" target="_blank">
+                        <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if web_mentor != ""  %}
+                      <a href="{{ mentor.web }}" target="_blank">
+                        <i class="fa fa-link fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="mentor-{{ forloop.index0 }}" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      {% if image_card_mentor != ""  %}
+                      <div class="modal-body modal-image-card" style="background-image: url({{ image_card_mentor }}.jpg);">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      {% else  %}
+                      <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <div class="wtm-modal-content-left">
+                            <span class="fa-stack fa-4x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+
+                              {% if image_mentor != ""  %}
+                              <img src="{{ image_mentor }}_c.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
+                              {% elsif twitter_mentor != "" %}
+                              <img src="https://avatars.io/twitter/{{ mentor.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                              {% else %}
+                              <i class="fa fa-user fa-stack-1x text-primary"></i>
+                              {% endif %}
+                            </span>
+                            <h4>{{ mentor.name }}</h4>
+                              
+                               {% if twitter_mentor != ""  %}
+                                <a href="https://twitter.com/{{ mentor.twitter_account }}" target="_blank">
+                                    <i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if linkedin_mentor != ""  %}
+                                <a href="https://www.linkedin.com/in/{{ mentor.linkedin_account }}" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if linkedin_2_mentor != ""  %}
+                                <a href="https://www.linkedin.com/in/{{ mentor.linkedin_account_2 }}" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                                </a>
+                                {% endif %}
+                                {% if web_mentor != ""  %}
+                                <a href="{{ mentor.web }}" target="_blank">
+                                    <i class="fa fa-link fa-fw fa-2x"></i></a>
+                                {% endif %}
+                          </div>
+                          <div class="wtm-modal-content-right text-left">
+                              {% if bio_mentor != ""  %}
+                                <p>{{ mentor.bio }}</p>
+                              {% else %}
+                                <p>Más información próximamente</p>
+                              {% endif %}
+                              <div class="visible-xs-block text-center">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+                              </div>
+                            
+                          </div>
+                      </div>
+                      {% endif %}
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        {% endfor %} 
+        
+        
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+<!-- /.container -->
+</section>

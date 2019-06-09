@@ -1,0 +1,54 @@
+<section id="event_info">
+<!-- Page Content -->
+{% for event_info in site.event_infos %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'odd' %}
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ event_info.title }}</h2>
+                    <div class="lead">{{ event_info.content }}</div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="clear-130 hidden-xs"></div>
+                    <img class="img-responsive" src="{{ event_info.image }}" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    {% else %}
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ event_info.title }}</h2>
+                    <div class="lead">{{ event_info.content }}</div>
+                </div>
+                <div class="col-lg-6 col-sm-pull-6  col-sm-6">
+                  <div class="clear-130 hidden-xs" ></div>
+                  <img class="img-responsive" src="{{ event_info.image }}" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    {% endif %}
+{% endfor %}
+</section>
