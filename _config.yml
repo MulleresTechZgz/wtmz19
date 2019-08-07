@@ -321,164 +321,164 @@ mentors:
 
 #List for sponsors
 sponsors_platinum:
-  - name: Fundacion Zaragoza Conocimiento
-    text: 
-    image: img/patrocinadores/platinum/fzc.png
-    web: http://www.fundacionzcc.org/
-    twitter: FundacionZCC
-  - name: Fundacion Ibercaja
-    text: 
-    image: img/patrocinadores/platinum/fundacion_ibercaja.png
-    web: https://obrasocial.ibercaja.es/
-    twitter: IbercajaSocial
-  - name: Etopia
-    text: 
-    image: img/patrocinadores/platinum/etopia.jpg
-    web: http://www.zaragoza.es/ciudad/etopia/
-    twitter: etopia_
-  - name: Ayuntamiento de Zaragoza
-    text: 
-    image: img/patrocinadores/platinum/ayuntamiento_zaragoza.jpg
-    web: https://www.zaragoza.es/
-    twitter: zaragoza_es
-  - name: Deiser
-    text: 
-    image: img/patrocinadores/platinum/deiser.png
-    web: https://deiser-enterprise-day.deiser.com/
-    twitter: deiser
+  #- name: Fundacion Zaragoza Conocimiento
+  #  text: 
+  #  image: img/patrocinadores/platinum/fzc.png
+  #  web: http://www.fundacionzcc.org/
+  #  twitter: FundacionZCC
+  #- name: Fundacion Ibercaja
+  #  text: 
+  #  image: img/patrocinadores/platinum/fundacion_ibercaja.png
+  #  web: https://obrasocial.ibercaja.es/
+  #  twitter: IbercajaSocial
+  #- name: Etopia
+  #  text: 
+  #  image: img/patrocinadores/platinum/etopia.jpg
+  #  web: http://www.zaragoza.es/ciudad/etopia/
+  #  twitter: etopia_
+  #- name: Ayuntamiento de Zaragoza
+  #  text: 
+  #  image: img/patrocinadores/platinum/ayuntamiento_zaragoza.jpg
+  #  web: https://www.zaragoza.es/
+  #  twitter: zaragoza_es
+  #- name: Deiser
+  #  text: 
+  #  image: img/patrocinadores/platinum/deiser.png
+  #  web: https://deiser-enterprise-day.deiser.com/
+  #  twitter: deiser
   - name: Tecnología esPublico
     text: 
     image: img/patrocinadores/platinum/esPublico.jpg
     web: https://espublico.tech/
     twitter: TEspublico
-  - name: Adidas
-    text: 
-    image: img/patrocinadores/platinum/adidas.png
-    web: https://www.adidas.es/
-    twitter: adidas_ES
-  - name: Enciende la Luz
-    text: 
-    image: img/patrocinadores/platinum/enciende_la_luz.png
-    web: https://enciendelaluz.es/
-    twitter: enciendelaluzya
-  - name: Autentia
-    text: 
-    image: img/patrocinadores/platinum/autentia.png
-    web: https://www.autentia.com/
-    twitter: autentia  
-  - name: Walgreens Boots Alliance
-    text: 
-    image: img/patrocinadores/platinum/walgreens_boots_alliance.jpg
-    web: http://www.walgreensbootsalliance.com/
-    twitter: 
-  - name: Zara
-    text: 
-    image: img/patrocinadores/platinum/zara.jpg
-    web: https://www.zara.com/es/
-    twitter: zaraes
-  - name: Telefonica
-    text: 
-    image: img/patrocinadores/platinum/telefonica.jpg
-    web: https://www.telefonica.com/es/home
-    twitter: telefonica
+  #- name: Adidas
+  #  text: 
+  #  image: img/patrocinadores/platinum/adidas.png
+  #  web: https://www.adidas.es/
+  #  twitter: adidas_ES
+  #- name: Enciende la Luz
+  #  text: 
+  #  image: img/patrocinadores/platinum/enciende_la_luz.png
+  #  web: https://enciendelaluz.es/
+  #  twitter: enciendelaluzya
+  #- name: Autentia
+  #  text: 
+  #  image: img/patrocinadores/platinum/autentia.png
+  #  web: https://www.autentia.com/
+  #  twitter: autentia  
+  #- name: Walgreens Boots Alliance
+  #  text: 
+  #  image: img/patrocinadores/platinum/walgreens_boots_alliance.jpg
+  #  web: http://www.walgreensbootsalliance.com/
+  #  twitter: 
+  #- name: Zara
+  #  text: 
+  #  image: img/patrocinadores/platinum/zara.jpg
+  #  web: https://www.zara.com/es/
+  #  twitter: zaraes
+  #- name: Telefonica
+  #  text: 
+  #  image: img/patrocinadores/platinum/telefonica.jpg
+  #  web: https://www.telefonica.com/es/home
+  #  twitter: telefonica
 
 sponsors_gold:
-  - name: GDG Zaragoza
-    text: 
-    image: img/patrocinadores/gold/gdgzaragoza.png
-    web: 
-    twitter: GDGZaragoza
-  - name: Vueling
-    text: 
-    image: img/patrocinadores/gold/vueling.png
-    web: https://www.vueling.com/es
-    twitter: vueling
+  #- name: GDG Zaragoza
+  #  text: 
+  #  image: img/patrocinadores/gold/gdgzaragoza.png
+  #  web: 
+  #  twitter: GDGZaragoza
+  #- name: Vueling
+  #  text: 
+  #  image: img/patrocinadores/gold/vueling.png
+  #  web: https://www.vueling.com/es
+  #  twitter: vueling
 
 sponsors_silver:
-  - name: GeoSLab
-    text: 
-    image: img/patrocinadores/silver/geosLab.jpg
-    web: https://www.geoslab.com/
-    twitter: GeoSLab
-  - name: Elastic
-    text: 
-    image: img/patrocinadores/silver/elastic.png
-    web: https://www.elastic.co/
-    twitter: elastic
-  - name: Cuéntica
-    text: 
-    image: img/patrocinadores/silver/cuentica.png
-    web: https://cuentica.com/
-    twitter: cuentica
-  - name: Asociacion de mujeres investigadoras y tecnologas
-    text: 
-    image: img/patrocinadores/silver/amit.png
-    web: https://www.amit-es.org/
-    twitter: twitamit_es
-  - name: Commit Conf
-    text: 
-    image: img/patrocinadores/silver/commit.png
-    web: https://2018.commit-conf.com/
-    twitter: commitconf
-  - name: KeenSoft
-    text: 
-    image: img/patrocinadores/silver/keensoft.png
-    web: http://www.keensoft.es/
-    twitter: keensoft_es
-  - name: T3chFest
-    text: 
-    image: img/patrocinadores/silver/t3chfest.png
-    web: https://t3chfest.uc3m.es/2019/?lang=es
-    twitter: t3chfest
-  - name: Cabify
-    text: 
-    image: img/patrocinadores/silver/cabify.jpg
-    web: https://cabify.com/es
-    twitter: CabifyDev
-  - name: Codurance
-    text: 
-    image: img/patrocinadores/silver/codurance.png
-    web: https://codurance.es/
-    twitter: codurance_ES
+  #- name: GeoSLab
+  #  text: 
+  #  image: img/patrocinadores/silver/geosLab.jpg
+  #  web: https://www.geoslab.com/
+  #  twitter: GeoSLab
+  #- name: Elastic
+  #  text: 
+  #  image: img/patrocinadores/silver/elastic.png
+  #  web: https://www.elastic.co/
+  #  twitter: elastic
+  #- name: Cuéntica
+  #  text: 
+  #  image: img/patrocinadores/silver/cuentica.png
+  #  web: https://cuentica.com/
+  #  twitter: cuentica
+  #- name: Asociacion de mujeres investigadoras y tecnologas
+  #  text: 
+  #  image: img/patrocinadores/silver/amit.png
+  #  web: https://www.amit-es.org/
+  #  twitter: twitamit_es
+  #- name: Commit Conf
+  #  text: 
+  #  image: img/patrocinadores/silver/commit.png
+  #  web: https://2018.commit-conf.com/
+  #  twitter: commitconf
+  #- name: KeenSoft
+  #  text: 
+  #  image: img/patrocinadores/silver/keensoft.png
+  #  web: http://www.keensoft.es/
+  #  twitter: keensoft_es
+  #- name: T3chFest
+  #  text: 
+  #  image: img/patrocinadores/silver/t3chfest.png
+  #  web: https://t3chfest.uc3m.es/2019/?lang=es
+  #  twitter: t3chfest
+  #- name: Cabify
+  #  text: 
+  #  image: img/patrocinadores/silver/cabify.jpg
+  #  web: https://cabify.com/es
+  #  twitter: CabifyDev
+  #- name: Codurance
+  #  text: 
+  #  image: img/patrocinadores/silver/codurance.png
+  #  web: https://codurance.es/
+  #  twitter: codurance_ES
     
 
 sponsors_others:
-  - name: Ambar
-    text: 
-    image: img/patrocinadores/colaboradores/ambar.png
-    web: https://ambar.com
-    twitter: cervezasambar
-  - name: Donuts
-    text: 
-    image: img/patrocinadores/colaboradores/donuts.png
-    web: http://donuts.es/
-    twitter: Donuts_es
-  - name: Eboca
-    text: 
-    image: img/patrocinadores/colaboradores/eboca.png
-    web: https://www.eboca.com/
-    twitter: EbocaVending
-  - name: Eventbrite
-    text: 
-    image: img/patrocinadores/colaboradores/eventbrite.png
-    web: https://www.eventbrite.es/
-    twitter: eventbrite
-  - name: Te Neon Project
-    text: 
-    image: img/patrocinadores/colaboradores/the_neon_project.png
-    web: https://theneonproject.org/
-    twitter: tnpgram
-  - name: Agile Spain
-    text: 
-    image: img/patrocinadores/colaboradores/agile_spain.png
-    web: https://agile-spain.org/
-    twitter: agilespain
-  - name: San Jimes Estudio
-    text: 
-    image: img/patrocinadores/colaboradores/san_jimes.png
-    web: http://www.sanjimes.com/
-    instagram: sanjimes
-    facebook: sanjimes
+  #- name: Ambar
+  #  text: 
+  #  image: img/patrocinadores/colaboradores/ambar.png
+  #  web: https://ambar.com
+  #  twitter: cervezasambar
+  #- name: Donuts
+  #  text: 
+  #  image: img/patrocinadores/colaboradores/donuts.png
+  #  web: http://donuts.es/
+  #  twitter: Donuts_es
+  #- name: Eboca
+  #  text: 
+  #  image: img/patrocinadores/colaboradores/eboca.png
+  #  web: https://www.eboca.com/
+  #  twitter: EbocaVending
+  #- name: Eventbrite
+  #  text: 
+  #  image: img/patrocinadores/colaboradores/eventbrite.png
+  #  web: https://www.eventbrite.es/
+  #  twitter: eventbrite
+  #- name: Te Neon Project
+  #  text: 
+  #  image: img/patrocinadores/colaboradores/the_neon_project.png
+  #  web: https://theneonproject.org/
+  #  twitter: tnpgram
+  #- name: Agile Spain
+  #  text: 
+  #  image: img/patrocinadores/colaboradores/agile_spain.png
+  #  web: https://agile-spain.org/
+  #  twitter: agilespain
+  #- name: San Jimes Estudio
+  #  text: 
+  #  image: img/patrocinadores/colaboradores/san_jimes.png
+  #  web: http://www.sanjimes.com/
+  #  instagram: sanjimes
+  #  facebook: sanjimes
 
 # Agenda
 talks_track_1:
