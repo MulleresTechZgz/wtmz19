@@ -383,6 +383,11 @@ sponsors_platinum:
   #  twitter: telefonica
 
 sponsors_gold:
+  - name: Alerce
+    text: 
+    image: img/patrocinadores/gold/alerce.png
+    web: https://www.alerce-group.com/
+    twitter: 
   #- name: GDG Zaragoza
   #  text: 
   #  image: img/patrocinadores/gold/gdgzaragoza.png
