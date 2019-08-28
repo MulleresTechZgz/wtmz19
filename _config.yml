@@ -22,6 +22,9 @@ address:
 telephone:
 copyright:
 
+# Tickets
+sold_out_tickets: false
+
 # Timezone
 timezone: Europe/Madrid
 
