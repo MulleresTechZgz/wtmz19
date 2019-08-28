@@ -22,6 +22,8 @@ body {
 
 strong {
     font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
 }
 
 .text-vertical-center {
@@ -35,6 +37,10 @@ strong {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+}
+.h2, h2 {
+    font-size: 38px;
+    font-weight: 200;
 }
 
 /* Custom Button Styles */
@@ -169,6 +175,35 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+/* Tickets */
+.tickets.bg-grey {
+    background: #36474f;
+}
+
+/* Contenidos */
+
+.content-section-a .section-heading-spacer{
+    border-top: 8px solid #2a225c;
+}
+
+.content-section-a .clear-130,
+.content-section-b .clear-130{
+    display: none;
+}
+
+.content-section-a strong {
+    font-weight: 100;
+    letter-spacing: 0;
+    font-size: 20px;
+    color: #2a225c;
+}
+
+.content-section-b strong {
+    font-weight: 100;
+    letter-spacing: 0;
+    font-size: 20px;
+    color: #00b0b4;
 }
 
 /* About */
@@ -508,7 +543,7 @@ footer {
 /* event info */
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    /*background-color: #f8f8f8;*/
 }
 
 .content-section-b {
@@ -529,8 +564,8 @@ footer {
 }
 
 .lead {
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 /* introduction */
@@ -542,6 +577,12 @@ footer {
 .introduction-item {
     margin-bottom: 30px;
 }
+
+.introduction-item h4 strong {
+    font-size: 20px;
+    font-weight: 100;
+}
+
 .bg-etopia {
     background-image: url(../img/donde/etopia.png);
     background-color: #FFFFFF;
@@ -599,21 +640,25 @@ footer {
 
 /* Colors */
 .wtm-blue {
-    color: #4285f4;
+    /*color: #4285f4;*/
+    color: #2a225d;
 }
 
 .wtm-green {
-    color: #00bfa5;
+    /*color: #00bfa5;*/
+    color: #00b0b4;
+
 }
 
 .section-heading-spacer {
     /*border-top: 3px solid #00bfa5;*/
-    border-top: 8px solid #00bfa5;
+    /*border-top: 8px solid #00bfa5;*/
+    border-top: 8px solid #00b0b4;
 }
 
 /* Backgrounds */
 .bg-landing {
-    background: url(../img/portada/fondo_header.jpg) no-repeat center center scroll;
+    /* background: url(../img/portada/fondo_header.jpg) no-repeat center center scroll; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -656,42 +701,51 @@ footer {
 }
 
 .bg-blue {
-    background: rgba(66, 133, 244, .1);
+    /*background: rgba(66, 133, 244, .1);*/
+    background: #37474f;
+}
+
+.bg-dark-blue {
+    background: rgba(42, 34, 93) !important;
+    color: #ffffff;
 }
 
 /* Fonts */
-.lead {
-    font-size: 20px;
-}
 
 .wtm-highlight {
-    color: #00bfa5;
-    font-size: x-large;
-    font-weight: bold;
+    /*color: #00bfa5;*/
+    color: #00b0b4;
+    font-weight: 100;
 }
 
 .wtm-highlight-no-bold {
-    color: #00bfa5;
+    /*color: #00bfa5;*/
+    color: #00b0b4;
     font-size: x-large;
+    font-weight: 100;
 }
 
 /* Buttons */
 .btn {
-    border-radius: 4px;
-    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
 }
 
 .btn-primary {
-    background: #4285f4;
+    background: #6556c2;
+    border-color: transparent!important;
     color: #fff;
-     border-color: #4285f4;
-     text-transform: uppercase;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    -ms-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
 
-.btn-primary:hover {
-    background: #356ac3;
-    border-color: : #356ac3;
-}
+/*.btn-primary:hover {
+    background: black;
+    border-color: black!important;
+}*/
 
 .btn-secondary {
     border: 2px inset #4285f4;
@@ -735,16 +789,18 @@ footer {
 }
 
 ul i {
-    color: #00bfa5;
+    /*color: #00bfa5;*/
+    color: #00b0b4;
     padding-right: 5px;
 }
 
 /* Header*/
 .header {
     display: block;
-    background: #fff;
+    /*background: #ffffff;*/
+    background: #00b0b4;
     height: auto;
-    padding: 40px 0;
+    padding: 100px 0;
 }
 
 /* Countdown */
@@ -774,7 +830,8 @@ ul i {
 }
 
 #arrow_code_conduct {
-    fill: #00bfa5;
+    /*fill: #00bfa5;*/
+    fill: #00b0b4;
     max-width: 100px;
 }
 
@@ -989,5 +1046,48 @@ ul i {
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
-    filter: grayscale(100%);
+    filter: grayscale(100%);    
+}
+
+.escala-color {
+    -webkit-filter: sepia(100%) hue-rotate(120deg) saturate(120%);
+    -moz-filter: sepia(100%) hue-rotate(120deg) saturate(120%);
+    -ms-filter: sepia(100%) hue-rotate(120deg) saturate(120%);
+    -o-filter: sepia(100%) hue-rotate(120deg) saturate(120%);
+    filter: sepia(100%) hue-rotate(120deg) saturate(120%);
+}
+
+section {
+    position: relative;
+}
+.esquina_superior_izquierda {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 150px;
+    display: none;
+}
+
+.esquina_superior_derecha {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    display: none;
+}
+
+.esquina_inferior_izquierda {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    max-width: 150px;
+    display: none;
+}
+
+.esquina_inferior_derecha {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    max-width: 150px;
+    display: none;
 }

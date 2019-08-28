@@ -401,11 +401,16 @@ sponsors_gold:
   #  twitter: vueling
 
 sponsors_silver:
-  #- name: GeoSLab
-  #  text: 
-  #  image: img/patrocinadores/silver/geosLab.jpg
-  #  web: https://www.geoslab.com/
-  #  twitter: GeoSLab
+  - name: GeoSLab
+    text: 
+    image: img/patrocinadores/silver/geosLab.jpg
+    web: https://www.geoslab.com/
+    twitter: GeoSLab
+  - name: Plain Concepts
+    text: 
+    image: img/patrocinadores/silver/plain_concepts.png
+    web: https://www.plainconcepts.com/
+    twitter: plainconcepts
   #- name: Elastic
   #  text: 
   #  image: img/patrocinadores/silver/elastic.png

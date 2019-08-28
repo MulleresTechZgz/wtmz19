@@ -3,8 +3,9 @@
 {% for event_info in site.event_infos %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
-    <div class="content-section-b">
 
+    <div class="content-section-b" style="background-color: #{{ event_info.bg_color }}; color: #{{ event_info.f_color }};">
+        <!--<img src="img/logo_wtm/{{ event_info.img_corner }}" class="esquina_superior_derecha"/>-->
         <div class="container">
 
             <div class="row">
@@ -27,8 +28,8 @@
     <!-- /.content-section-a -->
     {% else %}
 
-    <div class="content-section-a">
-
+    <div class="content-section-a" style="background-color: #{{ event_info.bg_color }}; color: #{{ event_info.f_color }};">
+        <!--<img src="img/logo_wtm/{{ event_info.img_corner }}" class="esquina_superior_izquierda"/>-->
         <div class="container">
 
             <div class="row">

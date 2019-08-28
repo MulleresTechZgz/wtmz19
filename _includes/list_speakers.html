@@ -1,5 +1,7 @@
 <section id="list-speakers" class="speakers bg-bluish">
-  
+  <img src="img/logo_wtm/solo_circulos_verdes_giro.png" class="esquina_superior_izquierda"/>
+  <img src="img/logo_wtm/solo_circulos_azules.png" class="esquina_inferior_derecha"/>
+  {% if site.guests %}
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-10 col-lg-offset-1">
@@ -30,7 +32,7 @@
 
                       {% if image_guest != ""  %}
                       <!--<img src="{{ image_guest }}_c.jpg" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.src='{{ image_guest }}_g.jpg'" onmouseout="this.src='{{ image_guest }}_c.jpg'"/>-->
-                      <img src="{{ image_guest }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises');"/>
+                      <img src="{{ image_guest }}_c.jpg" onerror="this.src='img/ponentes/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala-color" onmouseover="this.classList.remove('escala-color'); this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises'); this.classList.add('escala-color');"/>
                       {% elsif twitter_speaker != "" %}
                       <img src="https://avatars.io/twitter/{{ guest.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                       {% else %}
@@ -71,7 +73,7 @@
                               <i class="fa fa-circle fa-stack-2x"></i>
 
                               {% if image_guest != ""  %}
-                              <img src="{{ image_guest }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
+                              <img src="{{ image_guest }}_c.jpg" onerror="this.src='img/ponentes/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala-color"/>
                               {% elsif twitter_guest != "" %}
                               <img src="https://avatars.io/twitter/{{ guest.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                               {% else %}
@@ -125,7 +127,9 @@
     <!-- /.row -->
   </div>
 <!-- /.container -->
+{% endif %}
 
+{% if site.speakers %}
 <div class="container">
     <div class="row text-center">
       <div class="col-lg-10 col-lg-offset-1">
@@ -143,6 +147,7 @@
           {% assign image_speaker = speaker.image | strip_newlines %}
           {% assign image_card_speaker = speaker.image_card | strip_newlines %}
           {% assign twitter_speaker = speaker.twitter_account | strip_newlines %}
+          {% assign twitter_2_speaker = speaker.twitter_account_2 | strip_newlines %}
           {% assign linkedin_speaker = speaker.linkedin_account | strip_newlines %}
           {% assign linkedin_2_speaker = speaker.linkedin_account_2 | strip_newlines %}
           {% assign web_speaker = speaker.web | strip_newlines %}
@@ -155,7 +160,7 @@
 
                       {% if image_speaker != ""  %}
                       <!--<img src="{{ image_speaker }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_speaker }}_g.jpg'" onmouseout="this.src='{{ image_speaker }}_c.jpg'"/>-->
-                      <img src="{{ image_speaker }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises');"/>
+                      <img src="{{ image_speaker }}_c.jpg" onerror="this.src='img/ponentes/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala-color" onmouseover="this.classList.remove('escala-color'); this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises'); this.classList.add('escala-color');"/>
                       {% elsif twitter_speaker != "" %}
                       <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                       {% else %}
@@ -171,6 +176,11 @@
                       </h4>
                       {% if twitter_speaker != ""  %}
                       <a href="https://twitter.com/{{ speaker.twitter_account }}" target="_blank">
+                        <i class="fa fa-twitter fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if twitter_2_speaker != ""  %}
+                      <a href="https://twitter.com/{{ speaker.twitter_account_2 }}" target="_blank">
                         <i class="fa fa-twitter fa-fw fa-2x"></i>
                       </a>
                       {% endif %}
@@ -210,7 +220,7 @@
                               <i class="fa fa-circle fa-stack-2x"></i>
 
                               {% if image_speaker != ""  %}
-                              <img src="{{ image_speaker }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
+                              <img src="{{ image_speaker }}_c.jpg" onerror="this.src='img/ponentes/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala-color"/>
                               {% elsif twitter_speaker != "" %}
                               <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                               {% else %}
@@ -222,6 +232,11 @@
                                {% if twitter_speaker != ""  %}
                                 <a href="https://twitter.com/{{ speaker.twitter_account }}" target="_blank">
                                     <i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if twitter_2_speaker != ""  %}
+                                <a href="https://twitter.com/{{ speaker.twitter_account_2 }}" target="_blank">
+                                  <i class="fa fa-twitter fa-fw fa-2x"></i>
+                                </a>
                                 {% endif %}
                                 {% if linkedin_speaker != ""  %}
                                 <a href="https://www.linkedin.com/in/{{ speaker.linkedin_account }}" target="_blank">
@@ -266,7 +281,9 @@
     <!-- /.row -->
   </div>
 <!-- /.container -->
+{% endif %}
 
+{% if site.workshop_speakers %}
 <div class="container">
     <div class="row text-center">
       <div class="col-lg-10 col-lg-offset-1">
@@ -296,7 +313,7 @@
 
                       {% if image_speaker != ""  %}
                       <!--<img src="{{ image_speaker }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_speaker }}_g.jpg'" onmouseout="this.src='{{ image_speaker }}_c.jpg'"/>-->
-                      <img src="{{ image_speaker }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises');"/>
+                      <img src="{{ image_speaker }}_c.jpg" onerror="this.src='img/ponentes/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala-color" onmouseover="this.classList.remove('escala-color'); this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises'); this.classList.add('escala-color');"/>
                       {% elsif twitter_speaker != "" %}
                       <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                       {% else %}
@@ -351,7 +368,7 @@
                               <i class="fa fa-circle fa-stack-2x"></i>
 
                               {% if image_speaker != ""  %}
-                              <img src="{{ image_speaker }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
+                              <img src="{{ image_speaker }}_c.jpg" onerror="this.src='img/ponentes/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala-color"/>
                               {% elsif twitter_speaker != "" %}
                               <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                               {% else %}
@@ -407,7 +424,9 @@
     <!-- /.row -->
   </div>
 <!-- /.container -->
+{% endif %}
 
+{% if site.mentors %}
 <div class="container">
     <div class="row text-center">
       <div class="col-lg-10 col-lg-offset-1">
@@ -436,7 +455,7 @@
 
                       {% if image_mentor != ""  %}
                       <!--<img src="{{ image_mentor }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_mentor }}_g.jpg'" onmouseout="this.src='{{ image_mentor }}_c.jpg'"/>-->
-                      <img src="{{ image_mentor }}_c.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle escala-grises"/>
+                      <img src="{{ image_mentor }}_c.jpg" onerror="this.src='img/ponentes/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala-color"/>
                       {% elsif twitter_mentor != "" %}
                       <img src="https://avatars.io/twitter/{{ mentor.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                       {% else %}
@@ -487,7 +506,7 @@
                               <i class="fa fa-circle fa-stack-2x"></i>
 
                               {% if image_mentor != ""  %}
-                              <img src="{{ image_mentor }}_c.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
+                              <img src="{{ image_mentor }}_c.jpg" onerror="this.src='img/ponentes/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala_color"/>
                               {% elsif twitter_mentor != "" %}
                               <img src="https://avatars.io/twitter/{{ mentor.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                               {% else %}
@@ -543,4 +562,6 @@
     <!-- /.row -->
   </div>
 <!-- /.container -->
+{% endif %}
+
 </section>
