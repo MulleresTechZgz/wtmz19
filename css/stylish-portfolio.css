@@ -40,7 +40,7 @@ strong {
 }
 .h2, h2 {
     font-size: 38px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 /* Custom Button Styles */
@@ -194,14 +194,14 @@ hr.small {
 }
 
 .content-section-a strong {
-    font-weight: 100;
+    font-weight: 200;
     letter-spacing: 0;
     font-size: 20px;
     color: #2a225c;
 }
 
 .content-section-b strong {
-    font-weight: 100;
+    font-weight: 200;
     letter-spacing: 0;
     font-size: 20px;
     color: #00b0b4;
@@ -566,7 +566,7 @@ footer {
 
 .lead {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 /* introduction */
@@ -581,7 +581,7 @@ footer {
 
 .introduction-item h4 strong {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .bg-etopia {
@@ -716,14 +716,14 @@ footer {
 .wtm-highlight {
     /*color: #00bfa5;*/
     color: #00b0b4;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .wtm-highlight-no-bold {
     /*color: #00bfa5;*/
     color: #00b0b4;
     font-size: x-large;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 /* Buttons */
