@@ -131,196 +131,252 @@ organizers:
 
 #List for guests
 guests:
-  - name: Pilar Alegría
-    bio: ''
-    image: img/ponentes/PilarAlegria
-    image_card: 
-    twitter_account: Pilar_Alegria
-    linkedin_account: 
-  - name: Cristina Aranda
-    bio: 'Cristina Aranda es PR, Pre-Sales & Innovation Research en Intelygenz, empresa dedicada al desarrollo de Software y tecnologías con impacto en negocio con sedes en Madrid y San Francisco. Cristina tiene más de 16 años de experiencia en marketing, innovación y transformación digital con empresas del Ibex35, Top500, Pymes y Startups. Además, es cofundadora de Mujeres Tech, una asociación sin ánimo de lucro que tiene por objetivo promover iniciativas entre niñas, jóvenes y mujeres y hombres para aumentar la presencia femenina en el sector digital, y, al mismo tiempo, establecer lazos con hombres dispuestos a generar las mismas posibilidades al talento femenino.<br/>Aranda es Social Innovation Fellow del Meridian Intl. Center y la Embajada de EE.UU. en Madrid, miembro del comité de Mujeres Líderes de América y del Comité de Expertos de Empresas de Base Tecnológica, Startups y Talento de la Comunidad de Madrid. Además, Cristina es asesora sobre Diversidad en las STEAM de diferentes stakeholders públicos y privados. Pertenece a la mesa de género de la Secretaría de Estado de Agenda Digital. El pasado mes de abril impartió una charla TEDx sobre la necesidad de desaprender sobre cómo somos educados a partir de estereotipos y el pasado mes de febrero fue considerada por Business Insider como una de las 25 españoles del mundo de la tecnología que se deben seguir en Twitter.<br/>Cristina es doctora en Lingüística Teórica y Aplicada por la UAM y el IUI. Ortega y Gasset, licenciada en Filología Hispánica por la UAM, Máster en Internet Business por el ISDI y Digital Technology for Business Program por IGZ Academy. Ahora está profundizando en el procesamiento natural del lenguaje para su aplicación en el Internet de las cosas y la inteligencia artificial.'
-    image: img/ponentes/CristinaAranda
-    image_card: img/ponentes/fichas/CristinaAranda
-    twitter_account: cris_aranda_
-    linkedin_account: cristinaaranda
-  - name: Elena Giner
-    bio: ''
-    image: img/ponentes/ElenaGiner
-    image_card: 
-    twitter_account: 
-    linkedin_account:
+  #- name: Pilar Alegría
+  #  bio: ''
+  #  image: img/ponentes/PilarAlegria
+  #  image_card: 
+  #  twitter_account: Pilar_Alegria
+  #  linkedin_account: 
+  #- name: Cristina Aranda
+  #  bio: 'Cristina Aranda es PR, Pre-Sales & Innovation Research en Intelygenz, empresa dedicada al desarrollo de Software y tecnologías con impacto en negocio con sedes en Madrid y San Francisco. Cristina tiene más de 16 años de experiencia en marketing, innovación y transformación digital con empresas del Ibex35, Top500, Pymes y Startups. Además, es cofundadora de Mujeres Tech, una asociación sin ánimo de lucro que tiene por objetivo promover iniciativas entre niñas, jóvenes y mujeres y hombres para aumentar la presencia femenina en el sector digital, y, al mismo tiempo, establecer lazos con hombres dispuestos a generar las mismas posibilidades al talento femenino.<br/>Aranda es Social Innovation Fellow del Meridian Intl. Center y la Embajada de EE.UU. en Madrid, miembro del comité de Mujeres Líderes de América y del Comité de Expertos de Empresas de Base Tecnológica, Startups y Talento de la Comunidad de Madrid. Además, Cristina es asesora sobre Diversidad en las STEAM de diferentes stakeholders públicos y privados. Pertenece a la mesa de género de la Secretaría de Estado de Agenda Digital. El pasado mes de abril impartió una charla TEDx sobre la necesidad de desaprender sobre cómo somos educados a partir de estereotipos y el pasado mes de febrero fue considerada por Business Insider como una de las 25 españoles del mundo de la tecnología que se deben seguir en Twitter.<br/>Cristina es doctora en Lingüística Teórica y Aplicada por la UAM y el IUI. Ortega y Gasset, licenciada en Filología Hispánica por la UAM, Máster en Internet Business por el ISDI y Digital Technology for Business Program por IGZ Academy. Ahora está profundizando en el procesamiento natural del lenguaje para su aplicación en el Internet de las cosas y la inteligencia artificial.'
+  #  image: img/ponentes/CristinaAranda
+  #  image_card: img/ponentes/fichas/CristinaAranda
+  #  twitter_account: cris_aranda_
+  #  linkedin_account: cristinaaranda
+  #- name: Elena Giner
+  #  bio: ''
+  #  image: img/ponentes/ElenaGiner
+  #  image_card: 
+  #  twitter_account: 
+  #  linkedin_account:
 
 #List for speakers
 speakers:
-  - name: Pilar Barbero Iriarte y Laura Fernando López
-    short_name: Pilar Barbero y Laura Fernando
-    bio: 'Pilar Barbero Iriarte<br/>Licenciada en matemáticas e intrusista laboral. Durante mis estudios descubrí que esto de los ordenadores era lo mío y decidí poner remedio a ello empapándome de todo lo que pudiera, a través de distintas optativas durante la carrera y mi erasmus, asistir a ponencias, largas charlas con colegas en bares... Actualmente trabajo desarrollando software en Vueling (cosicas para avioncitos). Apasionada de la cerveza y amante de las chinchillas.<br/><br/>Laura Fernando López<br/>Soy Ingeniera Informática por la Universidad de Zaragoza y desde 2017 ocupo el puesto de Analista de la Información en la Oficina de Participación, Transparencia y Gobierno Abierto en el Ayuntamiento de Zaragoza. Apasionada de las tecnologías de la información y en continuo aprendizaje. Me encanta conocer, analizar y aplicar, si es posible, las nuevas tecnologías favoreciendo la transparencia, la accesibilidad de la información y fomentando la reutilización de los datos publicando en formatos abiertos según el marco legal vigente.'
-    image: img/ponentes/PilarBarberoLauraFernando
-    image_card: img/ponentes/fichas/PilarBarberoLauraFernando
-    twitter_account: pbarberoiriarte
+  - name: 'María Ballesteros'
+    short_name: 'María Ballesteros'
+    bio: ''
+    image: img/ponentes_charlas/MariaBallesteros
+    image_card: 
+    twitter_account: 
+    linkedin_account:
+  - name: 'Pilar Barbero Iriarte y Laura Fernando López'
+    short_name: 'Pilar Barbero y Laura Fernando'
+    bio: ''
+    image: img/ponentes_charlas/PilarBarberoLauraFernando
+    image_card: 
+    twitter_account: yayaqueprograma
     twitter_account_2: lafelop
     linkedin_account:
-  - name: Maria Berenguer
-    bio: 'Agilista, informática, teatrera y pianista. Siempre aprendiz, ahora Scrum Master. Desde que un día me dijeron: "Tú eres ágil, y todavía no lo sabes", invierto mi tiempo en aprender y descubrir qué es. Agile como forma de vida.'
-    image: img/ponentes/MariaBerenguer
-    image_card: img/ponentes/fichas/MariaBerenguer
+  - name: 'María Berenguer'
+    short_name: 'María Berenguer'
+    bio: 'Siempre aprendiz, ahora Scrum Máster.<br/>Desde que un día me dijeron: "Tú eres ágil y todavía no lo sabes", invierto mi tiempo en aprender y descubrir qué es.<br/>Llevo 4 años trabajando como Scrum Master con equipos de desarrollo, inspirándoles para descubrir su camino ágil.<br/>Colaboro con comunidades Agile y tecnológicas compartiendo aprendizajes.'
+    image: img/ponentes_charlas/MariaBerenguer
+    image_card: 
     twitter_account: merybere
     linkedin_account:
-  - name: Sandra Escudero Sanchez
-    bio: 'Soy Sandra Escudero, Ingeniera Informática por la Universidad de Zaragoza. Llevo 3 años en keensoft UST Global trabajando en el desarrollo de software, y más específicamente en gestión de proyectos. El interés por la tecnología desde que era pequeña y el querer afrontar nuevos retos me llevó hasta este increíble mundo de la informática. Lo que más me gusta de mi carrera es la oportunidad de crecer cada día y de aprender cosas nuevas, y es que con ganas e ilusión somos capaces de desarrollar todo lo que tenemos en nuestra mente.'
-    image: img/ponentes/SandraEscudero
-    image_card: img/ponentes/fichas/SandraEscudero
-    twitter_account: SandraEscS
+  - name: 'Ana Bernal y Cristina Gimeno'
+    short_name: 'Ana Bernal y Cristina Gimeno'
+    bio: 'Ana, ingeniera de telecomunicaciones, CCNA y experta en  BIG DATA y Data Science. Llevo gestionado proyectos TI desde hace más de 15 años, antes en el mundo del hardware y en la actualidad en proyectos software de administración electrónica.<br/><br/>Cristina, ingeniera informática, PMP, Scrum Manager, Experta en BIG DATA y Data Science. Desde hace casi 20 años, dedicada a aportar soluciones. Comencé programando, continué gestionando proyectos y hoy analizo soluciones tecnológicas.<br/><br/>Somos dos mujeres que disfrutan con su trabajo, especialistas en la gestión de clientes, apasionadas con el análisis de los datos, que se divierten aprendiendo día a día en el trabajo, con los compañeros, los amigos y sobre todo con nuestras familias.'
+    image: img/ponentes_charlas/AnaBernalCristinaGimeno
+    image_card: 
+    twitter_account: anabernal1012
+    twitter_account_2: criszgz
     linkedin_account:
-  - name: Azahara Fernandéz Guizán
-    bio: 'Soy desarrolladora de software (.Net y Angular) reconvertida en 2015, tras obtener un doctorado en Inmunología. Desde Abril de 2018 trabajo en Sngular, en la sede de Oviedo.<br/>Me encanta desarrollar, aprender idiomas, asistir a eventos y compartir con la comunidad. Formo parte de AsturiasHacking y también de Afaya tratando de ayudar en todo lo que se me necesite. Siempre positiva y buscando el lado bueno de las cosas.'
-    image: img/ponentes/AzaharaFernandez
-    image_card: img/ponentes/fichas/AzaharaFernandez
-    twitter_account: azahara_fergui
-    linkedin_account:  
-  - name: María Fernández Rodriguez
-    bio: 'María Fernández (minimeri) es una diseñadora senior con un amplio bagaje multidisciplinar: grafismo de videojuegos, diseño gráfico y web... centrándose finalmente en el diseño centrado en usuario , diseño de interfaz para nuevos dispositivos, diseño de producto y liderando equipos de UX.<br/>Ultimamente se ha centrado en estudiar neurociencia vinculándola con la teoría del diseño.'
-    image: img/ponentes/MariaFernandez
-    image_card: img/ponentes/fichas/MariaFernandez
-    twitter_account: meri_minimeri
-    linkedin_account: 
-  - name: Vanessa Galcerà Reales
-    bio: 'Ingeniera Informática con 4 años como formadora certificada de Sun Microsystems y Red Hat. Desde 2012 realiza tareas de Lead Software Engineer en proyectos con Oracle ADF.<br/>Lleva más de 7 años involucrada en diferentes iniciativas orientadas a divulgar y formar en nuevas tecnologías como el GDGTarragona. Desde 2014, también está colaborando en dar visibilidad y potenciar la presencia de las mujeres en el campo de la tecnología organizando eventos Women Techmakers en Tarragona.'
-    image: img/ponentes/VanessaGalcera
-    image_card: img/ponentes/fichas/VanessaGalcera
-    twitter_account: VanessaGaRe
+  - name: 'Vanessa Borobia'
+    short_name: 'Vanessa Borobia'
+    bio: 'Vanessa Borobia es actualmente la Directora de TI de La Mafia se sienta a la mesa. Diplomada en Estadística, inició su trayectoria profesional en el sector TI,y durante 15 años ha colaborado en distintas consultoras tecnologías. A día de hoy Vanessa, EMBA por ESIC, dirige la estrategia tecnología del grupo LmssLm con más de 40 restaurantes a nivel nacional.'
+    image: img/ponentes_charlas/VanessaBorobia
+    image_card: 
+    twitter_account: vborobia
     linkedin_account:
-  - name: Cynthia Gálvez López
+  - name: 'Valeria Corrales y Patricia Heredia'
+    short_name: 'Valeria Corrales y Patricia Heredia'
+    bio: 'Valeria es una niña de 11 años que asiste a clases de robótica, quiere ser ingeniera y fue nombrada Inspiring Girl of the Year en 2018. Patricia es ingeniera de telecomunicaciones y enseña disciplinas STEAM en su propia academia. ValPat es el equipo perfecto para que las niñas y niños descubran que la tecnología también puede ser creativa.'
+    image: img/ponentes_charlas/ValeriaCorralesPatriciaHeredia
+    image_card: 
+    twitter_account: ValPatSTEAM
+    linkedin_account:
+  - name: 'Cristina De Propios Martínez'
+    short_name: 'Cristina De Propios'
+    bio: 'Doctoranda con tesis en el campo del Arte y la Robótica. Desde hace un año participa en festivales, congresos y ferias de ciencia y tecnología, a la vez que da clases de robótica creativa en institutos y colegios de Madrid. Forma parte de la primera Startup española (Q-Lion) dedicada a la computación cuántica con iones atrapados, bajo el rol de Quantum Creative Engineer. Amante de la ciencia ficción.'
+    image: img/ponentes_charlas/CristinaDePropios
+    image_card: 
+    twitter_account: de_propios
+    linkedin_account:
+  - name: 'Cristina Fernández Sanz'
+    short_name: 'Cristina Fernández'
+    bio: 'Desarrolladora front-end desde hace 5 años, anteriormente era desarrolladora back-end pero el CSS me cautivó. Sigo aprendiendo sobre HTML, CSS y JavaScript, accesibilidad y performance e intento compartirlo a través de twitter, charlas y como mentora en Node Girls y VueVixens Madrid.'
+    image: img/ponentes_charlas/CristinaFernandez
+    image_card: 
+    twitter_account: cristinafsanz
+    linkedin_account:
+  - name: 'Mónica Giménez'
+    short_name: 'Mónica Giménez'
     bio: ''
-    image: img/ponentes/CynthiaGalvez
-    image_card: img/ponentes/fichas/CynthiaGalvez
-    twitter_account: icynthia
-    linkedin_account: 
-  - name: Girls to Program (G2P)
-    bio: 'Girls to Program (G2P) es el nombre de una aplicación que hemos desarrollado un grupo de niñas de 10 años de Huesca, somos: Alejandra Bagé, Paula Sanclemente, Sara Miravé y Valeria Corrales. Nos encanta el deporte, el inglés y la tecnología, tanto es así que este año participamos en un concurso internacional, Technovation Challenge, y desarrollamos una app para ayudar a niñas en entornos rurales a encontrar recursos para aprender tecnología.'
-    image: img/ponentes/Girls2Program
-    image_card: img/ponentes/fichas/Girls2Program
-    twitter_account: Girls2Program 
+    image: img/ponentes_charlas/MonicaGimenez
+    image_card: 
+    twitter_account: misstechin
     linkedin_account:
-  - name: Susana González Ruisanchez
-    bio: 'Abogada especialista en Derecho Tecnológico y ciberseguridad. Socia en ECIX Group. Auditora Jefe ISO 27001 Aenor Seguridad de la Información. Formadora y ponente en congresos y eventos de las áreas de especialización y asidua colaboradora en diversas publicaciones de referencia en el sector legal tecnológico y ciberseguridad. Miembro de junta fundadora de la Asociación nacional de profesionales del hacking ético, juristas y miembros de seguridad del estado. Colaboradora experta en la Red de Conocimiento de Computer World. Docente del curso de experto universitario en derecho tecnológico e informática forense de la UNEX, del máster de compliance de ICAB, del Curso de Ciberderecho de ICAM. Promotora de www.CONPilar.es Zaragoza Congreso anual de ciberseguridad de Zaragoza.'
-    image: img/ponentes/SusanaGonzalez
-    image_card: img/ponentes/fichas/SusanaGonzalez
-    twitter_account: sudigitallawyer
-    linkedin_account: susanagonzalezruisanchez
-  - name: 'Andrea Gracia García y Eva Omedes Domene'
-    short_name: 'Andrea Gracia y Eva Omedes'
-    bio: 'Somos Andrea Gracia García y Eva Omedes Domene, y ambas vivimos en Zaragoza.<br/>A pesar de haber estudiado diferentes cosas anteriormente, nos conocimos en el Grado de Proyectos de Obra Civil, y en la actualidad, trabajamos también juntas en atBIM, así que ya llevamos 3 años juntas.<br/>Nos gusta la edificación, las estructuras, modelar edificios y formas singulares, y siempre, con la ambición de aprender cosas nuevas y mejorar.'
-    image: img/ponentes/AndreaGraciaEvaOmedes
-    image_card: img/ponentes/fichas/AndreaGraciaEvaOmedes
+  - name: 'Débora Gómez Bertoli'
+    short_name: 'Débora Gómez'
+    bio: 'Team & Tech Lead en myToys Group, especializada en el desarrollo de aplicaciones móviles Android, microservicios y despligue de servicios en AWS con Terraform. Alumna y mentora del programa #TechSHEssions, colaboradora en los programas #Adalab y #TechnovationChallenge.'
+    image: img/ponentes_charlas/DeboraGomez
+    image_card: 
+    twitter_account: dgomezdebora
+    linkedin_account:
+  - name: 'Paula Gracia Andrés'
+    short_name: 'Paula Gracia '
+    bio: ''
+    image: img/ponentes_charlas/PaulaGracia 
+    image_card: 
+    twitter_account: CiberEleganzaIP
+    linkedin_account:
+  - name: 'Julia Guerrero Viu'
+    short_name: 'Julia Guerrero'
+    bio: ''
+    image: img/ponentes_charlas/JuliaGuerrero
+    image_card: 
+    twitter_account: juliagviu
+    linkedin_account:
+  - name: 'Rowena Hennigan'
+    short_name: 'Rowena Hennigan'
+    bio: ''
+    image: img/ponentes_charlas/RowenaHennigan
+    image_card: 
     twitter_account: 
-    linkedin_account: andrea-gracia-garcia-290b94145
-    linkedin_account_2: eva-omedes-366315128
-  - name: Laura Lacarra
-    bio: 'Laura Lacarra es una maña muy mañosa.  Estudió Ingeniería Informática en el famoso y  extinguido nombre CPS y acumula 9 años de experiencia en el desarrollo de software tocando Java y Python. Recientemente trabaja como Devops en el equipo de BI y BigData producción de Telefónica. Se lo pasa muy bien asistiendo a eventos y organizando unos cuantos. Colabora con Mulleres Tech, WTM Zaragoza, Cachirulo Valley en la actualidad. Ha colaborado en comunidades Betabeers Zaragoza y Agile Aragón. '
-    image: img/ponentes/LauraLacarra
-    image_card: img/ponentes/fichas/LauraLacarra
-    twitter_account: LauraLacarra 
     linkedin_account:
-  - name: Keka Lopez
-    bio: 'Realizadora aragonesa y activista por la soberanía tecnológica.<br/>Trabaja con diversos colectivos de artistas interdisciplinares mezclando técnicas de video,sonido y fotografiá desde el mediactivismo y la televisión experimental utilizando herramientas de software libre y licencias creative commons. <br/> Dirige mydogisa.ninja donde ha producido contenidos para organizaciones internacionaels desde campañas de protección del medio ambiente a la defensa de llos derechos humanos en Suiza, Alemania,Mexico y Reino Unido. <br/>Ha realizado dos documentales Con el Corazon en la Calle y La Hipocresía del deseo que recibió varias menciones internacionales. <br/>Su primer largo documental se encuentra en fase de grabación El Derecho a Soñar una fábula social protagonizada por hackers y comunidades indígenas sobre la primera red de telefonía celular independiente del mundo. Donde sus protagonistas hablan de la necesidad de desdibujar los horizontes , imaginar imposibles, de las posibilidades de la tecnología ,la colaboración , la gestión comunitaria y del conocimiento abierto. <br/>Este documental está siendo grabado con cámaras de video hackeadas, ampliando las posibilidades que su hardware les posibilita.'
-    image: img/ponentes/KekaLopez
-    image_card: img/ponentes/fichas/KekaLopez
-    twitter_account: TheRightToDream
-    linkedin_account:  
-  - name: Laura López Navaz
-    bio: 'Laura López Navaz es la autora del blog Cómo ser tu Digital Manager. Blog personal donde comparte artículos sobre Búsqueda de Empleo y Redes Sociales. Laura está en aprendizaje continuo, en periodo de formación para convertirse en una referente del sector enfocando su web en la Transformación Digital y la Gestión de la Reputación Online'
-    image: img/ponentes/LauraLopez
-    image_card: img/ponentes/fichas/LauraLopez
+  - name: 'Silvia Laiglesia Martínez'
+    short_name: 'Silvia Laiglesia'
+    bio: ''
+    image: img/ponentes_charlas/SilviaLaiglesia
+    image_card: 
+    twitter_account: 
+    linkedin_account:
+  - name: 'Laura López Navaz'
+    short_name: 'Laura López'
+    bio: ''
+    image: img/ponentes_charlas/LauraLopez
+    image_card: 
     twitter_account: lauralopeznavaz
     linkedin_account:
-  - name: Nerea Luis Mingueza
-    bio: 'Estudiante de doctorado en el campo del razonamiento y la planificación multiagente (Inteligencia Artificial). Fundadora de T3chFest. Experta en #Los100de Cotec en Tecnología, Talento y Género. Técnico de asesoramiento científico en Ciencia en el Parlamento. Women Techmaker Scholar en 2016. Me encantan los robots <3'
-    image: img/ponentes/NereaLuis
-    image_card: img/ponentes/fichas/NereaLuis
-    twitter_account: sailormerqury
-    linkedin_account: 
-  - name: Susana Luna y Nerea Tamayo
-    bio: 'Nerea Tamayo, 33 años y procedente de Bilbao, estudió Ingeniería Técnica en Informática en la Universidad del País Vasco (UPV).<br/>Comenzó su vida laboral como desarrolladora de software, hasta que descubrió  su pasión por el testing, disciplina a la que se ha dedicado en exclusiva desde 2013 y en la que se ha especializado. Nerea está certificada por el ISTQB (International Software Testing Qualifications Board), como Software Tester (Foundation Level), como Test Manager (Advanced Level) y como Ingeniera de Automatización de Pruebas (Advanced Level).<br/>Actualmente trabaja en adidas, definiendo los procesos, herramientas y estándares de testing en la Plataforma de Ingeniería y Arquitectura de la compañía (Global IT – PE&A).'
-    image: img/ponentes/SusanaLunaNereaTamayo
-    image_card: img/ponentes/fichas/SusanaLunaNereaTamayo
-    twitter_account: 
-    linkedin_account: nerea-tamayo-garcía
-  - name: Mayte Ortin
-    bio: 'Diplomada en Estadística por la Universidad de Zaragoza.<br/>Actualmente Directora Gerente de Aragonesa de Servicios Telemáticos, entidad pública del Gobierno de Aragón responsable de las infraestructuras y servicios en el ámbito de las tecnologías de la información y las telecomunicaciones.<br/>Su andadura profesional comenzó en 1999 en el sector TIC donde ha desempeñado funciones de dirección, gestión de proyectos e ingeniería del software.'
-    image: img/ponentes/MayteOrtin
-    image_card: img/ponentes/fichas/MayteOrtin
-    twitter_account:  
-    linkedin_account: MayteOrtin
-  - name: Alba Pardo Ortiz
-    bio: 'Soy Alba Pardo, de Zaragoza, y allí es donde me matriculé en Matemáticas sin pensármelo demasiado. Desde que acabé estoy en el mundo de la informática, descubriendo su amplio abanico de posibilidades, siempre atraída por aprender y enfrentarme a nuevos retos. Actualmente trabajo en keensoft UST Global, aprendiendo de la mano de grandes profesionales.'
-    image: img/ponentes/AlbaPardo
-    image_card: img/ponentes/fichas/AlbaPardo
-    twitter_account: albapo15 
-    linkedin_account: 
-  - name: Veronica Rodriguez Perez
-    bio: 'Especialista en Realidad Virtual, Transmedia Storytelling y Branded Content, apasionada de las historias y sus formatos. Ha trabajado en empresas de publicidad y audiovisuales y participado en diferentes proyectos de realidad virtual. Actualmente es organizadora de la comunidad de VR / AR / MR de Madrid xR World y escribe en su blog I AM VR'
-    image: img/ponentes/VeronicaRodriguez
-    image_card: img/ponentes/fichas/VeronicaRodriguez
-    twitter_account: veronica_IamVR
+  - name: 'Patricia Martínez'
+    short_name: 'Patricia Martínez'
+    bio: 'Agilista por vocación en busca de la mejora continua<br/>Llevo más de 10 años trabajando en IT, casi la tercera parte dedicados a la adopción de Agile, en particular usando Scrum como framework. Esto significa que me he convertido en el agente del cambio en un departamento de más de 50 personas. Así he aprendido más y más sobre trabajo en equipo y la necesidad de poner el foco en las personas en lugar de en los procesos, ya que esta es la clave del éxito.'
+    image: img/ponentes_charlas/PatriciaMartinez
+    image_card: 
+    twitter_account: patururu
     linkedin_account:
-  - name: Sonsoles Valero
-    bio: 'Cofounder y CLO en Botmyself, startup legaltech de desarrollo de chatbots personalizados. Abogada y formadora especializada en Derecho de Consumo y Atención al Cliente. Firme creyente de equipos mixtos  “letras y ciencias” para proyectos tecnológicos. Ayuda a que la inteligencia artificial que se utiliza en la creación de chatbots sea entrenada con la calidad, la ética y la legalidad necesarias.'
-    image: img/ponentes/SonsolesValero
-    image_card: img/ponentes/fichas/SonsolesValero
-    twitter_account: sonvalero
+  - name: 'Celia Martínez Luengo'
+    short_name: 'Celia Martínez'
+    bio: 'Programadora, con más de 10 años trabajando en consultoras, actualmente para ViewNext. <br/>He trabajado para diversos sectores, Recursos Humanos, Administración, Utilities, Logística, Banca… Y lo más importante que he aprendido es que todo proyecto es una oportunidad de aprender y el conocimiento nuestra mejor herramienta.'
+    image: img/ponentes_charlas/CeliaMartinez
+    image_card: 
+    twitter_account: Celta_ML
     linkedin_account:
+  - name: 'Sara San Luis Rodríguez y Daniela Solís Morales'
+    short_name: 'Sara San Luis y Daniela Solís'
+    bio: 'Sara San Luis, apasionada de las ciencias desde pequeña, estudié Matemáticas en la Universidad de Santiago de Compostela, formación que completé con un Máster en Estadística e Investigación Operativa. Este último me permitió adentrarme en el mundo de la IA y del ML, campos en los que trabajo ahora mismo en el equipo de IA de Plain Concepts.<br/><br/>Daniela Solís, software engineer en el equipo de IA de Plain Concepts. Maestra en Inteligencia Artificial de la Universidad de Amsterdam con grado en Ingeniería del Software de la Universidad Politecnica de Madrid. Apasionada de las nuevas tecnologías y del mundo de la Inteligencia Artificial.'
+    image: img/ponentes_charlas/SaraSanLuisDanielaSolis
+    image_card: 
+    twitter_account: sara_sanluis
+    twitter_account_2: danysolism
+    linkedin_account:
+  - name: 'Susana Sanmartín Garbayo'
+    short_name: 'Susana Sanmartín'
+    bio: ''
+    image: img/ponentes_charlas/SusanaSanmartin
+    image_card: 
+    twitter_account: susisanseso
+    linkedin_account:
+  - name: 'Cristina Santamarina'
+    short_name: 'Cristina Santamarina'
+    bio: 'Antes de trasladarse a Córdoba, Cristina trabajó en multinacionales, startups y ONGs en Madrid, Praga, Berlín y Conakry. Actualmente es cofundadora de The Neon Project, una agencia para la transformación digital de personas, procesos y productos mediante tecnología; especializada en  blockchain, interfaces conversacionales, datos y problemas complejos.'
+    image: img/ponentes_charlas/CristinaSantamarina
+    image_card: 
+    twitter_account: crissantamarina
+    linkedin_account:
+  - name: 'Marina Serrano Montes'
+    short_name: 'Marina Serrano'
+    bio: ''
+    image: img/ponentes_charlas/MarinaSerrano
+    image_card: 
+    twitter_account: marinillass
+    linkedin_account:
+  #- name: ''
+  #  short_name: ''
+  #  bio: ''
+  #  image: img/ponentes/
+  #  image_card: img/ponentes/fichas/
+  #  twitter_account: 
+  #  linkedin_account:
 
 #List for workshops speakers
 workshop_speakers:
-  - name: Academia de Inventores
-    bio: 'Hasta llegar a ser inventor primero hay que pasar un camino de exploración, descubrimiento, investigación y creación. Academia de inventores nace en colaboración con Edelvives como un espacio donde los niños puedan desarrollar sus capacidades, descubrir nuevas tecnologías, experimentar y aprender haciendo.'
-    image: img/ponentes/AcademiaDeInventores
-    image_card: img/ponentes/fichas/AcademiaDeInventores
-    twitter_account: ainventores
-    linkedin_account: 
-  - name: Alexandra Carramiñana, Vanessa Cazzola, Begoña Cuello y Elena Montañés
-    short_name: Alexandra C., Vanessa C., Begoña C. y Elena M.
-    bio: 'Vanessa Cazzola<br/>Me llamo Vanessa y soy traductora freelance. Traduzco del español al italiano y del inglés al italiano y estoy especializada en moda, turismo, marketing y sistemas ERP. Además de traductora, a lo largo de mi carrera profesional me he ocupado también de comercio exterior y de atención al cliente, y he trabajado en tres países distintos: España, Italia e Inglaterra.<br/><br/>Begoña Cuello<br/>Informática de profesión y con 9 años de experiencia en el desarrollo de software en las tecnologías de Microsoft, especializada en los entornos web. Suelo mantenerme al día en las tecnologías, siempre y cuando el tiempo y el trabajo me lo permite. Recientemente adherida al negocio de la banca y los seguros.<br/><br/>Elena Montañés<br/>Extrovertida y perfeccionista, en definitiva, soy una mente inquieta. Todo eso me ha llevado a trabajar en diferentes empresas punteras de Aragón. Con más de 10 años de experiencia en el sector, sigo siendo una apasionada del mundo digital y la tecnología en general. En la actualidad, sigo desarrollándome profesionalmente al frente de proyectos en Flat101 como Digital Project Manager.'
-    image: img/ponentes/AlexandraCarraminanaVanessaCazzolaBegoñaCuelloElenaMontanes
-    image_card: img/ponentes/fichas/AlexandraCarraminanaVanessaCazzolaBegoñaCuelloElenaMontanes
-    twitter_account: 
-    linkedin_account:
-  - name: África Sanjuán Duarte
-    bio: 'África Sanjuán Duarte, emprendedora y freelance. Especializada en museografía interactiva y también en diseño web y comunicación, apasionada por experimentar y crear mezclando el emprendimiento con diseño, creatividad, programación y electrónica. En 2013 fundó Crearium, un espacio multidisciplinar y colaborativo en Monzón; un espacio de coworking, arte y formación pionero en la provincia de Huesca, y en el que la tecnología y la creatividad tienen un peso importante en forma de talleres y campus para peques bajo el nombre de Crearium Kids.'
-    image: img/ponentes/AfricaSanjuan
-    image_card: img/ponentes/fichas/AfricaSanjuan
-    twitter_account: crearium
-    linkedin_account:       
-  - name: Anita de Arbués
+  - name: 'Beatriz Aguas Luzón, Sheila Blasco Clavero y Clara Cirac Nerín'
+    short_name: 'Beatriz Aguas, Sheila Blasco y Clara Cirac'
     bio: ''
-    image: img/ponentes/comodinw
-    image_card: img/ponentes/fichas/AnitaDeArbues
-    twitter_account: 
+    image: img/ponentes_talleres/BeatrizAguasSheilaBlascoClaraCirac
+    image_card: 
+    twitter_account: Be_Agu
     linkedin_account: 
+  - name: 'Ana Cruz Galán, Mercedes Medrano Gil, María Mora Fernández y Raquel Noé Martínez'
+    short_name: 'Ana C., Mercedes M., María M. y Raquel N.'
+    bio: 'Ana, Ingeniera Informática (pero “normal”). A veces saca tiempo para trabajar integrando datos en keensoft UST Global, pero en realidad dedica su vida a ver perretes y gatos gordos en Instagram.<br/><br/>Mercedes Medrano, Release Lead en keensoft UST Global. Mercedes es Ingeniera Técnica Química Industrial y desde hace 2 años reinventada en el mundo de las IT’s donde ha descubierto lo gratificante que es aportar soluciones a los usuarios finales.<br/><br/>María Mora, Business Analyst para proyectos tecnológicos en keensoft UST Global. María es licenciada en Administración y Dirección de Empresas. Hace 6 años su vida laboral dio un giro radical y acabó en el mundo tecnológico, donde realmente ha encontrado su vocación y su pasión. El sino de su vida: ¡reinventarse o morir!<br/><br/>Raquel es Ingeniera Informática, business process manager en keensoft UST Global y escapista en sus ratos libres. El sector TIC le ha llevado a vivir en Alemania e Inglaterra pero siempre vuelve a casa porque "there’s no place like home"'
+    image: img/ponentes_talleres/AnaCruzMercedesMedranoMariaMoraRaquelNoe
+    image_card: 
+    twitter_account: keensoft_es
+    linkedin_account:
+  - name: 'Nagore de los Ríos'
+    short_name: 'Nagore de los Ríos'
+    bio: '¡Los datos me dan superpoderes!<br/>Brand manager, investigadora, diseñadora de soluciones. Creo en la transparencia real, en el mundo open y en las ciencias que se apoyan en datos para tomar decisiones inteligentes. Dirijo el Departamento de Marketing y Comunicación de TECH Friendly, coordinando la elaboración de estrategias y planes data driven para provocar comportamientos en las audiencias.'
+    image: img/ponentes_talleres/NagoreDeLosRios
+    image_card: 
+    twitter_account: nagodelos
+    linkedin_account:  
+  - name: 'Águeda Giráldez Fernández'
+    short_name: 'Águeda Giráldez'
+    bio: ''
+    image: img/ponentes_talleres/AguedaGiraldez
+    image_card: 
+    twitter_account: agdagira
+    linkedin_account:  
+  - name: 'Leticia Gracia Grijota y María Gracia Grijota'
+    short_name: 'Leticia y María Gracia'
+    bio: ''
+    image: img/ponentes_talleres/LeticiaMariaGracia
+    image_card: 
+    twitter_account: 
+    linkedin_account:   
+  - name: 'Bea Hernández'
+    short_name: 'Bea Hernández'
+    bio: 'Data Scientist @Olympic Channel donde investigamos las relaciones de audiencias y deportes. ¡Trabajamos con deportes desde la gimnasia rítmica hasta el voléibol de nieve! Co-organizo R-Ladies Madrid por tercer año consecutivo, y parte de la comunidad NASADatanauts.'
+    image: img/ponentes_talleres/BeaHernandez
+    image_card: 
+    twitter_account: chucheria
+    linkedin_account:  
 
 #List for mentors
 mentors:
-  - name: María Jesus Fernández Ruiz
-    bio: 'María Jesús Fernández Ruiz es Jefa de la Oficina de Participación, Transparencia y Gobierno Abierto. Desde su inicio en 1994 se ocupa del desarrollo, dirección y gestión de la Sede Electrónica del Ayuntamiento de Zaragoza y desde 2012 es la responsable de la Plataforma de Gobierno Abierto y de las iniciativas relacionadas con Open Data en el Ayuntamiento de Zaragoza.  <br/>También es responsable de la gestión del Portal Corporativo, así como de la gestión de la información necesaria para dar una respuesta clara y concreta a las demandas que llegan del ciudadano a través del servicio 010. Actualmente también participa de manera activa en la “Comisión Técnica para la Implantación de la Administración Electrónica” en el Excmo Ayuntamiento de Zaragoza. <br/>Ejerce como ponente y formadora y ha participado en diferentes proyectos nacionales y europeos. A lo largo de su carrera ha recibido numerosos reconocimientos por su labor.'
-    image: img/ponentes/MariaJesusFernandez
-    twitter_account: 
-    linkedin_account:
-  - name: Diana Ruiz
-    bio: 'Desde que de adolescente sufriera un derrame cerebral tuvo claro que quería dedicarse a mejorar la calidad de la vida diaria de cualquier tipo de pacientes. Diana Ruiz es ahora doctora en robótica y se ha dedicado a explorar la relación entre el cerebro y coordinación motora con las señales biológicas del cuerpo humano para aplicaciones de sistemas exoesqueléticos y neuroprotésicos.<br/>Ha completado su formación con estancias de investigación en universidades internacionales. Ha estado inmersa en proyectos en el área de neurorehabilitación, lo que le ha permitido trabajar activamente en equipos multidisciplinares y colaborar con Hospitales de referencia.<br/>Actualmente, Diana es COO en Exovite, donde ha encontrado un lugar donde compatibilizar la investigación en señales biomédicas con su otra gran pasión, la de ser madre.'
-    image: img/ponentes/DianaRuiz
-    twitter_account: 
-    linkedin_account:
-  - name: Irene Luzán Gallego
-    bio: 'Irene Luzán (1986, Huesca)<br/>CEO - SHU DIGITAL y Técnico de escáner 3d<br/>Desde pequeña, en contacto directo con el mundo de la escenografía y tematización en la empresa familiar Tecmolde. Hace 15 años, Tecmolde apuesta por la tecnología 3d para desarrollar sus proyectos. Es aquí cuando surge la especialización en escáner 3d. Después de varios años de formación 3d compaginados con el trabajo de tematización en taller, surge la oportunidad de formar Shu Digital y sacar partido a todas las posibilidades que tiene el mundo 3d.'
-    image: img/ponentes/IreneLuzan
-    twitter_account: 
-    linkedin_account: shu-digital-2a0835101
-  - name: Laura Duato Ballesteros
-    bio: 'He estado trabajando con aplicaciones iOS desde que hice mi proyecto final de carrera en 2011 en la universidad.<br/>En el año 2015 participé en el WTM de Granada, donde hablamos acerca de la innovación, el papel de la mujer en el mundo tecnológico y sobre nuestra implicación en los procesos de innovación. Además, impartimos un taller de “design thinking”. <br/>Soy una persona activa y me gusta estar en continuo aprendizaje, por ello hace casi un año, tuve la suerte de poder unir mis dos pasiones, el deporte y la tecnología, y así poder seguir trabajando en el mundo de las aplicaciones en adidas.'
-    image: img/ponentes/LauraDuato
-    twitter_account: 
-    linkedin_account: laura-duato-ballesteros
+  #- name: María Jesus Fernández Ruiz
+  #  bio: 'María Jesús Fernández Ruiz es Jefa de la Oficina de Participación, Transparencia y Gobierno Abierto. Desde su inicio en 1994 se ocupa del desarrollo, dirección y gestión de la Sede Electrónica del Ayuntamiento de Zaragoza y desde 2012 es la responsable de la Plataforma de Gobierno Abierto y de las iniciativas relacionadas con Open Data en el Ayuntamiento de Zaragoza.  <br/>También es responsable de la gestión del Portal Corporativo, así como de la gestión de la información necesaria para dar una respuesta clara y concreta a las demandas que llegan del ciudadano a través del servicio 010. Actualmente también participa de manera activa en la “Comisión Técnica para la Implantación de la Administración Electrónica” en el Excmo Ayuntamiento de Zaragoza. <br/>Ejerce como ponente y formadora y ha participado en diferentes proyectos nacionales y europeos. A lo largo de su carrera ha recibido numerosos reconocimientos por su labor.'
+  #  image: img/ponentes/MariaJesusFernandez
+  #  twitter_account: 
+  #  linkedin_account:
+  #- name: Diana Ruiz
+  #  bio: 'Desde que de adolescente sufriera un derrame cerebral tuvo claro que quería dedicarse a mejorar la calidad de la vida diaria de cualquier tipo de pacientes. Diana Ruiz es ahora doctora en robótica y se ha dedicado a explorar la relación entre el cerebro y coordinación motora con las señales biológicas del cuerpo humano para aplicaciones de sistemas exoesqueléticos y neuroprotésicos.<br/>Ha completado su formación con estancias de investigación en universidades internacionales. Ha estado inmersa en proyectos en el área de neurorehabilitación, lo que le ha permitido trabajar activamente en equipos multidisciplinares y colaborar con Hospitales de referencia.<br/>Actualmente, Diana es COO en Exovite, donde ha encontrado un lugar donde compatibilizar la investigación en señales biomédicas con su otra gran pasión, la de ser madre.'
+  #  image: img/ponentes/DianaRuiz
+  #  twitter_account: 
+  #  linkedin_account:
+  #- name: Irene Luzán Gallego
+  #  bio: 'Irene Luzán (1986, Huesca)<br/>CEO - SHU DIGITAL y Técnico de escáner 3d<br/>Desde pequeña, en contacto directo con el mundo de la escenografía y tematización en la empresa familiar Tecmolde. Hace 15 años, Tecmolde apuesta por la tecnología 3d para desarrollar sus proyectos. Es aquí cuando surge la especialización en escáner 3d. Después de varios años de formación 3d compaginados con el trabajo de tematización en taller, surge la oportunidad de formar Shu Digital y sacar partido a todas las posibilidades que tiene el mundo 3d.'
+  #  image: img/ponentes/IreneLuzan
+  #  twitter_account: 
+  #  linkedin_account: shu-digital-2a0835101
+  #- name: Laura Duato Ballesteros
+  #  bio: 'He estado trabajando con aplicaciones iOS desde que hice mi proyecto final de carrera en 2011 en la universidad.<br/>En el año 2015 participé en el WTM de Granada, donde hablamos acerca de la innovación, el papel de la mujer en el mundo tecnológico y sobre nuestra implicación en los procesos de innovación. Además, impartimos un taller de “design thinking”. <br/>Soy una persona activa y me gusta estar en continuo aprendizaje, por ello hace casi un año, tuve la suerte de poder unir mis dos pasiones, el deporte y la tecnología, y así poder seguir trabajando en el mundo de las aplicaciones en adidas.'
+  #  image: img/ponentes/LauraDuato
+  #  twitter_account: 
+  #  linkedin_account: laura-duato-ballesteros
 
 #List for sponsors
 sponsors_platinum:
@@ -414,6 +470,11 @@ sponsors_silver:
     image: img/patrocinadores/silver/plain_concepts.png
     web: https://www.plainconcepts.com/
     twitter: plainconcepts
+  - name: K-LAGAN
+    text: 
+    image: img/patrocinadores/silver/k-lagan.png
+    web: https://www.k-lagan.com/
+    twitter: KLAGAN_KLG
   #- name: Elastic
   #  text: 
   #  image: img/patrocinadores/silver/elastic.png
