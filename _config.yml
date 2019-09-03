@@ -357,26 +357,114 @@ workshop_speakers:
 
 #List for mentors
 mentors:
-  #- name: María Jesus Fernández Ruiz
-  #  bio: 'María Jesús Fernández Ruiz es Jefa de la Oficina de Participación, Transparencia y Gobierno Abierto. Desde su inicio en 1994 se ocupa del desarrollo, dirección y gestión de la Sede Electrónica del Ayuntamiento de Zaragoza y desde 2012 es la responsable de la Plataforma de Gobierno Abierto y de las iniciativas relacionadas con Open Data en el Ayuntamiento de Zaragoza.  <br/>También es responsable de la gestión del Portal Corporativo, así como de la gestión de la información necesaria para dar una respuesta clara y concreta a las demandas que llegan del ciudadano a través del servicio 010. Actualmente también participa de manera activa en la “Comisión Técnica para la Implantación de la Administración Electrónica” en el Excmo Ayuntamiento de Zaragoza. <br/>Ejerce como ponente y formadora y ha participado en diferentes proyectos nacionales y europeos. A lo largo de su carrera ha recibido numerosos reconocimientos por su labor.'
-  #  image: img/ponentes/MariaJesusFernandez
-  #  twitter_account: 
-  #  linkedin_account:
-  #- name: Diana Ruiz
-  #  bio: 'Desde que de adolescente sufriera un derrame cerebral tuvo claro que quería dedicarse a mejorar la calidad de la vida diaria de cualquier tipo de pacientes. Diana Ruiz es ahora doctora en robótica y se ha dedicado a explorar la relación entre el cerebro y coordinación motora con las señales biológicas del cuerpo humano para aplicaciones de sistemas exoesqueléticos y neuroprotésicos.<br/>Ha completado su formación con estancias de investigación en universidades internacionales. Ha estado inmersa en proyectos en el área de neurorehabilitación, lo que le ha permitido trabajar activamente en equipos multidisciplinares y colaborar con Hospitales de referencia.<br/>Actualmente, Diana es COO en Exovite, donde ha encontrado un lugar donde compatibilizar la investigación en señales biomédicas con su otra gran pasión, la de ser madre.'
-  #  image: img/ponentes/DianaRuiz
-  #  twitter_account: 
-  #  linkedin_account:
-  #- name: Irene Luzán Gallego
-  #  bio: 'Irene Luzán (1986, Huesca)<br/>CEO - SHU DIGITAL y Técnico de escáner 3d<br/>Desde pequeña, en contacto directo con el mundo de la escenografía y tematización en la empresa familiar Tecmolde. Hace 15 años, Tecmolde apuesta por la tecnología 3d para desarrollar sus proyectos. Es aquí cuando surge la especialización en escáner 3d. Después de varios años de formación 3d compaginados con el trabajo de tematización en taller, surge la oportunidad de formar Shu Digital y sacar partido a todas las posibilidades que tiene el mundo 3d.'
-  #  image: img/ponentes/IreneLuzan
-  #  twitter_account: 
-  #  linkedin_account: shu-digital-2a0835101
-  #- name: Laura Duato Ballesteros
-  #  bio: 'He estado trabajando con aplicaciones iOS desde que hice mi proyecto final de carrera en 2011 en la universidad.<br/>En el año 2015 participé en el WTM de Granada, donde hablamos acerca de la innovación, el papel de la mujer en el mundo tecnológico y sobre nuestra implicación en los procesos de innovación. Además, impartimos un taller de “design thinking”. <br/>Soy una persona activa y me gusta estar en continuo aprendizaje, por ello hace casi un año, tuve la suerte de poder unir mis dos pasiones, el deporte y la tecnología, y así poder seguir trabajando en el mundo de las aplicaciones en adidas.'
-  #  image: img/ponentes/LauraDuato
-  #  twitter_account: 
-  #  linkedin_account: laura-duato-ballesteros
+  - name: 'Pilar Barbero'
+    short_name: 'Pilar Barbero'
+    bio: ''
+    image: img/mentoras/PilarBarbero
+    image_card: 
+    twitter_account: yayaqueprograma
+    linkedin_account:
+  - name: 'Sandra Escudero'
+    short_name: 'Sandra Escudero'
+    bio: ''
+    image: img/mentoras/SandraEscudero
+    image_card: 
+    twitter_account: SandraEscS
+    linkedin_account:
+  - name: 'Laura Lacarra'
+    short_name: 'Laura Lacarra'
+    bio: ''
+    image: img/mentoras/LauraLacarra
+    image_card: 
+    twitter_account: LauraLacarra
+    linkedin_account:
+  - name: 'Eva Omedes'
+    short_name: 'Eva Omedes'
+    bio: ''
+    image: img/mentoras/EvaOmedes
+    image_card: 
+    twitter_account: 
+    linkedin_account: eva-omedes-domene-366315128
+  - name: 'Marta Pérez Campos'
+    short_name: 'Marta Pérez'
+    bio: ''
+    image: img/mentoras/MartaPerez
+    image_card: 
+    twitter_account: 
+    linkedin_account:
+  - name: 'Nerea Tamayo'
+    short_name: 'Nerea Tamayo'
+    bio: ''
+    image: img/mentoras/Nerea Tamayo
+    image_card: 
+    twitter_account: 
+    linkedin_account: nerea-tamayo-garcía
+  - name: 'María Villarroya'
+    short_name: 'María Villarroya'
+    bio: ''
+    image: img/mentoras/MaraVillarroya
+    image_card: 
+    twitter_account: mvgaudo
+    linkedin_account:
+
+#List for volunteers
+volunteers:
+  - name: 'Noelia Atarés'
+    short_name: 'Noelia Atarés'
+    bio: ''
+    image: img/voluntarias/NoeliaAtares
+    image_card: 
+    twitter_account: 
+    linkedin_account: 
+  - name: 'Mary Carmen Bozal'
+    short_name: 'Mary Carmen Bozal'
+    bio: ''
+    image: img/voluntarias/NMaryCarmenBozal
+    image_card: 
+    twitter_account: 
+    linkedin_account: 
+  - name: 'Ana Cambra'
+    short_name: 'Ana Cambra'
+    bio: ''
+    image: img/voluntarias/Ana Cambra
+    image_card: 
+    twitter_account: 
+    linkedin_account: 
+  - name: 'Sandra Malpica'
+    short_name: 'Sandra Malpica'
+    bio: ''
+    image: img/voluntarias/SandraMalpica
+    image_card: 
+    twitter_account: 
+    linkedin_account: 
+  - name: 'Carmen Martínez'
+    short_name: 'Carmen Martínes'
+    bio: ''
+    image: img/voluntarias/CarmenMartinez
+    image_card: 
+    twitter_account: 
+    linkedin_account: 
+  - name: 'Rosa Montañes'
+    short_name: 'Rosa Montañes'
+    bio: ''
+    image: img/voluntarias/RosaMontañes
+    image_card: 
+    twitter_account: 
+    linkedin_account: 
+  - name: 'Abril Robles'
+    short_name: 'Abril Robles'
+    bio: ''
+    image: img/voluntarias/AbrilRobles
+    image_card: 
+    twitter_account: 
+    linkedin_account: 
+  - name: 'Cristina Ventura'
+    short_name: 'Cristina Ventura'
+    bio: ''
+    image: img/voluntarias/CristinaVentura
+    image_card: 
+    twitter_account: 
+    linkedin_account:
 
 #List for sponsors
 sponsors_platinum:

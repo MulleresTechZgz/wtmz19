@@ -564,4 +564,142 @@
 <!-- /.container -->
 {% endif %}
 
+{% if site.volunteers %}
+<div class="container">
+    <div class="row text-center">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>Nuestras voluntarias</h2>
+        <hr class="small">
+        <!--
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="lead">¡Proximamente publicaremos las ponentes de las charlas y talleres seleccionados! </p>
+            </div>
+        </div>
+        -->
+        {% for volunteer in site.volunteers %}
+          {% assign image_volunteer = volunteer.image | strip_newlines %}
+          {% assign image_card_volunteer = volunteer.image_card | strip_newlines %}
+          {% assign twitter_volunteer = volunteer.twitter_account | strip_newlines %}
+          {% assign linkedin_volunteer = volunteer.linkedin_account | strip_newlines %}
+          {% assign linkedin_2_volunteer = volunteer.linkedin_account_2 | strip_newlines %}
+          {% assign web_volunteer = volunteer.web | strip_newlines %}
+          {% assign bio_volunteer = volunteer.bio | strip_newlines %}
+        <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="speaker-item">
+                <a href="#" data-toggle="modal" data-target="#volunteer-{{ forloop.index0 }}">
+                    <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+
+                      {% if image_volunteer != ""  %}
+                      <!--<img src="{{ image_volunteer }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_volunteer }}_g.jpg'" onmouseout="this.src='{{ image_volunteer }}_c.jpg'"/>-->
+                      <img src="{{ image_volunteer }}_c.jpg" onerror="this.src='img/voluntarias/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala-color"/>
+                      {% elsif twitter_volunteer != "" %}
+                      <img src="https://avatars.io/twitter/{{ volunteer.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                      {% else %}
+                      <i class="fa fa-user fa-stack-1x text-primary"></i>
+                      {% endif %}
+                    </span>
+                      <h4 style="min-height: 40px !important;">
+                        {{ volunteer.name }}
+                      </h4>
+                      {% if twitter_volunteer != ""  %}
+                      <a href="https://twitter.com/{{ volunteer.twitter_account }}" target="_blank">
+                        <i class="fa fa-twitter fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if linkedin_volunteer != ""  %}
+                      <a href="https://www.linkedin.com/in/{{ volunteer.linkedin_account }}" target="_blank">
+                        <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if linkedin_2_volunteer != ""  %}
+                      <a href="https://www.linkedin.com/in/{{ volunteer.linkedin_account_2 }}" target="_blank">
+                        <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if web_volunteer != ""  %}
+                      <a href="{{ volunteer.web }}" target="_blank">
+                        <i class="fa fa-link fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="volunteer-{{ forloop.index0 }}" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      {% if image_card_volunteer != ""  %}
+                      <div class="modal-body modal-image-card" style="background-image: url({{ image_card_volunteer }}.jpg);">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      {% else  %}
+                      <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <div class="wtm-modal-content-left">
+                            <span class="fa-stack fa-4x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+
+                              {% if image_volunteer != ""  %}
+                              <img src="{{ image_volunteer }}_c.jpg" onerror="this.src='img/voluntarias/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala_color"/>
+                              {% elsif twitter_volunteer != "" %}
+                              <img src="https://avatars.io/twitter/{{ volunteer.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                              {% else %}
+                              <i class="fa fa-user fa-stack-1x text-primary"></i>
+                              {% endif %}
+                            </span>
+                            <h4>{{ volunteer.name }}</h4>
+                              
+                               {% if twitter_volunteer != ""  %}
+                                <a href="https://twitter.com/{{ volunteer.twitter_account }}" target="_blank">
+                                    <i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if linkedin_volunteer != ""  %}
+                                <a href="https://www.linkedin.com/in/{{ volunteer.linkedin_account }}" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if linkedin_2_volunteer != ""  %}
+                                <a href="https://www.linkedin.com/in/{{ volunteer.linkedin_account_2 }}" target="_blank">
+                                    <i class="fa fa-linkedin fa-fw fa-2x"></i>
+                                </a>
+                                {% endif %}
+                                {% if web_volunteer != ""  %}
+                                <a href="{{ volunteer.web }}" target="_blank">
+                                    <i class="fa fa-link fa-fw fa-2x"></i></a>
+                                {% endif %}
+                          </div>
+                          <div class="wtm-modal-content-right text-left">
+                              {% if bio_volunteer != ""  %}
+                                <p>{{ volunteer.bio }}</p>
+                              {% else %}
+                                <p>Más información próximamente</p>
+                              {% endif %}
+                              <div class="visible-xs-block text-center">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+                              </div>
+                            
+                          </div>
+                      </div>
+                      {% endif %}
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        {% endfor %} 
+        
+        
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+<!-- /.container -->
+{% endif %}
+
 </section>
