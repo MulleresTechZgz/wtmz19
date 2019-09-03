@@ -155,14 +155,14 @@ speakers:
   - name: 'María Ballesteros'
     short_name: 'María Ballesteros'
     bio: ''
-    image: img/ponentes_charlas/MariaBallesteros
+    image: img/ponentes/charlas/MariaBallesteros
     image_card: 
     twitter_account: 
     linkedin_account:
   - name: 'Pilar Barbero Iriarte y Laura Fernando López'
     short_name: 'Pilar Barbero y Laura Fernando'
     bio: ''
-    image: img/ponentes_charlas/PilarBarberoLauraFernando
+    image: img/ponentes/charlas/PilarBarberoLauraFernando
     image_card: 
     twitter_account: yayaqueprograma
     twitter_account_2: lafelop
@@ -170,14 +170,14 @@ speakers:
   - name: 'María Berenguer'
     short_name: 'María Berenguer'
     bio: 'Siempre aprendiz, ahora Scrum Máster.<br/>Desde que un día me dijeron: "Tú eres ágil y todavía no lo sabes", invierto mi tiempo en aprender y descubrir qué es.<br/>Llevo 4 años trabajando como Scrum Master con equipos de desarrollo, inspirándoles para descubrir su camino ágil.<br/>Colaboro con comunidades Agile y tecnológicas compartiendo aprendizajes.'
-    image: img/ponentes_charlas/MariaBerenguer
+    image: img/ponentes/charlas/MariaBerenguer
     image_card: 
     twitter_account: merybere
     linkedin_account:
   - name: 'Ana Bernal y Cristina Gimeno'
     short_name: 'Ana Bernal y Cristina Gimeno'
     bio: 'Ana, ingeniera de telecomunicaciones, CCNA y experta en  BIG DATA y Data Science. Llevo gestionado proyectos TI desde hace más de 15 años, antes en el mundo del hardware y en la actualidad en proyectos software de administración electrónica.<br/><br/>Cristina, ingeniera informática, PMP, Scrum Manager, Experta en BIG DATA y Data Science. Desde hace casi 20 años, dedicada a aportar soluciones. Comencé programando, continué gestionando proyectos y hoy analizo soluciones tecnológicas.<br/><br/>Somos dos mujeres que disfrutan con su trabajo, especialistas en la gestión de clientes, apasionadas con el análisis de los datos, que se divierten aprendiendo día a día en el trabajo, con los compañeros, los amigos y sobre todo con nuestras familias.'
-    image: img/ponentes_charlas/AnaBernalCristinaGimeno
+    image: img/ponentes/charlas/AnaBernalCristinaGimeno
     image_card: 
     twitter_account: anabernal1012
     twitter_account_2: criszgz
@@ -185,98 +185,98 @@ speakers:
   - name: 'Vanessa Borobia'
     short_name: 'Vanessa Borobia'
     bio: 'Vanessa Borobia es actualmente la Directora de TI de La Mafia se sienta a la mesa. Diplomada en Estadística, inició su trayectoria profesional en el sector TI,y durante 15 años ha colaborado en distintas consultoras tecnologías. A día de hoy Vanessa, EMBA por ESIC, dirige la estrategia tecnología del grupo LmssLm con más de 40 restaurantes a nivel nacional.'
-    image: img/ponentes_charlas/VanessaBorobia
+    image: img/ponentes/charlas/VanessaBorobia
     image_card: 
     twitter_account: vborobia
     linkedin_account:
   - name: 'Valeria Corrales y Patricia Heredia'
     short_name: 'Valeria Corrales y Patricia Heredia'
     bio: 'Valeria es una niña de 11 años que asiste a clases de robótica, quiere ser ingeniera y fue nombrada Inspiring Girl of the Year en 2018. Patricia es ingeniera de telecomunicaciones y enseña disciplinas STEAM en su propia academia. ValPat es el equipo perfecto para que las niñas y niños descubran que la tecnología también puede ser creativa.'
-    image: img/ponentes_charlas/ValeriaCorralesPatriciaHeredia
+    image: img/ponentes/charlas/ValeriaCorralesPatriciaHeredia
     image_card: 
     twitter_account: ValPatSTEAM
     linkedin_account:
   - name: 'Cristina De Propios Martínez'
     short_name: 'Cristina De Propios'
     bio: 'Doctoranda con tesis en el campo del Arte y la Robótica. Desde hace un año participa en festivales, congresos y ferias de ciencia y tecnología, a la vez que da clases de robótica creativa en institutos y colegios de Madrid. Forma parte de la primera Startup española (Q-Lion) dedicada a la computación cuántica con iones atrapados, bajo el rol de Quantum Creative Engineer. Amante de la ciencia ficción.'
-    image: img/ponentes_charlas/CristinaDePropios
+    image: img/ponentes/charlas/CristinaDePropios
     image_card: 
     twitter_account: de_propios
     linkedin_account:
   - name: 'Cristina Fernández Sanz'
     short_name: 'Cristina Fernández'
     bio: 'Desarrolladora front-end desde hace 5 años, anteriormente era desarrolladora back-end pero el CSS me cautivó. Sigo aprendiendo sobre HTML, CSS y JavaScript, accesibilidad y performance e intento compartirlo a través de twitter, charlas y como mentora en Node Girls y VueVixens Madrid.'
-    image: img/ponentes_charlas/CristinaFernandez
+    image: img/ponentes/charlas/CristinaFernandez
     image_card: 
     twitter_account: cristinafsanz
     linkedin_account:
   - name: 'Mónica Giménez'
     short_name: 'Mónica Giménez'
     bio: ''
-    image: img/ponentes_charlas/MonicaGimenez
+    image: img/ponentes/charlas/MonicaGimenez
     image_card: 
     twitter_account: misstechin
     linkedin_account:
   - name: 'Débora Gómez Bertoli'
     short_name: 'Débora Gómez'
     bio: 'Team & Tech Lead en myToys Group, especializada en el desarrollo de aplicaciones móviles Android, microservicios y despligue de servicios en AWS con Terraform. Alumna y mentora del programa #TechSHEssions, colaboradora en los programas #Adalab y #TechnovationChallenge.'
-    image: img/ponentes_charlas/DeboraGomez
+    image: img/ponentes/charlas/DeboraGomez
     image_card: 
     twitter_account: dgomezdebora
     linkedin_account:
   - name: 'Paula Gracia Andrés'
     short_name: 'Paula Gracia '
     bio: ''
-    image: img/ponentes_charlas/PaulaGracia 
+    image: img/ponentes/charlas/PaulaGracia 
     image_card: 
     twitter_account: CiberEleganzaIP
     linkedin_account:
   - name: 'Julia Guerrero Viu'
     short_name: 'Julia Guerrero'
     bio: ''
-    image: img/ponentes_charlas/JuliaGuerrero
+    image: img/ponentes/charlas/JuliaGuerrero
     image_card: 
     twitter_account: juliagviu
     linkedin_account:
   - name: 'Rowena Hennigan'
     short_name: 'Rowena Hennigan'
     bio: ''
-    image: img/ponentes_charlas/RowenaHennigan
+    image: img/ponentes/charlas/RowenaHennigan
     image_card: 
     twitter_account: 
     linkedin_account:
   - name: 'Silvia Laiglesia Martínez'
     short_name: 'Silvia Laiglesia'
     bio: ''
-    image: img/ponentes_charlas/SilviaLaiglesia
+    image: img/ponentes/charlas/SilviaLaiglesia
     image_card: 
     twitter_account: 
     linkedin_account:
   - name: 'Laura López Navaz'
     short_name: 'Laura López'
     bio: ''
-    image: img/ponentes_charlas/LauraLopez
+    image: img/ponentes/charlas/LauraLopez
     image_card: 
     twitter_account: lauralopeznavaz
     linkedin_account:
   - name: 'Patricia Martínez'
     short_name: 'Patricia Martínez'
     bio: 'Agilista por vocación en busca de la mejora continua<br/>Llevo más de 10 años trabajando en IT, casi la tercera parte dedicados a la adopción de Agile, en particular usando Scrum como framework. Esto significa que me he convertido en el agente del cambio en un departamento de más de 50 personas. Así he aprendido más y más sobre trabajo en equipo y la necesidad de poner el foco en las personas en lugar de en los procesos, ya que esta es la clave del éxito.'
-    image: img/ponentes_charlas/PatriciaMartinez
+    image: img/ponentes/charlas/PatriciaMartinez
     image_card: 
     twitter_account: patururu
     linkedin_account:
   - name: 'Celia Martínez Luengo'
     short_name: 'Celia Martínez'
     bio: 'Programadora, con más de 10 años trabajando en consultoras, actualmente para ViewNext. <br/>He trabajado para diversos sectores, Recursos Humanos, Administración, Utilities, Logística, Banca… Y lo más importante que he aprendido es que todo proyecto es una oportunidad de aprender y el conocimiento nuestra mejor herramienta.'
-    image: img/ponentes_charlas/CeliaMartinez
+    image: img/ponentes/charlas/CeliaMartinez
     image_card: 
     twitter_account: Celta_ML
     linkedin_account:
   - name: 'Sara San Luis Rodríguez y Daniela Solís Morales'
     short_name: 'Sara San Luis y Daniela Solís'
     bio: 'Sara San Luis, apasionada de las ciencias desde pequeña, estudié Matemáticas en la Universidad de Santiago de Compostela, formación que completé con un Máster en Estadística e Investigación Operativa. Este último me permitió adentrarme en el mundo de la IA y del ML, campos en los que trabajo ahora mismo en el equipo de IA de Plain Concepts.<br/><br/>Daniela Solís, software engineer en el equipo de IA de Plain Concepts. Maestra en Inteligencia Artificial de la Universidad de Amsterdam con grado en Ingeniería del Software de la Universidad Politecnica de Madrid. Apasionada de las nuevas tecnologías y del mundo de la Inteligencia Artificial.'
-    image: img/ponentes_charlas/SaraSanLuisDanielaSolis
+    image: img/ponentes/charlas/SaraSanLuisDanielaSolis
     image_card: 
     twitter_account: sara_sanluis
     twitter_account_2: danysolism
@@ -284,21 +284,21 @@ speakers:
   - name: 'Susana Sanmartín Garbayo'
     short_name: 'Susana Sanmartín'
     bio: ''
-    image: img/ponentes_charlas/SusanaSanmartin
+    image: img/ponentes/charlas/SusanaSanmartin
     image_card: 
     twitter_account: susisanseso
     linkedin_account:
   - name: 'Cristina Santamarina'
     short_name: 'Cristina Santamarina'
     bio: 'Antes de trasladarse a Córdoba, Cristina trabajó en multinacionales, startups y ONGs en Madrid, Praga, Berlín y Conakry. Actualmente es cofundadora de The Neon Project, una agencia para la transformación digital de personas, procesos y productos mediante tecnología; especializada en  blockchain, interfaces conversacionales, datos y problemas complejos.'
-    image: img/ponentes_charlas/CristinaSantamarina
+    image: img/ponentes/charlas/CristinaSantamarina
     image_card: 
     twitter_account: crissantamarina
     linkedin_account:
   - name: 'Marina Serrano Montes'
     short_name: 'Marina Serrano'
     bio: ''
-    image: img/ponentes_charlas/MarinaSerrano
+    image: img/ponentes/charlas/MarinaSerrano
     image_card: 
     twitter_account: marinillass
     linkedin_account:
@@ -315,42 +315,42 @@ workshop_speakers:
   - name: 'Beatriz Aguas Luzón, Sheila Blasco Clavero y Clara Cirac Nerín'
     short_name: 'Beatriz Aguas, Sheila Blasco y Clara Cirac'
     bio: ''
-    image: img/ponentes_talleres/BeatrizAguasSheilaBlascoClaraCirac
+    image: img/ponentes/talleres/BeatrizAguasSheilaBlascoClaraCirac
     image_card: 
     twitter_account: Be_Agu
     linkedin_account: 
   - name: 'Ana Cruz Galán, Mercedes Medrano Gil, María Mora Fernández y Raquel Noé Martínez'
     short_name: 'Ana C., Mercedes M., María M. y Raquel N.'
     bio: 'Ana, Ingeniera Informática (pero “normal”). A veces saca tiempo para trabajar integrando datos en keensoft UST Global, pero en realidad dedica su vida a ver perretes y gatos gordos en Instagram.<br/><br/>Mercedes Medrano, Release Lead en keensoft UST Global. Mercedes es Ingeniera Técnica Química Industrial y desde hace 2 años reinventada en el mundo de las IT’s donde ha descubierto lo gratificante que es aportar soluciones a los usuarios finales.<br/><br/>María Mora, Business Analyst para proyectos tecnológicos en keensoft UST Global. María es licenciada en Administración y Dirección de Empresas. Hace 6 años su vida laboral dio un giro radical y acabó en el mundo tecnológico, donde realmente ha encontrado su vocación y su pasión. El sino de su vida: ¡reinventarse o morir!<br/><br/>Raquel es Ingeniera Informática, business process manager en keensoft UST Global y escapista en sus ratos libres. El sector TIC le ha llevado a vivir en Alemania e Inglaterra pero siempre vuelve a casa porque "there’s no place like home"'
-    image: img/ponentes_talleres/AnaCruzMercedesMedranoMariaMoraRaquelNoe
+    image: img/ponentes/talleres/AnaCruzMercedesMedranoMariaMoraRaquelNoe
     image_card: 
     twitter_account: keensoft_es
     linkedin_account:
   - name: 'Nagore de los Ríos'
     short_name: 'Nagore de los Ríos'
     bio: '¡Los datos me dan superpoderes!<br/>Brand manager, investigadora, diseñadora de soluciones. Creo en la transparencia real, en el mundo open y en las ciencias que se apoyan en datos para tomar decisiones inteligentes. Dirijo el Departamento de Marketing y Comunicación de TECH Friendly, coordinando la elaboración de estrategias y planes data driven para provocar comportamientos en las audiencias.'
-    image: img/ponentes_talleres/NagoreDeLosRios
+    image: img/ponentes/talleres/NagoreDeLosRios
     image_card: 
     twitter_account: nagodelos
     linkedin_account:  
   - name: 'Águeda Giráldez Fernández'
     short_name: 'Águeda Giráldez'
     bio: ''
-    image: img/ponentes_talleres/AguedaGiraldez
+    image: img/ponentes/talleres/AguedaGiraldez
     image_card: 
     twitter_account: agdagira
     linkedin_account:  
   - name: 'Leticia Gracia Grijota y María Gracia Grijota'
     short_name: 'Leticia y María Gracia'
     bio: ''
-    image: img/ponentes_talleres/LeticiaMariaGracia
+    image: img/ponentes/talleres/LeticiaMariaGracia
     image_card: 
     twitter_account: 
     linkedin_account:   
   - name: 'Bea Hernández'
     short_name: 'Bea Hernández'
     bio: 'Data Scientist @Olympic Channel donde investigamos las relaciones de audiencias y deportes. ¡Trabajamos con deportes desde la gimnasia rítmica hasta el voléibol de nieve! Co-organizo R-Ladies Madrid por tercer año consecutivo, y parte de la comunidad NASADatanauts.'
-    image: img/ponentes_talleres/BeaHernandez
+    image: img/ponentes/talleres/BeaHernandez
     image_card: 
     twitter_account: chucheria
     linkedin_account:  
