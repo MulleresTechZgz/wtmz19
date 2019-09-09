@@ -240,18 +240,18 @@ speakers:
     linkedin_account:
   - name: 'Rowena Hennigan'
     short_name: 'Rowena Hennigan'
-    bio: ''
+    bio: 'Rowena is an experienced Lecturer, Trainer and Communications Consultant, who uses blended learning techniques and remote communications best practice to deliver excellence. Her ethos is "Work is not a place" and she have thrived working remotely on various projects since 2007.  She currently shares her communication skills, experience and approach while teaching on postgraduate modules to international students. She also works on various freelance projects for international clients.'
     image: img/ponentes/charlas/RowenaHennigan
     image_card: 
     twitter_account: 
-    linkedin_account:
+    linkedin_account: rowena-hennigan
   - name: 'Silvia Laiglesia Martínez'
     short_name: 'Silvia Laiglesia'
-    bio: ''
+    bio: 'Ingeniera informática con amplia experiencia en la gestión de proyectos, coordinación técnica y liderazgo de equipo. Especializada durante varios años en proyectos públicos y privados relacionados con la gestión y publicación de información geográfica, actualmente trabaja como jefa de proyectos en OESIA, abarcando nuevos ámbitos en el sector de la administración electrónica y la gestión medioambiental.'
     image: img/ponentes/charlas/SilviaLaiglesia
     image_card: 
     twitter_account: 
-    linkedin_account:
+    linkedin_account: silvialaiglesiamartinez
   - name: 'Laura López Navaz'
     short_name: 'Laura López'
     bio: ''
@@ -650,157 +650,122 @@ talks_track_1:
     name: REGISTRO
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '09:45-10:30'
     track: all
     name: 'PRESENTACIÓN Staff WTM Zaragoza'
-    #second_name: 'Inauguración: Pilar Alegría, Consejera de Innovación, Investigación y Universidad y <br/> Elena Giner, Consejera de Participación, Transparencia y Gobierno Abierto'
-    second_name: 'Inauguración: Elena Giner (Ayuntamiento de Zaragoza) y Pilar Alegría (Gobierno de Aragón)'
+    second_name: 'Inauguración: '
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '10:30-10:55'
     track: 1
-    name: 'Lo que nos hace humanos'
-    descrip: 'Con los avances en inteligencia artificial y robótica muchos se preguntan ¿nos van a sustituir las máquinas? En 20 minutos hablaré de las dos habilidades más complejas de replicar en cualquier sistema autónomo: la inferencia de conocimiento y la creatividad. Será una charla divulgativa sobre el estado del arte de la IA y la robótica a través del dilema de construir los sistemas autónomos para parecerse (o no) a los humanos.'
-    speaker: 'Nerea Luis Mingueza'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '11:00-11:25'
     track: 1
-    name: 'Gestión TI en el Gobierno de Aragón: ¿y si te llaman 55.000 usuarios?'
-    descrip: 'Aragonesa de Servicios Telemáticos, AST, es la entidad pública del Gobierno de Aragón responsable de las tecnologías de la información y las telecomunicaciones. <br/>AST gestiona las infraestructuras, sistemas, aplicaciones y servicios TI de la administración autonómica aragonesa siendo una referencia por su volumetría y criticidad.<br/>En esta charla podrás conocer qué es ITSM, cómo gestiona AST sus servicios TI, cuáles son sus mejores prácticas, cómo es un día normal y cómo se gestiona una crisis que puede afectar a miles de usuarios.'
-    speaker: 'Mayte Ortín'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '11:30-11:55'
     track: 1
-    name: '¡¡Tú tienes el PAGÜER!!'
-    descrip: 'En esta charla Cristina nos hablará de los diferentes niveles del lenguaje y de cómo intervienen en la persuasión. Lo hará con ejemplos y con ejercicios que puedes comenzar a usar para sacar el máximo partido a tu día a día.'
-    speaker: 'Cristina Aranda'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '12:00-12:25'
     track: all
     name: DESCANSO CAFÉ
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '12:30-12:55'
     track: 1
-    name: 'G2P: Enseñando a programar con 10 años'
-    descrip: 'Hemos desarrollado una app con la que acercar la programación a muchas niñas y niños. Preparamos una campaña de marketing para llegar a unas docenas de personas y, con esto nos pasaron un montón de cosas que ni imaginábamos: a través de Twitter, nos conocieron miles de personas, nos apoyaron políticos y periodistas muy importantes en España, nos entrevistaron de un montón de medios, nos invitaron a empresas muy importantes en tecnología, … ¡nos hemos hecho famosas! Pero, lo más importante, es que hemos aprendido que podemos hacer cosas impresionantes, que podemos ayudar a mucha gente y que, podemos cambiar el mundo. Y si nosotras podemos hacerlo, ¡cualquier niña puede!'
-    speaker: 'Girls To Program'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '13:00-13:25'
     track: 1
-    rowspan: '2'
-    name: 'Innovación, tecnología, negocio y género'
-    descrip: ''
-    speaker: 'Patrocinadores Platinum'
-    bio_speaker: 
-    twitter_speaker: 
+    #rowspan: '2'
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '13:30-13:55'
     track: 1
-    rowspan: '0'
+    #rowspan: '0'
     name: '-'
-    descrip: ''
+    descrip: '-'
     speaker: '-'
-    bio_speaker: 
-    twitter_speaker: 
     url_youtube: 
   - time: '13:55-14:00'
     track: all
     name: Fotografía de grupo (Track 1)
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '14:00-15:55'
     track: all
     name: COMIDA
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '16:00-16:25'
     track: 1
-    name: 'La era del <i>Big Data</i> en el deporte'
-    descrip: 'En los últimos años, los datos se han convertido en parte fundamental de las actividades deportivas y el ‘big data’ ya está avanzando con fuerza para cambiar el mundo. Datos para preparar la estrategia de cada partido, toma de decisiones, prevención de lesiones...'
-    speaker: 'Sandra Escudero Sánchez'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-' 
     url_youtube: 
   - time: '16:30-16:55'
     track: 1
-    name: 'No me toques las webs que me conozco - <i>Legal, Security & Compliance web</i>'
-    descrip: ''
-    speaker: 'Susana González Ruisanchez'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '17:00-17:25'
     track: all
     name: 'DESCANSO CAFÉ'
-    descrip: '-'
-    speaker: '-'
-    bio_speaker: 
-    twitter_speaker: 
-    url_youtube: 
+    descrip: 
+    speaker: 
   - time: '17:30-17:55'
     track: 1
-    name: 'Paciente 6.000.001 del síndrome del impostor'
-    descrip: '"He sacado buena nota por suerte", "no tengo nada de que hablar en un evento", "no voy a echar a este puesto de trabajo porque no me van a coger", "me van a echar de mi trabajo porque no soy buena".  ¿Os suenas estas frases? ¡Si solo se quedara en estas frases! Seguido de estas frases van problemas de autoestima, ansiedad o depresión. El síndrome del impostor es una patología que lo sufren muchas personas que ni si quiera lo saben y deriva en una serie de problemas que nos entorpece nuestra salud, nuestra progresión laboral y nuestra vida. El estudio de este síndrome me ha sorprendido, desde cómo detectaron el síndrome, desde sus descubridoras, de por qué viene y los problemas que acarrea. Me gustaría contaros la historia que hay detrás y cómo dar cara a nuestro peor enemigo: el síndrome del impostor.'
-    speaker: 'Laura Lacarra'
-    bio_speaker: ''
-    twitter_speaker: 
-    url_youtube: q0GqEHjrP5g
+    name: '-'
+    descrip: '-'
+    speaker: '-' 
+    url_youtube: 
   - time: '18:00-18:25'
     track: 1
-    name: '<i>.Net Core</i> y <i>Aurelia.Js Challenge accepted</i>!'
-    descrip: 'En esta charla trataré de resumir cómo afronte un reto personal que me propuse este verano: descubrir que ventajas aportaba .Net Core y ver si realmente Aurelia.Js podía ser una alternativa a otros frameworks front. Contaré como lo planteé y lo estructuré, que recursos utilicé, dónde buscar información si os interesa y también que problemas tuve en el proceso. Porque las cosas no suelen salir bien a la primera! Y además detallaré que aporta .Net Core y que ventajas tiene Aurelia.Js'
-    speaker: 'Azahara Fernández Guizán'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '18:30-18:55'
     track: 1
-    name: 'Retrospectivas, unas veces van en bici, otras veces huelen bien'
-    descrip: 'Mejorar, experimentar, aprender de los errores, y de los éxitos. ¿Quién no querría? Los equipos que trabajan en un proyecto, sea de desarrollo o no, deben buscar la mejora continua no sólo en sus habilidades técnicas, también en sus procesos, formas de comunicación, auto-organización, y cualquier cosa que les haga ser mejores juntos.<br/>Un equipo puede hacer una Retrospectiva sin necesidad de un Scrum Master o facilitador especializado. Dedicar un tiempo periódicamente a esto es independiente de Agile, Scrum, Lean u otras palabras tan de moda últimamente. Contaré algunos trucos y guías para tener Retrospectivas productivas'
-    speaker: 'María Berenguer'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
   - time: '19:00-19:45'
     track: all
     name: 'CIERRE Staff WTM Zaragoza'
     #second_name: 'Clausura: Elena Giner, Consejera de Participación, Transparencia y Gobierno Abierto'
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '19:45-20:00'
     track: all
     name: Fotografía de grupo (Track 1)
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '20:00-22:00'  
     track: all
     name: 'DJ, NETWORKING Y CENA'
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
+
+  #- time: '-'
+  #  track: -
+  #  name: 'Yo para ser feliz quiero un Blockchain'
+  #  descrip: 'El Blockchain es una de las tendencias tecnológicas que más en auge se encuentra. No solo se trata de una tecnología estratégica a día de hoy, sino que, según indican varios estudios, entre los años 2020 y 2025 se producirá una plena implementación de esta tecnología en todos los ámbitos de la vida, produciéndose por tanto un claro un impacto social. <br/>Como consecuencia a la inminente y supuesta “revolución Blockchain” que nos depara este futuro cercano, la charla está orientada a ofrecer una aproximación a este concepto desde un punto de vista no puramente técnico, estableciendo un acercamiento a esta tecnología que sea asequible para un público diverso, explicando el porqué del actual auge tecnológico, los posibles campos de aplicación (más allá de las criptomonedas) y en qué contextos se está aplicando y cómo está funcionando.<br/>Se trata por lo tanto de una charla que nos permitirá poder entender el motivo real del por qué se está hablando tanto de Blockchain y si realmente es y será útil en nuestra vida.'
+  #  speaker: 'Silvia Laiglesia Martínez'
+  #  url_youtube: 
 
 talks_track_2: 
   - time: '09:00-09:45'
@@ -808,151 +773,112 @@ talks_track_2:
     name: REGISTRO
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '09:45-10:30'
     track: all
     name: 'PRESENTACIÓN '
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '10:30-10:55'
     track: 2
-    name: 'Buenas prácticas en redes sociales y reputación digital'
-    descrip: 'Charla dedicada al Análisis de la Identidad Digital y a la Gestión de la Reputación Online. Incluye prácticas orientadas a la optimización de perfiles y el buen uso de Internet.'
-    speaker: 'Laura López Navaz'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '11:00-11:25'
     track: 2
-    name: 'Las matemáticas que no sabías que sabías'
-    descrip: 'Aplicaciones de la matemática teórica en el día a día. Las matemáticas tienen numerosas aplicaciones específicas y reales en nuestra vida cotidiana, permitiendo establecer un modelo de lo real. Si pensaste alguna vez que las clases de matemáticas no servían para nada, te equivocabas!'
-    speaker: 'Alba Pardo Ortiz'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '11:30-11:55'
     track: 2
-    name: 'Digitalización del sector de la construcción, arquitectura e ingeniería'
-    descrip: 'En esta charla pretendemos explicar como el uso de softwares en conjunto con la metodología BIM han revolucionado el sector de la construcción, arquitectura e ingeniería.<br/>Pretendemos explicar para todo el público como usar herramientas digitales para modelar, maquetar y analizar información.'
-    speaker: 'Andrea Gracia García y Eva Omedes Domene'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '12:00-12:25'
     track: all
     name: DESCANSO CAFÉ
     descrip: 
-    speaker: 
-    bio_speaker: 
-    twitter_speaker: 
+    speaker:  
   - time: '12:30-12:55'
     track: 2
-    name: '<i>Women in XR: VR / AR / MR</i> - Una nueva realidad'
-    descrip: 'Las tecnologías inmersivas (realidad virtual, aumentada y mixta, conglomeradas como xR) han abierto una nueva realidad ante nosotros, ¿pero qué oportunidades ofrece, qué perfiles hay, qué hay que aprender? ¿Es un mundo al que las mujeres podamos entrar? ¿De qué forma?  <br/>Hablaremos de todas estas cuestiones a través de la historia personal de un viaje dentro de la tecnología que buscaba con anhelo ser parte de la industria y convertirla en su nueva realidad.'
-    speaker: 'Verónica Rodríguez Pérez'
-    bio_speaker: 
-    twitter_speaker: 
-    url_youtube: Fv81fHornQA
+    name: '-'
+    descrip: '-'
+    speaker: '-'
+    url_youtube: 
   - time: '13:00-13:25'
     track: 2
-    name: '"El derecho a soñar", un documental sobre hacker y comunidades indígenas'
-    descrip: ''
-    speaker: 'Keka Lopez'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '13:30-13:55'
     track: 2
-    name: '<i>Perfect match</i>: colaboración entre plataforma y mobile'
-    descrip: ''
-    speaker: 'Susana Luna y Nerea Tamayo'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube: 
   - time: '15:55-14:00'
     track: all
     name: Foto de grupo
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '14:00-15:55'
     track: all
     name: COMIDA
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '16:00-16:25'
     track: 2
-    name: 'Baby boomers y el uso de chatbots'
-    descrip: 'Un chatbot o asistente conversacional no es más que un software que es capaz de mantener un diálogo mediante lenguaje natural imitando una conversación humana. <br/No olvidemos que un chatbot puede ser por texto o voz y según algunos estudios en 2020, los chatbots se convertirán en la principal fuente de obtención de información sobre los consumidores y operarán en más del 85% de los centros de atención al cliente. Y es más, los Baby Boomers son un 24% más receptivos que los Millennials y verían un mayor beneficio de los chatbots en la mitad de los casos estudiados. No hay que olvidar que la mitad de los mayores de 64 a 72 años (baby boomers) usa el móvil en su vida cotidiana pero se pierden navegando por Internet. <br/>El impacto social de los asistentes conversacionales para derribar la brecha digital puede convertirse en uno de los mayores hitos que la tecnología puede alcanzar en las próximas décadas. Las llamadas #seniortech pueden suponer un cambio fundamental en el desarrollo de la calidad de vida de las personas mayores y los chatbots, como tecnología accesible y sencilla, pueden abanderar este cambio.<br/>Son múltiples los casos de uso de esta tecnología: en el sector salud, por ejemplo, con asistentes virtuales que respondan a dudas básicas y sencillas de forma más controlada y precisa que el Doctor Google o permitan hacer un seguimiento de tratamientos, incluso solicitar citas con su médico habitual; en el sector turismo, creando experiencias personalizadas a través de un interfaz sencillo; en el sector ecommerce, donde los usuarios son reticentes al uso de apps de marcas; en el sector de los medios de comunicación con divulgación de contenidos mediante suscripción;…. donde la imaginación nos lleve. Sólo hay que pensar en que estamos ante una tecnología que todo el mundo ya sabe manejar, sin ruido que dificulte la comunicación y que, bien desarrollada y con ayuda de inteligencia artificial, puede ayudar a una parte de nuestra población a disfrutar de las ventajas de estar hiperconectados.'
-    speaker: 'Sonsoles Valero'
-    bio_speaker: 
-    twitter_speaker: 
-    url_youtube: TNXyUV1X6yE
+    name: '-'
+    descrip: '-'
+    speaker: '-'
+    url_youtube: 
   - time: '16:30-16:55'
     track: 2
-    name: '¿Por qué mi abuela sabe usar WhatsApp y no la aplicación del banco?'
-    descrip: 'Al crear cualquier producto digital tenemos que entender a nuestros usuarios y conectar con sus emociones. En esta charla explicaré cómo funcionan las emociones desde un punto de vista neurologico y cómo podemos tomar ventaja de todo ese conocimiento para crear mejores productos.'
-    speaker: 'María Fernández Rodríguez'
-    bio_speaker: 
-    twitter_speaker: 
-    url_youtube: NQPA2rTQi94
+    name: '-'
+    descrip: '-'
+    speaker: '-'
+    url_youtube: 
   - time: '17:00-17:25'
     track: all
     name: 'DESCANSO CAFÉ'
     descrip: '-'
     speaker: '-'
-    bio_speaker: 
-    twitter_speaker: 
-    url_youtube: 
   - time: '17:30-17:55'
     track: 2
-    name: '¿Qué sabe Google de mí?'
-    descrip: 'Análisis de las vulnerabilidades a las que estamos expuestos como usuarios de redes sociales e internet en general.'
-    speaker: 'Pilar Barbero Iriarte y Laura Fernando López'
-    bio_speaker: 
-    twitter_speaker:
+    name: '-'
+    descrip: '-'
+    speaker: '-'
+    url_youtube:  
   - time: '18:00-18:25'
     track: 2
-    name: 'Experiencias realizando mi primer videojuego'
-    descrip: 'Hace ya algún tiempo que me apetecía empezar un proyecto nuevo, y por fin he sacado el tiempo: aprender a hacer un pequeño videojuego y adentrarme en este mundo, del cual formo parte desde bien pequeña pero como jugadora, no como desarrolladora.<br/>En esta charla explicaré mis experiencias y pasos realizados para empezar a desarrollar mi primer videojuego con la plataforma Unity. Se plantearán los retos a afrontar y conceptos básicos a tener en cuenta para que toda persona que quiera empezar un proyecto así, se anime a hacerlo. Y si da tiempo, incluso podremos ver el resultado. '
-    speaker: 'Vanessa Galcerà Reales'
-    bio_speaker: 
-    twitter_speaker: 
+    name: '-'
+    descrip: '-'
+    speaker: '-'
     url_youtube:  
   - time: '18:30-18:55'
     track: 2
-    name: 'AR: desde la tecnología a la calidad de contenidos'
-    descrip: 'Cada día aparecen más dispositivos hardware y plataformas software para crear proyectos de realidad aumentada, virtual y mixta. Estamos experimentando un cambio espectacular en la industria entonces, es un buen momento para desarrollar con esta tecnología, ¿no?<br/>Esta conferencia explora diferentes plataformas y herramientas para crear aplicaciones de realidad aumentada. Además quiere concienciar de la importancia de realizarlo desde un punto de vista de experiencia de usuario, poniendo como foco a las personas, y en la importancia de los contenidos.'
-    speaker: 'Cynthia Gálvez López'
-    bio_speaker: 
-    twitter_speaker:   
+    name: '-'
+    descrip: '-'
+    speaker: '-'
+    url_youtube:    
   - time: '19:00-19:45'
     track: all
     name: 'CIERRE'
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '19:45-20:00'
     track: all
     name: 'Foto de grupo'
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
   - time: '20:00-22:00'  
     track: all
     name: 'DJ, NETWORKING Y CENA'
     descrip: 
     speaker: 
-    bio_speaker: 
-    twitter_speaker: 
 
 workshops_track_1: 
   - time: '09:00-09:45'
@@ -962,8 +888,6 @@ workshops_track_1:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
   - time: '09:45-10:30'
     time_start: '09:45'
     track: all
@@ -971,17 +895,13 @@ workshops_track_1:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
   - time: '10:30-12:00'
     time_start: '10:30'
     track: workshop
-    name: 'Taller Iniciación a la Programación'
-    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>Entre 5 y 12 años <br/><br/>En este taller de 14 alumnos, aprenderemos muchísimo de tecnología, robot y videojuegos jugando! Lo primero que entenderemos cual es el trabajo de una informática. ¡Las informáticas hacemos cosas para el móvil! ¿Qué se puede hacer con un móvil? Luego jugaremos a ser robots! ¿Cómo movemos un robot por el aula? Y por último… Haremos nuestro primer video juego con la web una hora de código. ¡Será súper divertido!'
-    speaker: 'Alexandra Carramiñana, Vanessa Cazzola, Begoña Cuello y Elena Montañés'
+    name: '-'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>Entre 5 y 12 años <br/><br/>-'
+    speaker: '-'
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
     url_youtube: 
   - time: '12:00-12:25'
     time_start: '12:00'
@@ -989,18 +909,14 @@ workshops_track_1:
     name: DESCANSO CAFÉ
     descrip: 
     speaker: 
-    duration: 1
-    bio_speaker: 
-    twitter_speaker: 
+    duration: 1 
   - time: '12:30-13:55'
     time_start: '12:30'
     track: workshop
     name: 
     descrip: 
     speaker: 
-    duration: 1
-    bio_speaker: 
-    twitter_speaker: 
+    duration: 1 
     url_youtube: 
   - time: '13:55-14:00'
     time_start: '13:55'
@@ -1008,9 +924,7 @@ workshops_track_1:
     name: Fotografía de grupo (Auditorio)
     descrip: 
     speaker: 
-    duration: 1
-    bio_speaker: 
-    twitter_speaker: 
+    duration: 1 
   - time: '14:00-15:55'
     time_start: '14:00'
     track: all
@@ -1018,8 +932,6 @@ workshops_track_1:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
   - time: '16:00-16:55'
     time_start: '16:00'
     track: workshop
@@ -1027,8 +939,6 @@ workshops_track_1:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
     url_youtube: 
   - time: '17:00-17:25'
     time_start: '17:00'
@@ -1037,9 +947,6 @@ workshops_track_1:
     descrip: '-'
     speaker: '-'
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
-    url_youtube: 
   - time: '17:30-18:55'
     time_start: '17:30'
     track: workshop
@@ -1048,7 +955,7 @@ workshops_track_1:
     speaker: 
     duration: 1
     bio_speaker: ''
-    twitter_speaker: 
+    url_youtube:  
   - time: '19:00-19:45'
     time_start: '19:00'
     track: all
@@ -1056,8 +963,6 @@ workshops_track_1:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
   - time: '19:45-20:00'
     time_start: '19:45'
     track: all
@@ -1065,8 +970,6 @@ workshops_track_1:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
   - time: '20:00-22:00' 
     time_start: '20:00' 
     track: all
@@ -1074,8 +977,6 @@ workshops_track_1:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
 
 workshops_track_2: 
   - time: '09:00-09:45'
@@ -1084,27 +985,21 @@ workshops_track_2:
     name: REGISTRO
     descrip: 
     speaker: 
-    duration: 1
-    bio_speaker: 
-    twitter_speaker: 
+    duration: 1 
   - time: '09:45-10:30'
     time_start: '09:45'
     track: all
     name: 'PRESENTACIÓN (Auditorio)'
     descrip: 
     speaker: 
-    duration: 1
-    bio_speaker: 
-    twitter_speaker: 
+    duration: 1 
   - time: '10:30-12:00'
     time_start: '10:30'
     track: workshop
-    name: 'Taller de libretas para ideas brillantes'
-    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>A partir de 8 años <br/><br/>Conocemos las diferentes formas tradicionales de encuadernación ¡y fabricamos nuestra propia libreta de ideas! La decoramos y luego aprendemos cómo funciona un circuito básico para aplicarlo en ella de forma creativa, integrándolo en el diseño. Le ponemos una luz, una pila, y un circuito con tinta conductora para que cuando la cerremos, ¡nuestras ideas brillen de verdad! Una libreta 100% handmade que nos servirá para guardar en ella nuestras ideas más brillantes.'
-    speaker: 'África Sanjuán Duarte'
+    name: '-'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>A partir de 8 años <br/><br/>-'
+    speaker: '-'
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
     url_youtube: 
   - time: '12:00-12:25'
     time_start: '12:00'
@@ -1112,18 +1007,14 @@ workshops_track_2:
     name: DESCANSO CAFÉ
     descrip: 
     speaker: 
-    duration: 1
-    bio_speaker: 
-    twitter_speaker: 
+    duration: 1 
   - time: '12:30-13:55'
     time_start: '12:30'
     track: workshop
-    name: 'Taller infantil de Inteligencia Emocional'
-    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>Entre 5 y 9 años <br/><br/>Desarrollar la IE a través del juego. Aprender a identificar, nombrar, expresar y gestionar las emociones de forma saludable para uno mismo y para los demás'
-    speaker: 'Anita de Arbués'
+    name: '-'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>Entre 5 y 9 años <br/><br/>-'
+    speaker: '-'
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
     url_youtube: 
   - time: '13:55-14:00'
     time_start: '13:55'
@@ -1132,8 +1023,6 @@ workshops_track_2:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
   - time: '14:00-15:55'
     time_start: '14:00'
     track: all
@@ -1141,8 +1030,6 @@ workshops_track_2:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
   - time: '16:00-16:55'
     time_start: '16:00'
     track: workshop
@@ -1150,8 +1037,6 @@ workshops_track_2:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
     url_youtube: 
   - time: '17:00-17:25'
     time_start: '17:00'
@@ -1160,8 +1045,6 @@ workshops_track_2:
     descrip: '-'
     speaker: '-'
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
     url_youtube: 
   - time: '17:30-18:55'
     time_start: '17:30'
@@ -1170,8 +1053,6 @@ workshops_track_2:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: ''
-    twitter_speaker: 
   - time: '19:00-19:45'
     time_start: '19:00'
     track: all
@@ -1179,8 +1060,6 @@ workshops_track_2:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
   - time: '19:45-20:00'
     time_start: '19:45'
     track: all
@@ -1188,8 +1067,6 @@ workshops_track_2:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
   - time: '20:00-22:00' 
     time_start: '20:00' 
     track: all
@@ -1197,5 +1074,3 @@ workshops_track_2:
     descrip: 
     speaker: 
     duration: 1
-    bio_speaker: 
-    twitter_speaker: 
