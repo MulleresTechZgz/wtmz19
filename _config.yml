@@ -498,11 +498,11 @@ sponsors_platinum:
     image: img/patrocinadores/platinum/esPublico.jpg
     web: https://espublico.tech/
     twitter: TEspublico
-  - name: Vueling
-    text: 
-    image: img/patrocinadores/platinum/vueling.png
-    web: https://www.vueling.com/es
-    twitter: vueling
+  #- name: Vueling
+  #  text: 
+  #  image: img/patrocinadores/platinum/vueling.png
+  #  web: https://www.vueling.com/es
+  #  twitter: vueling
   #- name: Adidas
   #  text: 
   #  image: img/patrocinadores/platinum/adidas.png
@@ -606,11 +606,11 @@ sponsors_silver:
     
 
 sponsors_others:
-  - name: Eboca
-    text: 
-    image: img/patrocinadores/colaboradores/eboca.png
-    web: https://www.eboca.com/
-    twitter: EbocaVending
+  #- name: Eboca
+  #  text: 
+  #  image: img/patrocinadores/colaboradores/eboca.png
+  #  web: https://www.eboca.com/
+  #  twitter: EbocaVending
   #- name: Ambar
   #  text: 
   #  image: img/patrocinadores/colaboradores/ambar.png
