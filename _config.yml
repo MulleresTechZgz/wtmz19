@@ -498,6 +498,11 @@ sponsors_platinum:
     image: img/patrocinadores/platinum/esPublico.jpg
     web: https://espublico.tech/
     twitter: TEspublico
+  - name: Vueling
+    text: 
+    image: img/patrocinadores/platinum/vueling.png
+    web: https://www.vueling.com/es
+    twitter: vueling
   #- name: Adidas
   #  text: 
   #  image: img/patrocinadores/platinum/adidas.png
@@ -541,11 +546,6 @@ sponsors_gold:
   #  image: img/patrocinadores/gold/gdgzaragoza.png
   #  web: 
   #  twitter: GDGZaragoza
-  #- name: Vueling
-  #  text: 
-  #  image: img/patrocinadores/gold/vueling.png
-  #  web: https://www.vueling.com/es
-  #  twitter: vueling
 
 sponsors_silver:
   - name: GeoSLab
@@ -606,6 +606,11 @@ sponsors_silver:
     
 
 sponsors_others:
+  - name: Eboca
+    text: 
+    image: img/patrocinadores/colaboradores/eboca.png
+    web: https://www.eboca.com/
+    twitter: EbocaVending
   #- name: Ambar
   #  text: 
   #  image: img/patrocinadores/colaboradores/ambar.png
@@ -616,11 +621,6 @@ sponsors_others:
   #  image: img/patrocinadores/colaboradores/donuts.png
   #  web: http://donuts.es/
   #  twitter: Donuts_es
-  #- name: Eboca
-  #  text: 
-  #  image: img/patrocinadores/colaboradores/eboca.png
-  #  web: https://www.eboca.com/
-  #  twitter: EbocaVending
   #- name: Eventbrite
   #  text: 
   #  image: img/patrocinadores/colaboradores/eventbrite.png
