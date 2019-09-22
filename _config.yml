@@ -161,7 +161,7 @@ speakers:
     linkedin_account:
   - name: 'Pilar Barbero Iriarte y Laura Fernando López'
     short_name: 'Pilar Barbero y Laura Fernando'
-    bio: ''
+    bio: 'Laura trabaja en el Ayuntamiento de Zaragoza como analista. Pilar trabaja como desarrolladora en Vueling. Pilar necesitaba un referente en el mundo de la tecnología y Laura necesitaba volver a sus orígenes más técnicos. ¿A qué nuevos desafíos se enfrentarán en el mundo techie? ¡Ven a nuestra charla y conócenos!'
     image: img/ponentes/charlas/PilarBarberoLauraFernando
     image_card: 
     twitter_account: yayaqueprograma
@@ -225,15 +225,15 @@ speakers:
     twitter_account: dgomezdebora
     linkedin_account:
   - name: 'Paula Gracia Andrés'
-    short_name: 'Paula Gracia '
-    bio: ''
+    short_name: 'Paula Gracia'
+    bio: 'Mi experiencia profesional es amplia y transversal, partiendo de RRHH en diferentes áreas. Comprometida con la alfabetización digital, educo en competencias tecnológicas a través de estrategias psicopedagógicas. Colaboro con empresas y entidades del sector audiovisual. Soy mentora en un programa que une tecnología y emprendeduría.'
     image: img/ponentes/charlas/PaulaGracia 
     image_card: 
     twitter_account: CiberEleganzaIP
     linkedin_account:
   - name: 'Julia Guerrero Viu'
     short_name: 'Julia Guerrero'
-    bio: ''
+    bio: '22 años. Recién graduada en Ingeniería Informática en Zaragoza y estudiante de máster en Freiburg. Especialmente interesada en temas de inteligencia artificial, visión por computador e informática gráfica. Me apasiona lo que estudio, y disfruto compartiéndolo con l@s demás. Orgullosa de ser una de las Google Women Techmakers Scholars de este 2019.'
     image: img/ponentes/charlas/JuliaGuerrero
     image_card: 
     twitter_account: juliagviu
@@ -254,7 +254,7 @@ speakers:
     linkedin_account: silvialaiglesiamartinez
   - name: 'Laura López Navaz'
     short_name: 'Laura López'
-    bio: ''
+    bio: 'Consultora de SEO y Reputación Online freelance. Trabajo en Comercio y Marketing y en proyectos de Posicionamiento Web. Ayudo a profesionales y empresas a ganar visibilidad y mejorar su presencia online. En 2019 fui incluida en una lista de mujeres SEO de España, lo que me motivó más todavía a especializarme en SEO Estratégico.'
     image: img/ponentes/charlas/LauraLopez
     image_card: 
     twitter_account: lauralopeznavaz
@@ -302,6 +302,13 @@ speakers:
     image_card: 
     twitter_account: marinillass
     linkedin_account:
+  - name: 'Ana Serrano Pacheco'
+    short_name: 'Ana Serrano'
+    bio: 'Ana es investigadora postdoctoral en el Graphics and Imaging Lab de la U. de Zaragoza. Su investigación se centra en estudiar la atención en entornos de Realidad Virtual. Ha sido galardonada con una Adobe Research Fellowship, y una Nvidia Graduate Fellowship. Ha sido ganadora de los premios Tercer Milenio en la categoría joven talento investigador, y finalista en los premios Aragonés del año.'
+    image: img/ponentes/charlas/AnaSerrano
+    image_card: 
+    twitter_account: miriel852
+    linkedin_account:
   #- name: ''
   #  short_name: ''
   #  bio: ''
@@ -314,11 +321,12 @@ speakers:
 workshop_speakers:
   - name: 'Beatriz Aguas Luzón, Sheila Blasco Clavero y Clara Cirac Nerín'
     short_name: 'Beatriz Aguas, Sheila Blasco y Clara Cirac'
-    bio: ''
+    bio: 'Clara y Bea se conocieron estudiando ingeniería informática hace 10 años y ahí vieron que no solo tenían en común los rizos. Con Sheila, pese a estudiar en la misma universidad, pero Ingeniería electrónica, hubo que esperar unos años para que las tres se conocieran. Desde hace tres años trabajan juntas en Deloitte. Dos javosas y una nettera, dos informáticas y una electrónica… Diferentes, pero con una misma pasión, ¿Qué puede salir mal?'
     image: img/ponentes/talleres/BeatrizAguasSheilaBlascoClaraCirac
     image_card: 
     twitter_account: Be_Agu
-    linkedin_account: 
+    linkedin_account: sheila-blasco-6aa97011b
+    linkedin_account_2: clara-cirac-nerín-917541101
   - name: 'Ana Cruz Galán, Mercedes Medrano Gil, María Mora Fernández y Raquel Noé Martínez'
     short_name: 'Ana C., Mercedes M., María M. y Raquel N.'
     bio: 'Ana, Ingeniera Informática (pero “normal”). A veces saca tiempo para trabajar integrando datos en keensoft UST Global, pero en realidad dedica su vida a ver perretes y gatos gordos en Instagram.<br/><br/>Mercedes Medrano, Release Lead en keensoft UST Global. Mercedes es Ingeniera Técnica Química Industrial y desde hace 2 años reinventada en el mundo de las IT’s donde ha descubierto lo gratificante que es aportar soluciones a los usuarios finales.<br/><br/>María Mora, Business Analyst para proyectos tecnológicos en keensoft UST Global. María es licenciada en Administración y Dirección de Empresas. Hace 6 años su vida laboral dio un giro radical y acabó en el mundo tecnológico, donde realmente ha encontrado su vocación y su pasión. El sino de su vida: ¡reinventarse o morir!<br/><br/>Raquel es Ingeniera Informática, business process manager en keensoft UST Global y escapista en sus ratos libres. El sector TIC le ha llevado a vivir en Alemania e Inglaterra pero siempre vuelve a casa porque "there’s no place like home"'
@@ -333,20 +341,22 @@ workshop_speakers:
     image_card: 
     twitter_account: nagodelos
     linkedin_account:  
-  - name: 'Águeda Giráldez Fernández'
-    short_name: 'Águeda Giráldez'
-    bio: ''
-    image: img/ponentes/talleres/AguedaGiraldez
+  - name: 'Cuentacientíficas: Águeda Giráldez, Beatriz Entralgo y Vanessa Cañadas'
+    short_name: 'Cuentacientíficas'
+    bio: 'Cuentacientíficas nace como actividad del 11F para aumentar el conocimiento de referentes femeninos STEAM. En la Yincana Encuentra Científicas escondemos “guisantes” que representan áreas de investigación, descubrimientos o inventos de científicas, ingenieras e inventoras que os animamos a descubrir. ¡Ven a contarlas! ¡Cuenta con ellas!'
+    image: img/ponentes/talleres/Cuentacientificas
     image_card: 
-    twitter_account: agdagira
+    twitter_account: cuentacien
     linkedin_account:  
   - name: 'Leticia Gracia Grijota y María Gracia Grijota'
     short_name: 'Leticia y María Gracia'
-    bio: ''
+    bio: 'Hermanas y madres inquietas por la educación y la tecnología. Mentoras de Tech4JEL, campeón europeo en Technovation’19. María es Ing. Informática con 15 años de experiencia en el desarrollo y gestión de soluciones IT y Leticia, D. Ing. Industrial, con 23 años de práctica en gestión y ejecución de proyectos de simulación computacional.'
     image: img/ponentes/talleres/LeticiaMariaGracia
     image_card: 
-    twitter_account: 
-    linkedin_account:   
+    twitter_account: Leticiaggrijota 
+    twitter_account_2: Mariagragri
+    linkedin_account: leticia-gracia-grijota-b0801489
+    linkedin_account_2: mar%C3%ADa-gracia-b1a60566
   - name: 'Bea Hernández'
     short_name: 'Bea Hernández'
     bio: 'Data Scientist @Olympic Channel donde investigamos las relaciones de audiencias y deportes. ¡Trabajamos con deportes desde la gimnasia rítmica hasta el voléibol de nieve! Co-organizo R-Ladies Madrid por tercer año consecutivo, y parte de la comunidad NASADatanauts.'

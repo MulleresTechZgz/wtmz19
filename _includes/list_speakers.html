@@ -301,6 +301,7 @@
           {% assign image_speaker = speaker.image | strip_newlines %}
           {% assign image_card_speaker = speaker.image_card | strip_newlines %}
           {% assign twitter_speaker = speaker.twitter_account | strip_newlines %}
+          {% assign twitter_2_speaker = speaker.twitter_account_2 | strip_newlines %}
           {% assign linkedin_speaker = speaker.linkedin_account | strip_newlines %}
           {% assign linkedin_2_speaker = speaker.linkedin_account_2 | strip_newlines %}
           {% assign web_speaker = speaker.web | strip_newlines %}
@@ -329,6 +330,11 @@
                       </h4>
                       {% if twitter_speaker != ""  %}
                       <a href="https://twitter.com/{{ speaker.twitter_account }}" target="_blank">
+                        <i class="fa fa-twitter fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      {% if twitter_2_speaker != ""  %}
+                      <a href="https://twitter.com/{{ speaker.twitter_account_2 }}" target="_blank">
                         <i class="fa fa-twitter fa-fw fa-2x"></i>
                       </a>
                       {% endif %}
@@ -380,6 +386,11 @@
                                {% if twitter_speaker != ""  %}
                                 <a href="https://twitter.com/{{ speaker.twitter_account }}" target="_blank">
                                     <i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if twitter_2_speaker != ""  %}
+                                <a href="https://twitter.com/{{ speaker.twitter_account_2 }}" target="_blank">
+                                  <i class="fa fa-twitter fa-fw fa-2x"></i>
+                                </a>
                                 {% endif %}
                                 {% if linkedin_speaker != ""  %}
                                 <a href="https://www.linkedin.com/in/{{ speaker.linkedin_account }}" target="_blank">
