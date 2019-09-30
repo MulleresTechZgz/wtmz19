@@ -154,10 +154,10 @@ guests:
 speakers:
   - name: 'María Ballesteros'
     short_name: 'María Ballesteros'
-    bio: ''
+    bio: 'Oceanóloga reconvertida, navegando en el mundo de la tecnología, dibujando líneas, puntos y polígonos, gracias a los sistemas de información geográfica. Últimamente, embarcando en el mundo de las visualizaciones como Analista GIS y trabajando en soporte técnico en CARTO. Forma parte de GeochicasOSM y colabora con Women in Geospatial.'
     image: img/ponentes/charlas/MariaBallesteros
     image_card: 
-    twitter_account: 
+    twitter_account: maballesrin
     linkedin_account:
   - name: 'Pilar Barbero Iriarte y Laura Fernando López'
     short_name: 'Pilar Barbero y Laura Fernando'
@@ -171,14 +171,14 @@ speakers:
     short_name: 'María Berenguer'
     bio: 'Siempre aprendiz, ahora Scrum Máster.<br/>Desde que un día me dijeron: "Tú eres ágil y todavía no lo sabes", invierto mi tiempo en aprender y descubrir qué es.<br/>Llevo 4 años trabajando como Scrum Master con equipos de desarrollo, inspirándoles para descubrir su camino ágil.<br/>Colaboro con comunidades Agile y tecnológicas compartiendo aprendizajes.'
     image: img/ponentes/charlas/MariaBerenguer
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/MariaBerenguer
     twitter_account: merybere
     linkedin_account:
   - name: 'Ana Bernal y Cristina Gimeno'
     short_name: 'Ana Bernal y Cristina Gimeno'
     bio: 'Ana, ingeniera de telecomunicaciones, CCNA y experta en  BIG DATA y Data Science. Llevo gestionado proyectos TI desde hace más de 15 años, antes en el mundo del hardware y en la actualidad en proyectos software de administración electrónica.<br/><br/>Cristina, ingeniera informática, PMP, Scrum Manager, Experta en BIG DATA y Data Science. Desde hace casi 20 años, dedicada a aportar soluciones. Comencé programando, continué gestionando proyectos y hoy analizo soluciones tecnológicas.<br/><br/>Somos dos mujeres que disfrutan con su trabajo, especialistas en la gestión de clientes, apasionadas con el análisis de los datos, que se divierten aprendiendo día a día en el trabajo, con los compañeros, los amigos y sobre todo con nuestras familias.'
     image: img/ponentes/charlas/AnaBernalCristinaGimeno
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/AnaBernalCristinaGimeno
     twitter_account: anabernal1012
     twitter_account_2: criszgz
     linkedin_account:
@@ -186,33 +186,33 @@ speakers:
     short_name: 'Vanessa Borobia'
     bio: 'Vanessa Borobia es actualmente la Directora de TI de La Mafia se sienta a la mesa. Diplomada en Estadística, inició su trayectoria profesional en el sector TI,y durante 15 años ha colaborado en distintas consultoras tecnologías. A día de hoy Vanessa, EMBA por ESIC, dirige la estrategia tecnología del grupo LmssLm con más de 40 restaurantes a nivel nacional.'
     image: img/ponentes/charlas/VanessaBorobia
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/VanessaBorobia
     twitter_account: vborobia
     linkedin_account:
   - name: 'Valeria Corrales y Patricia Heredia'
     short_name: 'Valeria Corrales y Patricia Heredia'
     bio: 'Valeria es una niña de 11 años que asiste a clases de robótica, quiere ser ingeniera y fue nombrada Inspiring Girl of the Year en 2018. Patricia es ingeniera de telecomunicaciones y enseña disciplinas STEAM en su propia academia. ValPat es el equipo perfecto para que las niñas y niños descubran que la tecnología también puede ser creativa.'
     image: img/ponentes/charlas/ValeriaCorralesPatriciaHeredia
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/ValeriaCorralesPatriciaHeredia
     twitter_account: ValPatSTEAM
     linkedin_account:
   - name: 'Cristina De Propios Martínez'
     short_name: 'Cristina De Propios'
-    bio: 'Doctoranda con tesis en el campo del Arte y la Robótica. Desde hace un año participa en festivales, congresos y ferias de ciencia y tecnología, a la vez que da clases de robótica creativa en institutos y colegios de Madrid. Forma parte de la primera Startup española (Q-Lion) dedicada a la computación cuántica con iones atrapados, bajo el rol de Quantum Creative Engineer. Amante de la ciencia ficción.'
+    bio: 'Doctoranda con tesis en el campo del Arte y la Robótica.  Divulgadora del nexo entre tecnología y arte. Profesora de robótica creativa en institutos y colegios de Madrid. Quantum Creative Engineer en Q-Lion, Startup dedicada a la computación cuántica. Construye autómatas y robots siempre y cuando tengan algo de madera.'
     image: img/ponentes/charlas/CristinaDePropios
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/CristinaDePropios
     twitter_account: de_propios
     linkedin_account:
   - name: 'Cristina Fernández Sanz'
     short_name: 'Cristina Fernández'
     bio: 'Desarrolladora front-end desde hace 5 años, anteriormente era desarrolladora back-end pero el CSS me cautivó. Sigo aprendiendo sobre HTML, CSS y JavaScript, accesibilidad y performance e intento compartirlo a través de twitter, charlas y como mentora en Node Girls y VueVixens Madrid.'
     image: img/ponentes/charlas/CristinaFernandez
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/CristinaFernandez
     twitter_account: cristinafsanz
     linkedin_account:
   - name: 'Mónica Giménez'
     short_name: 'Mónica Giménez'
-    bio: ''
+    bio: 'Especialista en marketing online, UX y consultoría en Hiberus Tecnología. Ayudando a las empresas a alcanzar sus objetivos a través de sus canales digitales. Premio al mejor Blog de Aragón en la Red con misstechin.com. Colabora con la red de emprendedores creativos Made in Zaragoza. También ha colaborado con TEDxZaragoza, Wordpress Zaragoza o Caixa Forum.'
     image: img/ponentes/charlas/MonicaGimenez
     image_card: 
     twitter_account: misstechin
@@ -221,69 +221,69 @@ speakers:
     short_name: 'Débora Gómez'
     bio: 'Team & Tech Lead en myToys Group, especializada en el desarrollo de aplicaciones móviles Android, microservicios y despligue de servicios en AWS con Terraform. Alumna y mentora del programa #TechSHEssions, colaboradora en los programas #Adalab y #TechnovationChallenge.'
     image: img/ponentes/charlas/DeboraGomez
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/DeboraGomez
     twitter_account: dgomezdebora
     linkedin_account:
   - name: 'Paula Gracia Andrés'
     short_name: 'Paula Gracia'
     bio: 'Mi experiencia profesional es amplia y transversal, partiendo de RRHH en diferentes áreas. Comprometida con la alfabetización digital, educo en competencias tecnológicas a través de estrategias psicopedagógicas. Colaboro con empresas y entidades del sector audiovisual. Soy mentora en un programa que une tecnología y emprendeduría.'
     image: img/ponentes/charlas/PaulaGracia 
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/PaulaGracia 
     twitter_account: CiberEleganzaIP
     linkedin_account:
   - name: 'Julia Guerrero Viu'
     short_name: 'Julia Guerrero'
     bio: '22 años. Recién graduada en Ingeniería Informática en Zaragoza y estudiante de máster en Freiburg. Especialmente interesada en temas de inteligencia artificial, visión por computador e informática gráfica. Me apasiona lo que estudio, y disfruto compartiéndolo con l@s demás. Orgullosa de ser una de las Google Women Techmakers Scholars de este 2019.'
     image: img/ponentes/charlas/JuliaGuerrero
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/JuliaGuerrero
     twitter_account: juliagviu
     linkedin_account:
   - name: 'Rowena Hennigan'
     short_name: 'Rowena Hennigan'
     bio: 'Rowena is an experienced Lecturer, Trainer and Communications Consultant, who uses blended learning techniques and remote communications best practice to deliver excellence. Her ethos is "Work is not a place" and she have thrived working remotely on various projects since 2007.  She currently shares her communication skills, experience and approach while teaching on postgraduate modules to international students. She also works on various freelance projects for international clients.'
     image: img/ponentes/charlas/RowenaHennigan
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/RowenaHennigan
     twitter_account: 
     linkedin_account: rowena-hennigan
   - name: 'Silvia Laiglesia Martínez'
     short_name: 'Silvia Laiglesia'
     bio: 'Ingeniera informática con amplia experiencia en la gestión de proyectos, coordinación técnica y liderazgo de equipo. Especializada durante varios años en proyectos públicos y privados relacionados con la gestión y publicación de información geográfica, actualmente trabaja como jefa de proyectos en OESIA, abarcando nuevos ámbitos en el sector de la administración electrónica y la gestión medioambiental.'
     image: img/ponentes/charlas/SilviaLaiglesia
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/SilviaLaiglesia
     twitter_account: 
     linkedin_account: silvialaiglesiamartinez
   - name: 'Laura López Navaz'
     short_name: 'Laura López'
     bio: 'Consultora de SEO y Reputación Online freelance. Trabajo en Comercio y Marketing y en proyectos de Posicionamiento Web. Ayudo a profesionales y empresas a ganar visibilidad y mejorar su presencia online. En 2019 fui incluida en una lista de mujeres SEO de España, lo que me motivó más todavía a especializarme en SEO Estratégico.'
     image: img/ponentes/charlas/LauraLopez
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/LauraLopez
     twitter_account: lauralopeznavaz
     linkedin_account:
   - name: 'Patricia Martínez'
     short_name: 'Patricia Martínez'
     bio: 'Agilista por vocación en busca de la mejora continua<br/>Llevo más de 10 años trabajando en IT, casi la tercera parte dedicados a la adopción de Agile, en particular usando Scrum como framework. Esto significa que me he convertido en el agente del cambio en un departamento de más de 50 personas. Así he aprendido más y más sobre trabajo en equipo y la necesidad de poner el foco en las personas en lugar de en los procesos, ya que esta es la clave del éxito.'
     image: img/ponentes/charlas/PatriciaMartinez
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/PatriciaMartinez
     twitter_account: patururu
     linkedin_account:
   - name: 'Celia Martínez Luengo'
     short_name: 'Celia Martínez'
     bio: 'Programadora, con más de 10 años trabajando en consultoras, actualmente para ViewNext. <br/>He trabajado para diversos sectores, Recursos Humanos, Administración, Utilities, Logística, Banca… Y lo más importante que he aprendido es que todo proyecto es una oportunidad de aprender y el conocimiento nuestra mejor herramienta.'
     image: img/ponentes/charlas/CeliaMartinez
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/CeliaMartinez
     twitter_account: Celta_ML
     linkedin_account:
   - name: 'Sara San Luis Rodríguez y Daniela Solís Morales'
     short_name: 'Sara San Luis y Daniela Solís'
     bio: 'Sara San Luis, apasionada de las ciencias desde pequeña, estudié Matemáticas en la Universidad de Santiago de Compostela, formación que completé con un Máster en Estadística e Investigación Operativa. Este último me permitió adentrarme en el mundo de la IA y del ML, campos en los que trabajo ahora mismo en el equipo de IA de Plain Concepts.<br/><br/>Daniela Solís, software engineer en el equipo de IA de Plain Concepts. Maestra en Inteligencia Artificial de la Universidad de Amsterdam con grado en Ingeniería del Software de la Universidad Politecnica de Madrid. Apasionada de las nuevas tecnologías y del mundo de la Inteligencia Artificial.'
     image: img/ponentes/charlas/SaraSanLuisDanielaSolis
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/SaraSanLuisDanielaSolis
     twitter_account: sara_sanluis
     twitter_account_2: danysolism
     linkedin_account:
   - name: 'Susana Sanmartín Garbayo'
     short_name: 'Susana Sanmartín'
-    bio: ''
+    bio: 'Crecí en una familia de arquitectos, ingenieros y empresarios que me inspiraron a pensar en el futuro. Una curiosidad temprana me involucró en la expresión plástica y, junto a mis estudios de diseño, desarrollé un interés especial en el diseño generativo y creación multidisciplinar de artesanías digitales. Como diseñadora de producto en los últimos meses he creado unas zapatillas impresas en 3D.'
     image: img/ponentes/charlas/SusanaSanmartin
     image_card: 
     twitter_account: susisanseso
@@ -292,12 +292,12 @@ speakers:
     short_name: 'Cristina Santamarina'
     bio: 'Antes de trasladarse a Córdoba, Cristina trabajó en multinacionales, startups y ONGs en Madrid, Praga, Berlín y Conakry. Actualmente es cofundadora de The Neon Project, una agencia para la transformación digital de personas, procesos y productos mediante tecnología; especializada en  blockchain, interfaces conversacionales, datos y problemas complejos.'
     image: img/ponentes/charlas/CristinaSantamarina
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/CristinaSantamarina
     twitter_account: crissantamarina
     linkedin_account:
   - name: 'Marina Serrano Montes'
     short_name: 'Marina Serrano'
-    bio: ''
+    bio: 'Software developer con más de 10 años de experiencia en Telefónica I+D. Actualmente, Lead Application Developer en Nexmo, la plataforma API de Vonage. En 2015 fundó Girls in Tech Spain y desde entonces participa en acciones para potenciar el rol de la mujer en STEAM. Desde 2017 compagina su actividad como cofundadora de la startup BeByDoing.'
     image: img/ponentes/charlas/MarinaSerrano
     image_card: 
     twitter_account: marinillass
@@ -306,7 +306,7 @@ speakers:
     short_name: 'Ana Serrano'
     bio: 'Ana es investigadora postdoctoral en el Graphics and Imaging Lab de la U. de Zaragoza. Su investigación se centra en estudiar la atención en entornos de Realidad Virtual. Ha sido galardonada con una Adobe Research Fellowship, y una Nvidia Graduate Fellowship. Ha sido ganadora de los premios Tercer Milenio en la categoría joven talento investigador, y finalista en los premios Aragonés del año.'
     image: img/ponentes/charlas/AnaSerrano
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/AnaSerrano
     twitter_account: miriel852
     linkedin_account:
   #- name: ''
@@ -323,7 +323,7 @@ workshop_speakers:
     short_name: 'Beatriz Aguas, Sheila Blasco y Clara Cirac'
     bio: 'Clara y Bea se conocieron estudiando ingeniería informática hace 10 años y ahí vieron que no solo tenían en común los rizos. Con Sheila, pese a estudiar en la misma universidad, pero Ingeniería electrónica, hubo que esperar unos años para que las tres se conocieran. Desde hace tres años trabajan juntas en Deloitte. Dos javosas y una nettera, dos informáticas y una electrónica… Diferentes, pero con una misma pasión, ¿Qué puede salir mal?'
     image: img/ponentes/talleres/BeatrizAguasSheilaBlascoClaraCirac
-    image_card: 
+    image_card: img/ponentes/talleres/fichas/BeatrizAguasSheilaBlascoClaraCirac
     twitter_account: Be_Agu
     linkedin_account: sheila-blasco-6aa97011b
     linkedin_account_2: clara-cirac-nerín-917541101
@@ -331,7 +331,7 @@ workshop_speakers:
     short_name: 'Ana C., Mercedes M., María M. y Raquel N.'
     bio: 'Ana, Ingeniera Informática (pero “normal”). A veces saca tiempo para trabajar integrando datos en keensoft UST Global, pero en realidad dedica su vida a ver perretes y gatos gordos en Instagram.<br/><br/>Mercedes Medrano, Release Lead en keensoft UST Global. Mercedes es Ingeniera Técnica Química Industrial y desde hace 2 años reinventada en el mundo de las IT’s donde ha descubierto lo gratificante que es aportar soluciones a los usuarios finales.<br/><br/>María Mora, Business Analyst para proyectos tecnológicos en keensoft UST Global. María es licenciada en Administración y Dirección de Empresas. Hace 6 años su vida laboral dio un giro radical y acabó en el mundo tecnológico, donde realmente ha encontrado su vocación y su pasión. El sino de su vida: ¡reinventarse o morir!<br/><br/>Raquel es Ingeniera Informática, business process manager en keensoft UST Global y escapista en sus ratos libres. El sector TIC le ha llevado a vivir en Alemania e Inglaterra pero siempre vuelve a casa porque "there’s no place like home"'
     image: img/ponentes/talleres/AnaCruzMercedesMedranoMariaMoraRaquelNoe
-    image_card: 
+    image_card: img/ponentes/talleres/fichas/AnaCruzMercedesMedranoMariaMoraRaquelNoe
     twitter_account: keensoft_es
     linkedin_account:
   - name: 'Nagore de los Ríos'
@@ -345,14 +345,14 @@ workshop_speakers:
     short_name: 'Cuentacientíficas'
     bio: 'Cuentacientíficas nace como actividad del 11F para aumentar el conocimiento de referentes femeninos STEAM. En la Yincana Encuentra Científicas escondemos “guisantes” que representan áreas de investigación, descubrimientos o inventos de científicas, ingenieras e inventoras que os animamos a descubrir. ¡Ven a contarlas! ¡Cuenta con ellas!'
     image: img/ponentes/talleres/Cuentacientificas
-    image_card: 
+    image_card: img/ponentes/talleres/fichas/Cuentacientificas
     twitter_account: cuentacien
     linkedin_account:  
   - name: 'Leticia Gracia Grijota y María Gracia Grijota'
     short_name: 'Leticia y María Gracia'
     bio: 'Hermanas y madres inquietas por la educación y la tecnología. Mentoras de Tech4JEL, campeón europeo en Technovation’19. María es Ing. Informática con 15 años de experiencia en el desarrollo y gestión de soluciones IT y Leticia, D. Ing. Industrial, con 23 años de práctica en gestión y ejecución de proyectos de simulación computacional.'
     image: img/ponentes/talleres/LeticiaMariaGracia
-    image_card: 
+    image_card: img/ponentes/talleres/fichas/LeticiaMariaGracia
     twitter_account: Leticiaggrijota 
     twitter_account_2: Mariagragri
     linkedin_account: leticia-gracia-grijota-b0801489
@@ -361,7 +361,7 @@ workshop_speakers:
     short_name: 'Bea Hernández'
     bio: 'Data Scientist @Olympic Channel donde investigamos las relaciones de audiencias y deportes. ¡Trabajamos con deportes desde la gimnasia rítmica hasta el voléibol de nieve! Co-organizo R-Ladies Madrid por tercer año consecutivo, y parte de la comunidad NASADatanauts.'
     image: img/ponentes/talleres/BeaHernandez
-    image_card: 
+    image_card: img/ponentes/talleres/fichas/BeaHernandez
     twitter_account: chucheria
     linkedin_account:  
 
@@ -369,7 +369,7 @@ workshop_speakers:
 mentors:
   - name: 'Pilar Barbero'
     short_name: 'Pilar Barbero'
-    bio: ''
+    bio: 'Desde pequeña me han gustado los números. Decidí estudiar matemáticas en la universidad porque las cosas cuadraban siempre, y ahí descubrí la programación.<br/>Tras el máster de Modelización Matemática que realicé con mis queridos lenguajes Python y R, resultó que eso no era lo mío y obtuve mi primer trabajo programando en .NET en una consultora. Actualmente trabajo en el departamento de IT de Vueling en un negocio que realmente me apasiona debido a mi pasión por viajar. Soy una neurótica de las pruebas unitarias y las code reviews, y sobre todo, de que las cosas se hagan bien. No sé decir que no a nada, así que me podrás ver por diferentes saraos al menos aquí en Zaragoza. Me encanta la cerveza y sobre todo, adoro a mis dos pequeñas chinchillas, Phil y Alan.'
     image: img/mentoras/PilarBarbero
     image_card: 
     twitter_account: yayaqueprograma
@@ -397,22 +397,22 @@ mentors:
     linkedin_account: eva-omedes-domene-366315128
   - name: 'Marta Pérez Campos'
     short_name: 'Marta Pérez'
-    bio: ''
+    bio: 'Marta Pérez Campos (Mallén, Zaragoza, 1990)<br/>Artista multidisciplinar. Graduada en Bellas Artes por la Universidad de Zaragoza y Máster Interface Cultures de la Kunstuniversität Linz (Austria). Sus creaciones han sido expuestas en numerosos festivales, conferencias y exposiciones nacionales e internacionales. <br/>En su trabajo reflexiona sobre la presencia del error en nuestras interacciones sociales, creando para ello interfaces y experiencias que intervengan y especulen sobre la (in)comunicación y nuestra relación con el lenguaje. '
     image: img/mentoras/MartaPerez
     image_card: 
     twitter_account: 
     linkedin_account:
   - name: 'Nerea Tamayo'
     short_name: 'Nerea Tamayo'
-    bio: ''
-    image: img/mentoras/Nerea Tamayo
+    bio: 'Nerea Tamayo, comenzó su vida laboral como desarrolladora de software, hasta que descubrió  su pasión por el testing, disciplina a la que se ha dedicado en exclusiva desde 2013 y en la que se ha especializado. Nerea está certificada por el ISTQB (International Software Testing Qualifications Board), como Software Tester (Foundation Level), como Test Manager (Advanced Level) y como Ingeniera de Automatización de Pruebas (Advanced Level).<br/>Actualmente trabaja en adidas, definiendo los procesos, herramientas y estándares de testing en la Plataforma de Ingeniería y Arquitectura de la compañía (Global IT – PE&AO). El año pasado participó en el WTM Zaragoza, experiencia que le gustó y en la que quiere seguir participando, esta vez como mentora.'
+    image: img/mentoras/NereaTamayo
     image_card: 
     twitter_account: 
     linkedin_account: nerea-tamayo-garcía
   - name: 'María Villarroya'
     short_name: 'María Villarroya'
-    bio: ''
-    image: img/mentoras/MaraVillarroya
+    bio: 'María Villarroya Gaudó es profesora contratada doctora de Arquitectura y Tecnología de Computadores en la Escuela de Ingeniería y Arquitectura de la Universidad de Zaragoza, presidenta de AMIT-Aragón desde 2012. Es licenciada en Ciencias Físicas por la Universidad de Zaragoza (2000) y Doctora en Ingeniería Electrónica por la Universidad Autónoma de Barcelona (2005).Su área de investigación en Arquitectura de Computadores se centra actualmente en reparto y balanceo de carga en sistemas heterogéneos (con GPUs, CPUs y FPGAs).<br/>Desde 2008 organiza el Girls'' Day (fuimos en Aragón pioneras en esta actividad y es la única Comunidad Autónoma que lo mantiene anualmente desde entonces)., e investiga porqué hay pocas mujeres en ingeniería y los números lejos de mejorar, están estancados, en 2016 promovió una ingeniera en cada cole, habiendo llegado a más de 5000 estudiantes de primaria en Aragón en todas sus ediciones. Además está convencida que la diversidad hace que los avances tecnológicos y la ciencia en general sean mejores y por ello trabaja. Es madre de tres hijas.'
+    image: img/mentoras/MariaVillarroya
     image_card: 
     twitter_account: mvgaudo
     linkedin_account:
@@ -513,6 +513,11 @@ sponsors_platinum:
     image: img/patrocinadores/platinum/vueling.png
     web: https://www.vueling.com/es
     twitter: vueling
+  - name: UST Global
+    text: 
+    image: img/patrocinadores/platinum/ust_global.png
+    web: https://ust-global.com/
+    twitter: USTGlobal
   #- name: Adidas
   #  text: 
   #  image: img/patrocinadores/platinum/adidas.png
@@ -663,26 +668,26 @@ talks_track_1:
   - time: '09:45-10:30'
     track: all
     name: 'PRESENTACIÓN Staff WTM Zaragoza'
-    second_name: 'Inauguración: '
+    second_name: 'Inauguración: Invitada Sorpresa'
     descrip: 
     speaker: 
   - time: '10:30-10:55'
     track: 1
-    name: '-'
-    descrip: '-'
-    speaker: '-'
+    name: '¿Qué hace una chica como tú en una Startup como ésta?'
+    descrip: 'En esta charla se hablará sobre las relaciones entre el arte y la tecnología; la notable presencia de las máquinas, el arte y la robótica, desembocando así en la llamada inteligencia artificial creativa. Qué pueden aportar los artistas y diseñadores al mundo de la robótica y sistemas inteligentes y cómo la divulgación de la tecnología se puede abordar desde muchos campos si se tiene ingenio y creatividad. '
+    speaker: 'Cristina de Propios Martínez'
     url_youtube: 
   - time: '11:00-11:25'
     track: 1
-    name: '-'
-    descrip: '-'
-    speaker: '-'
+    name: '¡Ojo qué se ve!'
+    descrip: 'Primero fue el big data y ahora las visualizaciones, durante estos años todo lo relacionado con los datos es tendencia. Pero, ¿son estos años los primeros en los que se han hecho visualizaciones de datos para mostrar información y/o dar un mensaje?, ¿sabemos transmitir una idea usando una visualización de datos?, ¿pueden las visualizaciones de datos responder preguntas?<br/><br/>Además de comentar estas preguntas, hablaremos de cómo se pueden usar datos para visualizar información. Para ello, compartiré consejos sencillos, recursos y mostraré un caso práctico centrado en la visualización de datos en mapas usando CARTOframes, paquete de Pyhton para integrar mapas de CARTO en flujos de trabajo en análisis de datos. Si te gustan los datos y las visualizaciones, o alguna vez te has preguntado cómo hacer para que tus gráficas no caigan en el olvido, esta charla te adentrará en el mundo de la visualización de datos.'
+    speaker: 'María Ballesteros'
     url_youtube: 
   - time: '11:30-11:55'
     track: 1
-    name: '-'
+    name: 'Cómo puede la Inteligencia Artificial ayudar en la detección del cáncer de mama.'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Sara San Luís Rodríguez y Daniela Solís Morales'
     url_youtube: 
   - time: '12:00-12:25'
     track: all
@@ -691,23 +696,23 @@ talks_track_1:
     speaker: 
   - time: '12:30-12:55'
     track: 1
-    name: '-'
+    name: 'Comunicación en equipos de alto rendimiento: desmontando la Torre de Babel'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Patricia Martínez Jaray'
     url_youtube: 
   - time: '13:00-13:25'
     track: 1
     #rowspan: '2'
-    name: '-'
+    name: '¿Por qué dices padding cuando quieres decir margin?'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Cristina Fernández Sanz'
     url_youtube: 
   - time: '13:30-13:55'
     track: 1
     #rowspan: '0'
-    name: '-'
-    descrip: '-'
-    speaker: '-'
+    name: 'Web Semántica: Factores SEO que aumentan tu visibilidad en Google'
+    descrip: 'Ya no basta con que nos busquen por nombre o marca, mola ser encontradas por temas relacionados con lo que hacemos. El algoritmo de búsqueda semántica cada vez da más importancia al significado y a la intención de las búsquedas de los usuarios. En esta charla quiero compartir la metodología y las herramientas gratuitas para identificar palabras clave LSI (Latent Semantic Indexing Keywords), cómo aprovecharlas para optimizar el SEO On-Site y Off-Site y ganar visibilidad en Internet.'
+    speaker: 'Laura López Navaz'
     url_youtube: 
   - time: '13:55-14:00'
     track: all
@@ -721,15 +726,15 @@ talks_track_1:
     speaker: 
   - time: '16:00-16:25'
     track: 1
-    name: '-'
+    name: 'Anatomía de una conversación'
     descrip: '-'
-    speaker: '-' 
+    speaker: 'Cristina Santamarina' 
     url_youtube: 
   - time: '16:30-16:55'
     track: 1
-    name: '-'
-    descrip: '-'
-    speaker: '-'
+    name: '¿Cómo contamos historias en realidad virtual? Los usuarios como creadores de su propia experiencia'
+    descrip: 'La realidad virtual es un nuevo medio que nos permite transmitir información y contar historias con unas capacidades de inmersión difícilmente alcanzables por otras plataformas. En este nuevo medio, los usuarios toman un papel mucho más activo, pudiendo interactuar con el entorno de diversas formas, y construyendo su propia experiencia a través de la exploración libre de los 360 grados que ofrece la realidad virtual. Sin embargo, esta nueva libertad adquirida por los usuarios puede suponer una dificultad para los creadores de contenido: si cada usuario puede crear su propia experiencia, ¿cómo puede asegurarse el creador de contenido de que está transmitiendo su historia y su información de manera efectiva? En esta charla hablaremos acerca de cómo exploran los usuarios entornos de realidad virtual, si existen o no patrones comunes de exploración, a qué prestan atención los usuarios, y cómo podemos usar todo este conocimiento a nuestro favor para crear diferentes tipos de contenido.'
+    speaker: 'Ana Serrano'
     url_youtube: 
   - time: '17:00-17:25'
     track: all
@@ -738,21 +743,21 @@ talks_track_1:
     speaker: 
   - time: '17:30-17:55'
     track: 1
-    name: '-'
-    descrip: '-'
-    speaker: '-' 
+    name: 'Ingredientes para ser una Woman Tech'
+    descrip: 'Google selecciona cada año a sus Women Techmakers Scholars... ¿quieres ser la siguiente? Trataré de transmitir, desde la sencilla y cercana perspectiva de una joven estudiante de Zaragoza, lo mucho que significa recibir este importante reconocimiento, en qué consiste, el potencial de la comunidad global que hay detrás y cuál es la receta para formar parte de ella. La próxima podrías ser tú, no te la pierdas!'
+    speaker: 'Julia Guerrero Viu' 
     url_youtube: 
   - time: '18:00-18:25'
     track: 1
-    name: '-'
-    descrip: '-'
-    speaker: '-'
+    name: 'SOLID: internet sin espías'
+    descrip: 'Tim Berners-Lee creó el estándar WWW en 1989, su idea era crear una herramienta universal y gratuita que permitiera la comunicación, nada más lejos de en lo que ha acabado convirtiéndose: manipulación y robo de datos por grandes compañías. <br/><br/>Presentaremos cómo funciona Solid, la nueva era de Internet en la que los usuarios somos los únicos dueños y poseedores de nuestros datos'
+    speaker: 'Pilar Barbero Iriarte y Laura Fernando López'
     url_youtube: 
   - time: '18:30-18:55'
     track: 1
-    name: '-'
+    name: 'Zapatillas por impresión 3D'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Susana Sanmartín Garbayo'
   - time: '19:00-19:45'
     track: all
     name: 'CIERRE Staff WTM Zaragoza'
@@ -790,21 +795,21 @@ talks_track_2:
     speaker: 
   - time: '10:30-10:55'
     track: 2
-    name: '-'
-    descrip: '-'
-    speaker: '-'
+    name: 'Yo para ser feliz quiero un Blockchain'
+    descrip: 'El Blockchain es una de las tendencias tecnológicas que más en auge se encuentra. No solo se trata de una tecnología estratégica a día de hoy, sino que, según indican varios estudios, entre los años 2020 y 2025 se producirá una plena implementación de esta tecnología en todos los ámbitos de la vida, produciéndose por tanto un claro un impacto social. <br/><br/>Como consecuencia a la inminente y supuesta “revolución Blockchain” que nos depara este futuro cercano, la charla está orientada a ofrecer una aproximación a este concepto desde un punto de vista no puramente técnico, estableciendo un acercamiento a esta tecnología que sea asequible para un público diverso, explicando el porqué del actual auge tecnológico, los posibles campos de aplicación (más allá de las criptomonedas) y en qué contextos se está aplicando y cómo está funcionando.<br/><br/>Se trata por lo tanto de una charla que nos permitirá poder entender el motivo real del por qué se está hablando tanto de Blockchain y si realmente es y será útil en nuestra vida.'
+    speaker: 'Silvia Laiglesia Martínez'
     url_youtube: 
   - time: '11:00-11:25'
     track: 2
-    name: '-'
+    name: 'ValPat - motivando en tecnología'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Valeria Corrales y Patricia Heredia'
     url_youtube: 
   - time: '11:30-11:55'
     track: 2
-    name: '-'
+    name: 'El cerebro digital 5.0'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Paula Gracia Andrés'
     url_youtube: 
   - time: '12:00-12:25'
     track: all
@@ -813,21 +818,21 @@ talks_track_2:
     speaker:  
   - time: '12:30-12:55'
     track: 2
-    name: '-'
+    name: 'Developer Experience: ¿Cómo diseñar una buena API y por qué es importante?'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Marina Serrano Montes'
     url_youtube: 
   - time: '13:00-13:25'
     track: 2
-    name: '-'
+    name: 'Becoming a Remote Worker - an individual''s perspective: best practice; routine, attitude, support & considerations.'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Rowena Hennigan'
     url_youtube: 
   - time: '13:30-13:55'
     track: 2
-    name: '-'
+    name: 'Descubrimiento de producto a través de Inception, ¿perder el tiempo o invertirlo?'
     descrip: '-'
-    speaker: '-'
+    speaker: 'María Berenguer'
     url_youtube: 
   - time: '15:55-14:00'
     track: all
@@ -841,15 +846,15 @@ talks_track_2:
     speaker: 
   - time: '16:00-16:25'
     track: 2
-    name: '-'
+    name: 'El Cartero llama a tu puerta'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Celia Martinez Luengo'
     url_youtube: 
   - time: '16:30-16:55'
     track: 2
-    name: '-'
+    name: 'Smart Visual Data & Grupo LmssLm'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Vanessa Borobia'
     url_youtube: 
   - time: '17:00-17:25'
     track: all
@@ -858,21 +863,21 @@ talks_track_2:
     speaker: '-'
   - time: '17:30-17:55'
     track: 2
-    name: '-'
-    descrip: '-'
-    speaker: '-'
+    name: 'Cómo conseguir más de 2.800 oportunidades de negocio (leads) a través de canales digitales'
+    descrip: 'El principal objetivo de las empresas en los canales digitales es generar negocio. En base a nuestra experiencia con la estrategia digital de Hiberus Tecnología, explicaremos como poner nuestra maquinaria en marcha para conseguir leads de calidad para aumentar nuestra cartera de clientes. Optimización de portales web, creación de landing pages, estrategia inbound, lanzamiento de campañas de pago, seguimiento de resultados con analítica... Compartiremos un montón de ideas para que los asistentes puedan probarlo en sus organizaciones y negocios.'
+    speaker: 'Mónica Giménez'
     url_youtube:  
   - time: '18:00-18:25'
     track: 2
-    name: '-'
+    name: 'From zero to hero with kotlin & springboot'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Debora Gomez Bertoli'
     url_youtube:  
   - time: '18:30-18:55'
     track: 2
-    name: '-'
+    name: '¿Truco o dato?'
     descrip: '-'
-    speaker: '-'
+    speaker: 'Ana Bernal y Cristina Gimeno'
     url_youtube:    
   - time: '19:00-19:45'
     track: all
