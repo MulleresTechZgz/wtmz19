@@ -131,25 +131,14 @@ organizers:
 
 #List for guests
 guests:
-  #- name: Pilar Alegría
-  #  bio: ''
-  #  image: img/ponentes/PilarAlegria
-  #  image_card: 
-  #  twitter_account: Pilar_Alegria
-  #  linkedin_account: 
-  #- name: Cristina Aranda
-  #  bio: 'Cristina Aranda es PR, Pre-Sales & Innovation Research en Intelygenz, empresa dedicada al desarrollo de Software y tecnologías con impacto en negocio con sedes en Madrid y San Francisco. Cristina tiene más de 16 años de experiencia en marketing, innovación y transformación digital con empresas del Ibex35, Top500, Pymes y Startups. Además, es cofundadora de Mujeres Tech, una asociación sin ánimo de lucro que tiene por objetivo promover iniciativas entre niñas, jóvenes y mujeres y hombres para aumentar la presencia femenina en el sector digital, y, al mismo tiempo, establecer lazos con hombres dispuestos a generar las mismas posibilidades al talento femenino.<br/>Aranda es Social Innovation Fellow del Meridian Intl. Center y la Embajada de EE.UU. en Madrid, miembro del comité de Mujeres Líderes de América y del Comité de Expertos de Empresas de Base Tecnológica, Startups y Talento de la Comunidad de Madrid. Además, Cristina es asesora sobre Diversidad en las STEAM de diferentes stakeholders públicos y privados. Pertenece a la mesa de género de la Secretaría de Estado de Agenda Digital. El pasado mes de abril impartió una charla TEDx sobre la necesidad de desaprender sobre cómo somos educados a partir de estereotipos y el pasado mes de febrero fue considerada por Business Insider como una de las 25 españoles del mundo de la tecnología que se deben seguir en Twitter.<br/>Cristina es doctora en Lingüística Teórica y Aplicada por la UAM y el IUI. Ortega y Gasset, licenciada en Filología Hispánica por la UAM, Máster en Internet Business por el ISDI y Digital Technology for Business Program por IGZ Academy. Ahora está profundizando en el procesamiento natural del lenguaje para su aplicación en el Internet de las cosas y la inteligencia artificial.'
-  #  image: img/ponentes/CristinaAranda
-  #  image_card: img/ponentes/fichas/CristinaAranda
-  #  twitter_account: cris_aranda_
-  #  linkedin_account: cristinaaranda
-  #- name: Elena Giner
-  #  bio: ''
-  #  image: img/ponentes/ElenaGiner
-  #  image_card: 
-  #  twitter_account: 
-  #  linkedin_account:
-
+  - name: 'María López'
+    short_name: 'María López'
+    bio: 'María López PhD., es Licenciada en Matemáticas, Doctora en Ingeniería Computacional por la Universidad de Zaragoza, y MBA por el Instituto de Empresa. Es CEO y cofundadora de Bitbrain, empresa de neurotecnología aplicada a la investigación científica, la salud o el neuromarketing en la cual asesora a multinacionales como Coca-Cola, L''Oreal o Johnson&Johnson. María ha ganado más de 20 premios como el premio Anita Börg de Google. Es ponente habitual en foros de neuromarketing, la innovación o el emprendimiento, y colabora como investigadora y docente en varias entidades académicas como la Iowa State University, el Imperial College London, la Universidad de Bremen o el IE Business School.'
+    image: img/ponentes/invitadas/MariaLopez
+    image_card: 
+    twitter_account: mlopezBCI
+    linkedin_account: 
+  
 #List for speakers
 speakers:
   - name: 'María Ballesteros'
@@ -297,7 +286,7 @@ speakers:
     linkedin_account:
   - name: 'Marina Serrano Montes'
     short_name: 'Marina Serrano'
-    bio: 'Software developer con más de 10 años de experiencia en Telefónica I+D. Actualmente, Lead Application Developer en Nexmo, la plataforma API de Vonage. En 2015 fundó Girls in Tech Spain y desde entonces participa en acciones para potenciar el rol de la mujer en STEAM. Desde 2017 compagina su actividad como cofundadora de la startup BeByDoing.'
+    bio: 'Software developer con más de 10 años de experiencia en Telefónica I+D. Actualmente, Lead Application Developer en Nexmo, la plataforma API de Vonage. En 2015 fundó Girls in Tech Spain y desde entonces participa en acciones para potenciar el rol de la mujer en STEAM.<br/>Desde 2017 compagina su actividad como cofundadora de la startup BeByDoing.'
     image: img/ponentes/charlas/MarinaSerrano
     image_card: 
     twitter_account: marinillass
@@ -337,7 +326,7 @@ workshop_speakers:
   - name: 'Nagore de los Ríos'
     short_name: 'Nagore de los Ríos'
     bio: '¡Los datos me dan superpoderes!<br/>Brand manager, investigadora, diseñadora de soluciones. Creo en la transparencia real, en el mundo open y en las ciencias que se apoyan en datos para tomar decisiones inteligentes. Dirijo el Departamento de Marketing y Comunicación de TECH Friendly, coordinando la elaboración de estrategias y planes data driven para provocar comportamientos en las audiencias.'
-    image: img/ponentes/talleres/NagoreDeLosRios
+    image: 
     image_card: 
     twitter_account: nagodelos
     linkedin_account:  
@@ -367,114 +356,135 @@ workshop_speakers:
 
 #List for mentors
 mentors:
-  - name: 'Pilar Barbero'
-    short_name: 'Pilar Barbero'
-    bio: 'Desde pequeña me han gustado los números. Decidí estudiar matemáticas en la universidad porque las cosas cuadraban siempre, y ahí descubrí la programación.<br/>Tras el máster de Modelización Matemática que realicé con mis queridos lenguajes Python y R, resultó que eso no era lo mío y obtuve mi primer trabajo programando en .NET en una consultora. Actualmente trabajo en el departamento de IT de Vueling en un negocio que realmente me apasiona debido a mi pasión por viajar. Soy una neurótica de las pruebas unitarias y las code reviews, y sobre todo, de que las cosas se hagan bien. No sé decir que no a nada, así que me podrás ver por diferentes saraos al menos aquí en Zaragoza. Me encanta la cerveza y sobre todo, adoro a mis dos pequeñas chinchillas, Phil y Alan.'
-    image: img/mentoras/PilarBarbero
-    image_card: 
-    twitter_account: yayaqueprograma
-    linkedin_account:
-  - name: 'Sandra Escudero'
-    short_name: 'Sandra Escudero'
-    bio: ''
-    image: img/mentoras/SandraEscudero
-    image_card: 
-    twitter_account: SandraEscS
-    linkedin_account:
-  - name: 'Laura Lacarra'
-    short_name: 'Laura Lacarra'
-    bio: ''
-    image: img/mentoras/LauraLacarra
-    image_card: 
-    twitter_account: LauraLacarra
-    linkedin_account:
-  - name: 'Eva Omedes'
-    short_name: 'Eva Omedes'
-    bio: ''
-    image: img/mentoras/EvaOmedes
-    image_card: 
-    twitter_account: 
-    linkedin_account: eva-omedes-domene-366315128
-  - name: 'Marta Pérez Campos'
-    short_name: 'Marta Pérez'
-    bio: 'Marta Pérez Campos (Mallén, Zaragoza, 1990)<br/>Artista multidisciplinar. Graduada en Bellas Artes por la Universidad de Zaragoza y Máster Interface Cultures de la Kunstuniversität Linz (Austria). Sus creaciones han sido expuestas en numerosos festivales, conferencias y exposiciones nacionales e internacionales. <br/>En su trabajo reflexiona sobre la presencia del error en nuestras interacciones sociales, creando para ello interfaces y experiencias que intervengan y especulen sobre la (in)comunicación y nuestra relación con el lenguaje. '
-    image: img/mentoras/MartaPerez
-    image_card: 
-    twitter_account: 
-    linkedin_account:
-  - name: 'Nerea Tamayo'
-    short_name: 'Nerea Tamayo'
-    bio: 'Nerea Tamayo, comenzó su vida laboral como desarrolladora de software, hasta que descubrió  su pasión por el testing, disciplina a la que se ha dedicado en exclusiva desde 2013 y en la que se ha especializado. Nerea está certificada por el ISTQB (International Software Testing Qualifications Board), como Software Tester (Foundation Level), como Test Manager (Advanced Level) y como Ingeniera de Automatización de Pruebas (Advanced Level).<br/>Actualmente trabaja en adidas, definiendo los procesos, herramientas y estándares de testing en la Plataforma de Ingeniería y Arquitectura de la compañía (Global IT – PE&AO). El año pasado participó en el WTM Zaragoza, experiencia que le gustó y en la que quiere seguir participando, esta vez como mentora.'
-    image: img/mentoras/NereaTamayo
-    image_card: 
-    twitter_account: 
-    linkedin_account: nerea-tamayo-garcía
-  - name: 'María Villarroya'
-    short_name: 'María Villarroya'
-    bio: 'María Villarroya Gaudó es profesora contratada doctora de Arquitectura y Tecnología de Computadores en la Escuela de Ingeniería y Arquitectura de la Universidad de Zaragoza, presidenta de AMIT-Aragón desde 2012. Es licenciada en Ciencias Físicas por la Universidad de Zaragoza (2000) y Doctora en Ingeniería Electrónica por la Universidad Autónoma de Barcelona (2005).Su área de investigación en Arquitectura de Computadores se centra actualmente en reparto y balanceo de carga en sistemas heterogéneos (con GPUs, CPUs y FPGAs).<br/>Desde 2008 organiza el Girls'' Day (fuimos en Aragón pioneras en esta actividad y es la única Comunidad Autónoma que lo mantiene anualmente desde entonces)., e investiga porqué hay pocas mujeres en ingeniería y los números lejos de mejorar, están estancados, en 2016 promovió una ingeniera en cada cole, habiendo llegado a más de 5000 estudiantes de primaria en Aragón en todas sus ediciones. Además está convencida que la diversidad hace que los avances tecnológicos y la ciencia en general sean mejores y por ello trabaja. Es madre de tres hijas.'
-    image: img/mentoras/MariaVillarroya
-    image_card: 
-    twitter_account: mvgaudo
-    linkedin_account:
+  #- name: 'Pilar Barbero'
+  #  short_name: 'Pilar Barbero'
+  #  bio: 'Desde pequeña me han gustado los números. Decidí estudiar matemáticas en la universidad porque las cosas cuadraban siempre, y ahí descubrí la programación.<br/>Tras el máster de Modelización Matemática que realicé con mis queridos lenguajes Python y R, resultó que eso no era lo mío y obtuve mi primer trabajo programando en .NET en una consultora. Actualmente trabajo en el departamento de IT de Vueling en un negocio que realmente me apasiona debido a mi pasión por viajar. Soy una neurótica de las pruebas unitarias y las code reviews, y sobre todo, de que las cosas se hagan bien. No sé decir que no a nada, así que me podrás ver por diferentes saraos al menos aquí en Zaragoza. Me encanta la cerveza y sobre todo, adoro a mis dos pequeñas chinchillas, Phil y Alan.'
+  #  image: img/mentoras/PilarBarbero
+  #  image_card: 
+  #  twitter_account: yayaqueprograma
+  #  linkedin_account:
+  #- name: 'Sandra Escudero'
+  #  short_name: 'Sandra Escudero'
+  #  bio: ''
+  #  image: img/mentoras/SandraEscudero
+  #  image_card: 
+  #  twitter_account: SandraEscS
+  #  linkedin_account:
+  #- name: 'Laura Lacarra'
+  #  short_name: 'Laura Lacarra'
+  #  bio: ''
+  #  image: img/mentoras/LauraLacarra
+  #  image_card: 
+  #  twitter_account: LauraLacarra
+  #  linkedin_account:
+  #- name: 'Eva Omedes'
+  #  short_name: 'Eva Omedes'
+  #  bio: ''
+  #  image: img/mentoras/EvaOmedes
+  #  image_card: 
+  #  twitter_account: 
+  #  linkedin_account: eva-omedes-domene-366315128
+  #- name: 'Marta Pérez Campos'
+  #  short_name: 'Marta Pérez'
+  #  bio: 'Marta Pérez Campos (Mallén, Zaragoza, 1990)<br/>Artista multidisciplinar. Graduada en Bellas Artes por la Universidad de Zaragoza y Máster Interface Cultures de la Kunstuniversität Linz (Austria). Sus creaciones han sido expuestas en numerosos festivales, conferencias y exposiciones nacionales e internacionales. <br/>En su trabajo reflexiona sobre la presencia del error en nuestras interacciones sociales, creando para ello interfaces y experiencias que intervengan y especulen sobre la (in)comunicación y nuestra relación con el lenguaje. '
+  #  image: img/mentoras/MartaPerez
+  #  image_card: 
+  #  twitter_account: 
+  #  linkedin_account:
+  #- name: 'Nerea Tamayo'
+  #  short_name: 'Nerea Tamayo'
+  #  bio: 'Nerea Tamayo, comenzó su vida laboral como desarrolladora de software, hasta que descubrió  su pasión por el testing, disciplina a la que se ha dedicado en exclusiva desde 2013 y en la que se ha especializado. Nerea está certificada por el ISTQB (International Software Testing Qualifications Board), como Software Tester (Foundation Level), como Test Manager (Advanced Level) y como Ingeniera de Automatización de Pruebas (Advanced Level).<br/>Actualmente trabaja en adidas, definiendo los procesos, herramientas y estándares de testing en la Plataforma de Ingeniería y Arquitectura de la compañía (Global IT – PE&AO). El año pasado participó en el WTM Zaragoza, experiencia que le gustó y en la que quiere seguir participando, esta vez como mentora.'
+  #  image: img/mentoras/NereaTamayo
+  #  image_card: 
+  #  twitter_account: 
+  #  linkedin_account: nerea-tamayo-garcía
+  #- name: 'María Villarroya'
+  #  short_name: 'María Villarroya'
+  #  bio: 'María Villarroya Gaudó es profesora contratada doctora de Arquitectura y Tecnología de Computadores en la Escuela de Ingeniería y Arquitectura de la Universidad de Zaragoza, presidenta de AMIT-Aragón desde 2012. Es licenciada en Ciencias Físicas por la Universidad de Zaragoza (2000) y Doctora en Ingeniería Electrónica por la Universidad Autónoma de Barcelona (2005).Su área de investigación en Arquitectura de Computadores se centra actualmente en reparto y balanceo de carga en sistemas heterogéneos (con GPUs, CPUs y FPGAs).<br/>Desde 2008 organiza el Girls'' Day (fuimos en Aragón pioneras en esta actividad y es la única Comunidad Autónoma que lo mantiene anualmente desde entonces)., e investiga porqué hay pocas mujeres en ingeniería y los números lejos de mejorar, están estancados, en 2016 promovió una ingeniera en cada cole, habiendo llegado a más de 5000 estudiantes de primaria en Aragón en todas sus ediciones. Además está convencida que la diversidad hace que los avances tecnológicos y la ciencia en general sean mejores y por ello trabaja. Es madre de tres hijas.'
+  #  image: img/mentoras/MariaVillarroya
+  #  image_card: 
+  #  twitter_account: mvgaudo
+  #  linkedin_account:
 
 #List for volunteers
 volunteers:
-  - name: 'Noelia Atarés'
-    short_name: 'Noelia Atarés'
-    bio: ''
-    image: img/voluntarias/NoeliaAtares
-    image_card: 
-    twitter_account: 
-    linkedin_account: 
-  - name: 'Mary Carmen Bozal'
-    short_name: 'Mary Carmen Bozal'
-    bio: ''
-    image: img/voluntarias/NMaryCarmenBozal
-    image_card: 
-    twitter_account: 
-    linkedin_account: 
-  - name: 'Ana Cambra'
-    short_name: 'Ana Cambra'
-    bio: ''
-    image: img/voluntarias/Ana Cambra
-    image_card: 
-    twitter_account: 
-    linkedin_account: 
-  - name: 'Sandra Malpica'
-    short_name: 'Sandra Malpica'
-    bio: ''
-    image: img/voluntarias/SandraMalpica
-    image_card: 
-    twitter_account: 
-    linkedin_account: 
-  - name: 'Carmen Martínez'
-    short_name: 'Carmen Martínes'
-    bio: ''
-    image: img/voluntarias/CarmenMartinez
-    image_card: 
-    twitter_account: 
-    linkedin_account: 
-  - name: 'Rosa Montañes'
-    short_name: 'Rosa Montañes'
-    bio: ''
-    image: img/voluntarias/RosaMontañes
-    image_card: 
-    twitter_account: 
-    linkedin_account: 
-  - name: 'Abril Robles'
-    short_name: 'Abril Robles'
-    bio: ''
-    image: img/voluntarias/AbrilRobles
-    image_card: 
-    twitter_account: 
-    linkedin_account: 
-  - name: 'Cristina Ventura'
-    short_name: 'Cristina Ventura'
-    bio: ''
-    image: img/voluntarias/CristinaVentura
-    image_card: 
-    twitter_account: 
-    linkedin_account:
+  #- name: 'Noelia Atarés'
+  #  short_name: 'Noelia Atarés'
+  #  bio: ''
+  #  image: img/voluntarias/NoeliaAtares
+  #  image_card: 
+  #  twitter_account: NoeliAtares
+  #  linkedin_account: 
+  #- name: 'Mary Carmen Bozal'
+  #  short_name: 'Mary Carmen Bozal'
+  #  bio: 'Me llamo Mary Carmen, soy de Zaragoza, periodista y mamá de Gabriela de 10 años. La comunicación es además de mi profesión mi pasión y medio de vida, tengo una pequeña agencia de marketing y comunicación donde con mucho amor, mucha empatía y un poco de magia ayudo a mis clientes a que sus proyectos sean visibles.'
+  #  image: img/voluntarias/MaryCarmenBozal
+  #  image_card: 
+  #  twitter_account: mcbozal
+  #  linkedin_account: 
+  #- name: 'Ana Cambra'
+  #  short_name: 'Ana Cambra'
+  #  bio: ''
+  #  image: img/voluntarias/AnaCambra
+  #  image_card: 
+  #  twitter_account: Ana_Cambra
+  #  linkedin_account: 
+  #- name: 'Begoña Cuello Baron'
+  #  short_name: 'Begoña Cuello'
+  #  bio: 'Mi nombre es Begoña Cuello y es Licenciada en Ingeniera Informática en el Centro Politécnico Superior (CPS) en la Universidad de Zaragoza.<br/>He tenido la suerte de poder haber trabajado en grandes clientes, dándome la oportunidad de conocer distintas tecnologías y metodologías de trabajo,  además de la implicación en grandes equipos de profesionales, donde he aprendido que las bases de una buena relación,  tanto con clientes como con el propio equipo, son la profesionalidad, el respeto y la honestidad.<br/>Me defino como una persona comunicativa, positiva, segura de que estamos rodeados de alternativas y oportunidades y  que con perseverancia todo lo que me plantee es posible que lo consiga.<br/>- "SI CREES EN TI MISMO NO HABRÁ NADA QUE ESTE FUERA DE TUS POSIBILIDADES"<br/>- "NO SÉ SI LO LOGRARÉ... PERO MÍRAME INTENTARLO"<br/>- "UNA SONRISA EN MI ROSTRO, NO SIGNIFICA LA AUSENCIA DE PROBLEMAS, SINO LA HABILIDAD DE SER FELIZ, POR ENCIMA DE ELLOS"'
+  #  image: img/voluntarias/BegoñaCuello
+  #  image_card: 
+  #  twitter_account: BegoCuello
+  #  linkedin_account: 
+  #- name: 'Sandra Malpica Mallo'
+  #  short_name: 'Sandra Malpica'
+  #  bio: 'Soy una estudiante de doctorado (graduada en ingeniería informática y máster en ingeniería biomédica) bajo la supervisión de Belén Masiá y Diego Gutiérrez en la universidad de Zaragoza, dentro del Graphics and Imaging Lab. Mis intereses se centran en la percepción humana en realidad virtual.'
+  #  image: img/voluntarias/SandraMalpica
+  #  image_card: 
+  #  twitter_account: El6sinsentido
+  #  linkedin_account: 
+  #- name: 'Carmen Martínez'
+  #  short_name: 'Carmen Martínes'
+  #  bio: '¡Hola! Me llamo Carmen Martínez y soy Graduada en Ingeniería Biomédica por la UPV. Hice el Máster en Ingeniería Biomédica en la Universidad de Zaragoza y actualmente trabajo aquí como investigadora bajo la supervisión de los grupos de investigación BSICoS y ViVoLab. Mi principal tarea se desarrolla en el campo del procesado de la señal de voz en una base de datos de sujetos con depresión para caracterizar esta enfermedad mental y ayudar en un futuro al diagnóstico de la misma.'
+  #  image: img/voluntarias/CarmenMartinez
+  #  image_card: 
+  #  twitter_account: 
+  #  linkedin_account: carmen-martínez-antón-3ba946109
+  #- name: 'Rosa Montañes Salas'
+  #  short_name: 'Rosa Montañes'
+  #  bio: 'Soy Ingeniera de Telecomunicaciones, (a punto de) Ingeniera Informática y para más datos, de un pueblo de Teruel. Actualmente me dedico al desarrollo de soluciones de Big Data e Inteligencia Artificial, centradas en el procesado del lenguaje natural  y Deep Learning. En mis ratos libres, sigo formándome en estos ámbitos, ahora mismo adentrándome en las ciencias cognitivas.'
+  #  image: img/voluntarias/RosaMontañes
+  #  image_card: 
+  #  twitter_account: erremesse
+  #  linkedin_account: rosa-montannes-salas
+  #- name: 'Nuria Prieto'
+  #  short_name: 'Nuria Prieto'
+  #  bio: 'Varios mundos tengo a mi al rededor. El familiar, sin mención por privacidad. El laboral, desarrollado casi en su totalidad en la Universidad Carlos III en el Servicio de Informática,  30 años ¡casi nada!  Actualmente en el CERT, grupo de Seguridad Informática de dicha universidad. Otro de mis mundos, de mis pasiones, es el maker. Perteneciente a la comunidad Women Maker - #WoMaker - intentando que esta comunidad sea más visible. Por último, y no el menos importante, mi mundo deportivo. Atleta con varias carreras y campeonatos corridos y ganados.'
+  #  image: img/voluntarias/NuriaPrieto
+  #  image_card:
+  #  twitter_account: nuria_imeq
+  #  linkedin_account:
+  #- name: 'Abril Robles'
+  #  short_name: 'Abril Robles'
+  #  bio: ''
+  #  image: img/voluntarias/AbrilRobles
+  #  image_card: 
+  #  twitter_account: 
+  #  linkedin_account: 
+  #- name: 'María del Carmen Rodriguez'
+  #  short_name: 'María del Carmen Rodriguez'
+  #  bio: 'Soy ingeniera informática y graduada del doctorado en Ingeniería de Sistemas e Informática de la Universidad de Zaragoza. Soy amante del ámbito académico y especialista en las áreas de Sistemas de Recomendación, Inteligencia Artificial, Recuperación de Información, Computación Móvil y Procesamiento del Lenguaje Natural.'
+  #  image: img/voluntarias/MariadelCarmenRodriguez
+  #  image_card: 
+  #  twitter_account: 
+  #  linkedin_account:
+  #- name: 'Cristina Ventura'
+  #  short_name: 'Cristina Ventura'
+  #  bio: ''
+  #  image: img/voluntarias/CristinaVentura
+  #  image_card: 
+  #  twitter_account: 
+  #  linkedin_account:
 
 #List for sponsors
 sponsors_platinum:
@@ -626,11 +636,11 @@ sponsors_others:
     image: img/patrocinadores/colaboradores/eboca.png
     web: https://www.eboca.com/
     twitter: EbocaVending
-  #- name: Ambar
-  #  text: 
-  #  image: img/patrocinadores/colaboradores/ambar.png
-  #  web: https://ambar.com
-  #  twitter: cervezasambar
+  - name: Ambar
+    text: 
+    image: img/patrocinadores/colaboradores/ambar.png
+    web: https://ambar.com
+    twitter: cervezasambar
   #- name: Donuts
   #  text: 
   #  image: img/patrocinadores/colaboradores/donuts.png
@@ -668,7 +678,7 @@ talks_track_1:
   - time: '09:45-10:30'
     track: all
     name: 'PRESENTACIÓN Staff WTM Zaragoza'
-    second_name: 'Inauguración: Invitada Sorpresa'
+    second_name: 'Inauguración: María López'
     descrip: 
     speaker: 
   - time: '10:30-10:55'
@@ -709,10 +719,9 @@ talks_track_1:
     url_youtube: 
   - time: '13:30-13:55'
     track: 1
-    #rowspan: '0'
-    name: 'Web Semántica: Factores SEO que aumentan tu visibilidad en Google'
-    descrip: 'Ya no basta con que nos busquen por nombre o marca, mola ser encontradas por temas relacionados con lo que hacemos. El algoritmo de búsqueda semántica cada vez da más importancia al significado y a la intención de las búsquedas de los usuarios. En esta charla quiero compartir la metodología y las herramientas gratuitas para identificar palabras clave LSI (Latent Semantic Indexing Keywords), cómo aprovecharlas para optimizar el SEO On-Site y Off-Site y ganar visibilidad en Internet.'
-    speaker: 'Laura López Navaz'
+    name: 'Descubrimiento de producto a través de Inception, ¿perder el tiempo o invertirlo?'
+    descrip: '-'
+    speaker: 'María Berenguer'
     url_youtube: 
   - time: '13:55-14:00'
     track: all
@@ -819,7 +828,7 @@ talks_track_2:
   - time: '12:30-12:55'
     track: 2
     name: 'Developer Experience: ¿Cómo diseñar una buena API y por qué es importante?'
-    descrip: '-'
+    descrip: 'El valor de la API: ‘Developer experience’ y Empresa<br/>Desde hace más de diez años, organizaciones como Twitter, Google, Amazon, Facebook, entre muchas otras, trabajan con APIs. Actualmente, son muchas las Pymes que han empezado a integrarlas en sus plataformas, mejorando así la calidad y la funcionalidad de su producto, e incrementando sus beneficios.<br/>En 20 minutos hablaré desde el punto de vista de la experiencia del desarrollador, qué es una API, estrategia, principios y buenas prácticas diseñando una API REST para una nueva ''user story'' definida. Y desde el punto de vista de la empresa, qué puede hacer una API para el éxito de la misma.'
     speaker: 'Marina Serrano Montes'
     url_youtube: 
   - time: '13:00-13:25'
@@ -830,9 +839,10 @@ talks_track_2:
     url_youtube: 
   - time: '13:30-13:55'
     track: 2
-    name: 'Descubrimiento de producto a través de Inception, ¿perder el tiempo o invertirlo?'
-    descrip: '-'
-    speaker: 'María Berenguer'
+    #rowspan: '0'
+    name: 'Web Semántica: Factores SEO que aumentan tu visibilidad en Google'
+    descrip: 'Ya no basta con que nos busquen por nombre o marca, mola ser encontradas por temas relacionados con lo que hacemos. El algoritmo de búsqueda semántica cada vez da más importancia al significado y a la intención de las búsquedas de los usuarios. En esta charla quiero compartir la metodología y las herramientas gratuitas para identificar palabras clave LSI (Latent Semantic Indexing Keywords), cómo aprovecharlas para optimizar el SEO On-Site y Off-Site y ganar visibilidad en Internet.'
+    speaker: 'Laura López Navaz'
     url_youtube: 
   - time: '15:55-14:00'
     track: all
@@ -913,9 +923,9 @@ workshops_track_1:
   - time: '10:30-12:00'
     time_start: '10:30'
     track: workshop
-    name: '-'
-    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>Entre 5 y 12 años <br/><br/>-'
-    speaker: '-'
+    name: 'Yincana Encuentra Científicas'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 12 <br/>Niñas y niños<br/><br/>Cuentacientíficas nace como actividad del 11F para aumentar el conocimiento de referentes femeninos STEAM. En la Yincana Encuentra Científicas escondemos “guisantes” que representan áreas de investigación, descubrimientos o inventos de científicas, ingenieras e inventoras que os animamos a descubrir. ¡Ven a contarlas! ¡Cuenta con ellas!'
+    speaker: 'Águeda Giráldez, Beatriz Entralgo y Vanessa Cañadas'
     duration: 1
     url_youtube: 
   - time: '12:00-12:25'
@@ -925,21 +935,21 @@ workshops_track_1:
     descrip: 
     speaker: 
     duration: 1 
-  - time: '12:30-13:55'
+  - time: '12:30-14:00'
     time_start: '12:30'
     track: workshop
-    name: 
-    descrip: 
-    speaker: 
-    duration: 1 
+    name: 'Estadística "tidy" con R'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 20 <br/>Adultos<br/><br/>Un taller estupendo tanto para empezar con R como para empezar a explorar tus datos con R. Usaremos una serie de paquetes que siguen una gramática concreta y fácil de utilizar para hacer análisis de datos con R. Cubriremos importar los datos, limpiarlos, explorarlos, y modelos simples para ver la estructura. <br/><br/><b>Trae tu propio portátil</b>'
+    speaker: 'Bea Hernández'
+    duration: 1
     url_youtube: 
-  - time: '13:55-14:00'
-    time_start: '13:55'
-    track: all
-    name: Fotografía de grupo (Auditorio)
-    descrip: 
-    speaker: 
-    duration: 1 
+  #- time: '13:55-14:00'
+  #  time_start: '13:55'
+  #  track: all
+  #  name: Fotografía de grupo (Auditorio)
+  #  descrip: 
+  #  speaker: 
+  #  duration: 1 
   - time: '14:00-15:55'
     time_start: '14:00'
     track: all
@@ -947,23 +957,32 @@ workshops_track_1:
     descrip: 
     speaker: 
     duration: 1
-  - time: '16:00-16:55'
+  - time: '16:00-17:30'
     time_start: '16:00'
+    track: workshop
+    name: 'Estrategia de comunicación basada en datos'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 20 <br/>Adultos<br/><br/>Como elaborar una estrategia de comunicación utilizando datos y tecnología '
+    speaker: 'Nagore de los Ríos'
+    duration: 1 
+    url_youtube: 
+  #- time: '17:00-17:25'
+  #  time_start: '17:00'
+  #  track: all
+  #  name: 'DESCANSO CAFÉ'
+  #  descrip: '-'
+  #  speaker: '-'
+  #  duration: 1
+  - time: '17:30-18:30'
+    time_start: '17:30'
     track: workshop
     name: 
     descrip: 
     speaker: 
     duration: 1
-    url_youtube: 
-  - time: '17:00-17:25'
-    time_start: '17:00'
-    track: all
-    name: 'DESCANSO CAFÉ'
-    descrip: '-'
-    speaker: '-'
-    duration: 1
-  - time: '17:30-18:55'
-    time_start: '17:30'
+    bio_speaker: ''
+    url_youtube:  
+  - time: '18:30-18:55'
+    time_start: '18:30'
     track: workshop
     name: 
     descrip: 
@@ -1011,9 +1030,9 @@ workshops_track_2:
   - time: '10:30-12:00'
     time_start: '10:30'
     track: workshop
-    name: '-'
-    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>A partir de 8 años <br/><br/>-'
-    speaker: '-'
+    name: 'Juega y aprende con Arduino & Raspberry Pi'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 12 <br/>Niñas y niños entre 6 y 12 años<br/><br/>Sumérgete en el mundo de la informática y electrónica de una manera fácil y divertida montando tu primer proyecto con Arduino y Raspberry junto a todos tus compañeros.' 
+    speaker: 'Beatriz Aguas Luzón, Sheila Blasco Clavero y Clara Cirac Nerín'
     duration: 1
     url_youtube: 
   - time: '12:00-12:25'
@@ -1023,21 +1042,21 @@ workshops_track_2:
     descrip: 
     speaker: 
     duration: 1 
-  - time: '12:30-13:55'
+  - time: '12:30-14:00'
     time_start: '12:30'
     track: workshop
-    name: '-'
-    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>Entre 5 y 9 años <br/><br/>-'
-    speaker: '-'
+    name: 'Crea tus propias gafas de realidad virtual'
+    descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 12 <br/>Niñas y niños a partir de 7 años <br/><br/>¿Quieres crear tus propias gafas de realidad virtual? En este taller aprenderás para que sirven, podrás crear y decorar tus propias gafas de realidad virtual y para finalizar el taller....¡Podrás probar lo bien que funcionan! Además podrás llevártelas a casa y seguir disfrutando de ellas ¡Será súper divertido!'
+    speaker: 'María Mora Fernández , Mercedes Medrano Gil, Ana Cruz Galán, Raquel Noé Martínez'
     duration: 1
     url_youtube: 
-  - time: '13:55-14:00'
-    time_start: '13:55'
-    track: all
-    name: Fotografía de grupo (Track 1)
-    descrip: 
-    speaker: 
-    duration: 1
+  #- time: '13:55-14:00'
+  #  time_start: '13:55'
+  #  track: all
+  #  name: Fotografía de grupo (Track 1)
+  #  descrip: 
+  #  speaker: 
+  #  duration: 1
   - time: '14:00-15:55'
     time_start: '14:00'
     track: all
@@ -1045,24 +1064,31 @@ workshops_track_2:
     descrip: 
     speaker: 
     duration: 1
-  - time: '16:00-16:55'
+  - time: '16:00-17:45'
     time_start: '16:00'
+    track: workshop
+    name: 'App Inventor - Apps móviles al alcance de tod@s'
+    descrip: 'Duracion: 2h 30m<br/>Plazas disponibles: 12 <br/>Niñas y niños entre 9 a 13 años<br/><br/>'
+    speaker: 'Leticia Gracia y María Gracia'
+    duration: 2
+    url_youtube: 
+  #- time: '17:00-17:25'
+  #  time_start: '17:00'
+  #  track: all
+  #  name: 'DESCANSO CAFÉ'
+  #  descrip: '-'
+  #  speaker: '-'
+  #  duration: 1
+  #  url_youtube: 
+  - time: '17:45-18:30'
+    time_start: '17:30'
     track: workshop
     name: 
     descrip: 
     speaker: 
     duration: 1
-    url_youtube: 
-  - time: '17:00-17:25'
-    time_start: '17:00'
-    track: all
-    name: 'DESCANSO CAFÉ'
-    descrip: '-'
-    speaker: '-'
-    duration: 1
-    url_youtube: 
-  - time: '17:30-18:55'
-    time_start: '17:30'
+  - time: '18:30-18:55'
+    time_start: '18:30'
     track: workshop
     name: 
     descrip: 

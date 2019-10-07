@@ -316,7 +316,7 @@
                       <!--<img src="{{ image_speaker }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_speaker }}_g.jpg'" onmouseout="this.src='{{ image_speaker }}_c.jpg'"/>-->
                       <img src="{{ image_speaker }}_c.jpg" onerror="this.src='img/ponentes/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala-color" onmouseover="this.classList.remove('escala-color'); this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises'); this.classList.add('escala-color');"/>
                       {% elsif twitter_speaker != "" %}
-                      <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
+                      <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle escala-color" onmouseover="this.classList.remove('escala-color'); this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises'); this.classList.add('escala-color');"/>
                       {% else %}
                       <i class="fa fa-user fa-stack-1x text-primary"></i>
                       {% endif %}
