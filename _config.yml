@@ -588,6 +588,11 @@ sponsors_silver:
     image: img/patrocinadores/silver/k-lagan.png
     web: https://www.k-lagan.com/
     twitter: KLAGAN_KLG
+  - name: Fundacion Hiberus
+    text: 
+    image: img/patrocinadores/silver/fundacion_hiberus.png
+    web: 
+    twitter: 
   #- name: Elastic
   #  text: 
   #  image: img/patrocinadores/silver/elastic.png
@@ -641,6 +646,11 @@ sponsors_others:
     image: img/patrocinadores/colaboradores/ambar.png
     web: https://ambar.com
     twitter: cervezasambar
+  - name: Continuum Security
+    text: 
+    image: img/patrocinadores/colaboradores/continuum_security.png
+    web: https://www.ptwalqa.com/empresa-detalle/112/continuum-security/
+    twitter: 
   #- name: Donuts
   #  text: 
   #  image: img/patrocinadores/colaboradores/donuts.png
