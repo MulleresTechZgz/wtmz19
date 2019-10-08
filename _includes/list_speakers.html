@@ -207,12 +207,13 @@
                   <div class="modal-dialog">
                   
                     <!-- Modal content-->
-                    <div class="modal-content">
-                      {% if image_card_speaker != ""  %}
+                    {% if image_card_speaker != ""  %}
+                    <div class="modal-content" style="background-color: transparent !important;">
                       <div class="modal-body modal-image-card" style="background-image: url({{ image_card_speaker }}.jpg);">
                           <button type="button" class="close" data-dismiss="modal">&times;</button>
                       </div>
-                      {% else  %}
+                    {% else  %}
+                    <div class="modal-content">
                       <div class="modal-body">
                           <button type="button" class="close" data-dismiss="modal">&times;</button>
                           <div class="wtm-modal-content-left">
@@ -361,12 +362,14 @@
                   <div class="modal-dialog">
                   
                     <!-- Modal content-->
-                    <div class="modal-content">
-                      {% if image_card_speaker != ""  %}
-                      <div class="modal-body modal-image-card" style="background-color: #00A29A !important;background-image: url({{ image_card_speaker }}.jpg);">
+                    
+                    {% if image_card_speaker != ""  %}
+                    <div class="modal-content" style="background-color: transparent !important;">
+                      <div class="modal-body modal-image-card" style="background-image: url({{ image_card_speaker }}.jpg);">
                           <button type="button" class="close" data-dismiss="modal">&times;</button>
                       </div>
-                      {% else  %}
+                    {% else  %}
+                    <div class="modal-content">
                       <div class="modal-body">
                           <button type="button" class="close" data-dismiss="modal">&times;</button>
                           <div class="wtm-modal-content-left">

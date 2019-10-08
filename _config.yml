@@ -189,7 +189,7 @@ speakers:
     short_name: 'Cristina De Propios'
     bio: 'Doctoranda con tesis en el campo del Arte y la Robótica.  Divulgadora del nexo entre tecnología y arte. Profesora de robótica creativa en institutos y colegios de Madrid. Quantum Creative Engineer en Q-Lion, Startup dedicada a la computación cuántica. Construye autómatas y robots siempre y cuando tengan algo de madera.'
     image: img/ponentes/charlas/CristinaDePropios
-    image_card: img/ponentes/charlas/fichas/CristinaDePropios
+    image_card: 
     twitter_account: de_propios
     linkedin_account:
   - name: 'Cristina Fernández Sanz'
@@ -259,9 +259,9 @@ speakers:
     short_name: 'Celia Martínez'
     bio: 'Programadora, con más de 10 años trabajando en consultoras, actualmente para ViewNext. <br/>He trabajado para diversos sectores, Recursos Humanos, Administración, Utilities, Logística, Banca… Y lo más importante que he aprendido es que todo proyecto es una oportunidad de aprender y el conocimiento nuestra mejor herramienta.'
     image: img/ponentes/charlas/CeliaMartinez
-    image_card: img/ponentes/charlas/fichas/CeliaMartinez
+    image_card: 
     twitter_account: Celta_ML
-    linkedin_account:
+    linkedin_account: celia-martínez-luengo-85a04440
   - name: 'Sara San Luis Rodríguez y Daniela Solís Morales'
     short_name: 'Sara San Luis y Daniela Solís'
     bio: 'Sara San Luis, apasionada de las ciencias desde pequeña, estudié Matemáticas en la Universidad de Santiago de Compostela, formación que completé con un Máster en Estadística e Investigación Operativa. Este último me permitió adentrarme en el mundo de la IA y del ML, campos en los que trabajo ahora mismo en el equipo de IA de Plain Concepts.<br/><br/>Daniela Solís, software engineer en el equipo de IA de Plain Concepts. Maestra en Inteligencia Artificial de la Universidad de Amsterdam con grado en Ingeniería del Software de la Universidad Politecnica de Madrid. Apasionada de las nuevas tecnologías y del mundo de la Inteligencia Artificial.'
@@ -696,7 +696,7 @@ talks_track_1:
   - time: '11:30-11:55'
     track: 1
     name: 'Cómo puede la Inteligencia Artificial ayudar en la detección del cáncer de mama.'
-    descrip: '-'
+    descrip: ''
     speaker: 'Sara San Luís Rodríguez y Daniela Solís Morales'
     url_youtube: 
   - time: '12:00-12:25'
@@ -707,20 +707,20 @@ talks_track_1:
   - time: '12:30-12:55'
     track: 1
     name: 'Comunicación en equipos de alto rendimiento: desmontando la Torre de Babel'
-    descrip: '-'
+    descrip: ''
     speaker: 'Patricia Martínez Jaray'
     url_youtube: 
   - time: '13:00-13:25'
     track: 1
     #rowspan: '2'
     name: '¿Por qué dices padding cuando quieres decir margin?'
-    descrip: '-'
+    descrip: ''
     speaker: 'Cristina Fernández Sanz'
     url_youtube: 
   - time: '13:30-13:55'
     track: 1
     name: 'Descubrimiento de producto a través de Inception, ¿perder el tiempo o invertirlo?'
-    descrip: '-'
+    descrip: ''
     speaker: 'María Berenguer'
     url_youtube: 
   - time: '13:55-14:00'
@@ -736,7 +736,7 @@ talks_track_1:
   - time: '16:00-16:25'
     track: 1
     name: 'Anatomía de una conversación'
-    descrip: '-'
+    descrip: ''
     speaker: 'Cristina Santamarina' 
     url_youtube: 
   - time: '16:30-16:55'
@@ -765,7 +765,7 @@ talks_track_1:
   - time: '18:30-18:55'
     track: 1
     name: 'Zapatillas por impresión 3D'
-    descrip: '-'
+    descrip: ''
     speaker: 'Susana Sanmartín Garbayo'
   - time: '19:00-19:45'
     track: all
@@ -811,13 +811,13 @@ talks_track_2:
   - time: '11:00-11:25'
     track: 2
     name: 'ValPat - motivando en tecnología'
-    descrip: '-'
+    descrip: 'Valeria con tan sólo 10 años se ha convertido en toda una referente en carreras STEAM para otras niñas. A principios de años lanzó junto con su profesora y compañera Patricia una exitosa campaña de crowdfunding para sacar adelante su proyecto "ValPat STEAM" un canal de YouTube con el que pretenden inspirar y fomentar los campos STEAM entre las niñas y los niños. ¿Qué han hicieron para lograrlo? ¿Cómo crean los videos? ¿Qué han aprendido por el camino?...'
     speaker: 'Valeria Corrales y Patricia Heredia'
     url_youtube: 
   - time: '11:30-11:55'
     track: 2
     name: 'El cerebro digital 5.0'
-    descrip: '-'
+    descrip: 'Si piensas que tu hija es “nativa digital”, “eres multitasking”, estás conectada 24/7, te “enganchaste” literalmente a Pokémon GO y/o Candy Crush -porque sí, reconócelo, tú también solicitaste vidas a tus contactos de Facebook para seguir jugando en bucle…- y conoces las mejores apps para ligar (o las quieres actualizar)… ¡¡¡Esta es tu conferencia!!! TRA-TRA. <br/>Vincularemos cerebro y tecnología para que esta unión no acabe en una traumática enemistad con catastrófica ruptura. Para ello contaremos, entre otras, con la espléndida colaboración de Paulova y sus perros que, en exclusiva, nos descubrirán cómo funciona el procesador más complejo, versátil y eficaz creado hasta la fecha. Lidera tu vida en la era de la hiperconectividad, ¡¡descubre el poder del cerebro 5.0!!'
     speaker: 'Paula Gracia Andrés'
     url_youtube: 
   - time: '12:00-12:25'
@@ -834,7 +834,7 @@ talks_track_2:
   - time: '13:00-13:25'
     track: 2
     name: 'Becoming a Remote Worker - an individual''s perspective: best practice; routine, attitude, support & considerations.'
-    descrip: '-'
+    descrip: 'Becoming a Virtual Worker - an individual''s perspective: best practice, routine, attitude, support & considerations. This session also explores remote working locations options and innovations. Rowena Hennigan, Lecturer, Trainer and Communications Consultant, working remotely since 2007. '
     speaker: 'Rowena Hennigan'
     url_youtube: 
   - time: '13:30-13:55'
@@ -857,13 +857,13 @@ talks_track_2:
   - time: '16:00-16:25'
     track: 2
     name: 'El Cartero llama a tu puerta'
-    descrip: '-'
+    descrip: ''
     speaker: 'Celia Martinez Luengo'
     url_youtube: 
   - time: '16:30-16:55'
     track: 2
     name: 'Smart Visual Data & Grupo LmssLm'
-    descrip: '-'
+    descrip: ''
     speaker: 'Vanessa Borobia'
     url_youtube: 
   - time: '17:00-17:25'
@@ -880,13 +880,13 @@ talks_track_2:
   - time: '18:00-18:25'
     track: 2
     name: 'From zero to hero with kotlin & springboot'
-    descrip: '-'
+    descrip: ''
     speaker: 'Debora Gomez Bertoli'
     url_youtube:  
   - time: '18:30-18:55'
     track: 2
     name: '¿Truco o dato?'
-    descrip: '-'
+    descrip: ''
     speaker: 'Ana Bernal y Cristina Gimeno'
     url_youtube:    
   - time: '19:00-19:45'
