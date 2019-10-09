@@ -706,7 +706,7 @@ talks_track_1:
   - time: '11:30-11:55'
     track: 1
     name: 'Cómo puede la Inteligencia Artificial ayudar en la detección del cáncer de mama.'
-    descrip: ''
+    descrip: 'El cáncer de mama es el tipo de cáncer más común entre mujeres y el segundo tipo de cáncer más común, siendo uno de las principales causas de muerte de las mujeres a nivel global. Sin embargo, la probabilidad de curación cuando éste es detectado en estados iniciales, es prácticamente del 100%. Las imágenes mamográficas son el método más empleado para examinar los senos de las pacientes. Y, a pesar de que estas imágenes ayudan a reducir en gran medida la mortalidad del cáncer de mama, son también las causantes de un tema de intenso debate por los daños que lleva asociados la exposición a la radiación. Además, en la práctica, la obtención de un diagnóstico basado solamente en la mamografía es muy difícil, por lo que, en muchos casos, antes de que un doctor pueda hacer un diagnóstico, se requiere de la realización de una biopsia. Esta, es una operación quirúrgica y, como tal, tiene unos riesgos asociados como pueden ser dolores crónicos e infecciones. Por otra parte, el tiempo que pasa entre obtener la cita para realizar la biopsia y la obtención de los resultados, puede llevar un tiempo hasta que se realiza el diagnóstico, lo que puede darle al cáncer tiempo suficiente para tener efectos irreversibles en la salud del paciente. La Inteligencia Artificial (IA) puede ser una gran aliada para agilizar el diagnóstico reduciendo eficazmente tanto los tiempos de espera como el número de biopsias necesarias, aumentando de esta forma las probabilidades de curación. En esta charla veremos cómo.  ¿Te lo vas a perder?'
     speaker: 'Sara San Luís Rodríguez y Daniela Solís Morales'
     url_youtube: 
   - time: '12:00-12:25'
@@ -724,7 +724,7 @@ talks_track_1:
     track: 1
     #rowspan: '2'
     name: '¿Por qué dices padding cuando quieres decir margin?'
-    descrip: ''
+    descrip: 'En esta charla voy a contar algunos recursos que me están ayudado a organizarme mejor en los proyectos, maquetar diseños web con HTML y CSS más eficientemente y testear el resultado, tanto funcionalmente como comprobando la accesibilidad o la performance.'
     speaker: 'Cristina Fernández Sanz'
     url_youtube: 
   - time: '13:30-13:55'
@@ -1078,7 +1078,7 @@ workshops_track_2:
     time_start: '16:00'
     track: workshop
     name: 'App Inventor - Apps móviles al alcance de tod@s'
-    descrip: 'Duracion: 2h 30m<br/>Plazas disponibles: 12 <br/>Niñas y niños entre 9 a 13 años<br/><br/>'
+    descrip: 'Duracion: 2h 30m<br/>Plazas disponibles: 12 <br/>Niñas y niños entre 9 a 13 años<br/><br/>¿Sabes qué es APP Inventor? ¿Quieres aprender a programar una app para móvil?  Cuando termines el taller sabrás ésto y mucho más porque descubrirás que hay un mundo infinito de posibilidades para desarrollar tu creatividad y plasmarla en una aplicación móvil de una forma relativamente sencilla y bastante intuitiva. Vas a aprender cómo acceder a App Inventor, los requisitos que necesitas para empezar un proyecto, cómo es el espacio de trabajo con App Inventor, vas a diseñar el interface de una aplicación, la vas a programar y te la vas a llevar instalada en tu móvil para que puedas jugar con ella. ¡Ven a divertirte con nosotras!'
     speaker: 'Leticia Gracia y María Gracia'
     duration: 2
     url_youtube: 
