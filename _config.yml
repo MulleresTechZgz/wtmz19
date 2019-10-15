@@ -23,7 +23,7 @@ telephone:
 copyright:
 
 # Tickets
-sold_out_tickets: true
+sold_out_tickets: false
 
 # Timezone
 timezone: Europe/Madrid
@@ -717,7 +717,7 @@ talks_track_1:
   - time: '12:30-12:55'
     track: 1
     name: 'Comunicación en equipos de alto rendimiento: desmontando la Torre de Babel'
-    descrip: ''
+    descrip: 'La comunicación es la base del agilismo y a veces la gran olvidada. Si una de las cosas que nos diferencia de los animales es nuestra capacidad para comunicarnos, ¿por qué lo hacemos tan mal? En mi charla compartiré mi experiencia sobre las dificultades para conseguir una buena comunicación y qué herramientas e iniciativas me han ayudado a mejorarla.'
     speaker: 'Patricia Martínez Jaray'
     url_youtube: 
   - time: '13:00-13:25'
@@ -867,7 +867,7 @@ talks_track_2:
   - time: '16:00-16:25'
     track: 2
     name: 'El Cartero llama a tu puerta'
-    descrip: ''
+    descrip: 'Os voy a contar la situacion en la que me encontré en un proyecto nuevo y cómo Postman, aprovechando el aprendizaje de la herramientas  e invertiendo el tiempo suficiente en aprender a manejar y averiguar cómo utilizarla y aplicarla en nuesto caso, consiguio mejorar el proyecto.'
     speaker: 'Celia Martinez Luengo'
     url_youtube: 
   - time: '16:30-16:55'
@@ -890,13 +890,13 @@ talks_track_2:
   - time: '18:00-18:25'
     track: 2
     name: 'From zero to hero with kotlin & springboot'
-    descrip: ''
+    descrip: 'Eres frontend?? Alguna vez te has preguntado que hay más allá del muro??? En esta sesión haremos un live coding de un pequeño microservicio que ofrecerá una API de interacción. Usaremos Spring boot y kotlin para conseguirlo! Anímate al reto de construir tu primer microservicio en 15 minutos.'
     speaker: 'Debora Gomez Bertoli'
     url_youtube:  
   - time: '18:30-18:55'
     track: 2
     name: '¿Truco o dato?'
-    descrip: ''
+    descrip: 'Somos dos mujeres, ingenieras de formación, que acercan la innovación a través de la tecnología  a usuarios no tecnológicos, la administración pública local. Automatizar procesos, modificar flujos de trabajo reglados hasta el extremo es una labor compleja y dura que tiene un encanto especial.<br/>Cuándo abran la puerta del ayuntamiento ¿Qué crees que responden ante la pregunta de truco o dato?. Truco seguramente, copy-paste, Windows es su dios. Sin embargo la tecnología, la interoperabilidad, el Big Data nos permite acceder al dato mediante procesos eficientes <br/>La información NO es el poder, el poder está en el dato.  '
     speaker: 'Ana Bernal y Cristina Gimeno'
     url_youtube:    
   - time: '19:00-19:45'

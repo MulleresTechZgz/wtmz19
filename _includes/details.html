@@ -3,6 +3,8 @@
     <div class="row text-center">
       <div class="col-lg-12 wtm-blue ">
         <div class="row">
+          <p id="detalles_hora_real_servidor" hidden></p>
+          <p id="detalles_entradas_agotadas" hidden>{{ site.sold_out_tickets }}</p>
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="introduction-item">
               <span class="fa-stack fa-4x">
@@ -32,50 +34,68 @@
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-ticket fa-stack-1x" style="color: #ffffff;"></i>
               </span>
-              <!--
-              <h4>
-                <strong>Entradas disponibles <br/> PRÓXIMAMENTE</strong>
-              </h4>
-              -->
-              <!--
-              <h4>
-                <strong>Primeras entradas disponibles <br/>29 de agosto a las 11:00</strong>
-              </h4>
-              -->
-              <!--
+          
+              <div id="detalles_texto_entradas_proximamente" style="display: block;">
+
+                <!--
                 <h4>
-                  <strong>Entradas disponibles <br/> 12 de septiembre a las 12:00</strong>
+                  <strong>Entradas disponibles <br/> PRÓXIMAMENTE</strong>
                 </h4>
-              -->
-              <!--         
+                -->
+                <!--
                 <h4>
-                  <strong>Entradas ya a la venta</strong>
+                  <strong>Primeras entradas disponibles <br/>29 de agosto a las 11:00</strong>
                 </h4>
-              -->
-              <!--
-                <h4>
-                  <strong>Primera tanda de entradas AGOTADAS</strong>
-                </h4>
-              -->
+                -->
+                <!--
+                  <h4>
+                    <strong>Entradas disponibles <br/> 12 de septiembre a las 12:00</strong>
+                  </h4>
+                -->
+
                 <h4>
                   <strong>Segunda tanda de entradas disponibles <br/><br/> 16 de octubre a las 20:00</strong>
                 </h4>
+              </div>
               
-              <!--
+              <div id="detalles_texto_dia_de_venta_de_entradas" style="display: none;">
+                <h4>
+                  <strong>Hoy a las 20:00<br/><br/> entradas disponibles</strong>
+                </h4>
+              </div>
+
+              <div id="detalles_texto_entradas_a_la_venta" style="display: none;">
+                <!--         
+                  <h4>
+                    <strong>Entradas ya a la venta</strong>
+                  </h4>
+                -->
+
                 <h4>
                   <strong>Entradas de nuevo a la venta</strong>
                 </h4>
-              -->
-              <!--
-                <h4>
-                  <strong>Entradas AGOTADAS</strong>
-                </h4>
-              -->
-              <!--
-                <p>
-                  <strong>¡Apúntate a nuestra lista de espera!</strong>
-                </p>
-              -->
+              
+              </div>
+              
+              <div id="detalles_texto_entradas_agotadas" style="display: none;">
+
+                <!--
+                  <h4>
+                    <strong>Primera tanda de entradas AGOTADAS</strong>
+                  </h4>
+                -->
+
+                  <h4>
+                    <strong>Entradas AGOTADAS</strong>
+                  </h4>
+
+                <!--
+                  <p>
+                    <strong>¡Apúntate a nuestra lista de espera!</strong>
+                  </p>
+                -->
+
+              </div>
             </div>
           </div>
           
@@ -86,5 +106,63 @@
     </div>
     <!-- /.row -->
   </div>
+
+   <script>
+
+    // Set the date we're counting down to
+    var detalles_countDown = new Date("Oct 16, 2019 20:00:00");
+    var detalles_countDown_day = new Date("Oct 16, 2019 00:00:00");
+
+    var detalles_agotadas = document.getElementById("detalles_entradas_agotadas").innerHTML  == 'true';
+     
+    function detalles_cambiar_texto_a_mostrar () {
+      // Get todays date and time
+      var detalles_now = new Date();
+
+      var detalles_hay_que_publicar = (detalles_now >= detalles_countDown);
+      var detalles_es_dia_de_publicacion = (detalles_now >= detalles_countDown_day);
+      
+      document.getElementById("detalles_hora_real_servidor").innerHTML = detalles_now;
+
+      // Find the distance between now an the count down date
+      if (detalles_agotadas && document.getElementById("detalles_texto_entradas_agotadas").style.display != 'block') {
+        // Publicamos el texto de entradas agotadas
+        document.getElementById("detalles_texto_entradas_proximamente").style.display = 'none';
+        document.getElementById("detalles_texto_dia_de_venta_de_entradas").style.display = 'none';
+        document.getElementById("detalles_texto_entradas_a_la_venta").style.display = 'none';
+        document.getElementById("detalles_texto_entradas_agotadas").style.display = 'block';
+      }
+      else if (!detalles_agotadas && detalles_hay_que_publicar && document.getElementById("detalles_texto_entradas_a_la_venta").style.display != 'block') {
+        // Publicamos el texto de entradas a la venta
+        document.getElementById("detalles_texto_entradas_proximamente").style.display = 'none';
+        document.getElementById("detalles_texto_dia_de_venta_de_entradas").style.display = 'none';
+        document.getElementById("detalles_texto_entradas_a_la_venta").style.display = 'block';
+        document.getElementById("detalles_texto_entradas_agotadas").style.display = 'none';
+      }
+      else if (!detalles_agotadas && !detalles_hay_que_publicar && detalles_es_dia_de_publicacion && document.getElementById("detalles_texto_dia_de_venta_de_entradas").style.display != 'block'){
+        // Publicamos texto de que hoy a X hora salen a la venta las entradas
+        document.getElementById("detalles_texto_entradas_proximamente").style.display = 'none';
+        document.getElementById("detalles_texto_dia_de_venta_de_entradas").style.display = 'none';
+        document.getElementById("detalles_texto_dia_de_venta_de_entradas").style.display = 'block';
+        document.getElementById("detalles_texto_entradas_a_la_venta").style.display = 'none';
+        document.getElementById("detalles_texto_entradas_agotadas").style.display = 'none';
+      }
+      else if (!detalles_agotadas && !detalles_hay_que_publicar && !detalles_es_dia_de_publicacion && document.getElementById("detalles_texto_entradas_proximamente").style.display != 'block') {
+        // Mantenemos publicado el texto entradas proximamente
+        document.getElementById("detalles_texto_entradas_proximamente").style.display = 'block';
+        document.getElementById("detalles_texto_dia_de_venta_de_entradas").style.display = 'none';
+        document.getElementById("detalles_texto_entradas_a_la_venta").style.display = 'none';
+        document.getElementById("detalles_texto_entradas_agotadas").style.display = 'none';
+      }
+    }
+    detalles_cambiar_texto_a_mostrar();
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        detalles_cambiar_texto_a_mostrar();
+
+    }, 1000);
+  </script>
+
   <!-- /.container -->
 </section>
