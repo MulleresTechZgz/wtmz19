@@ -526,16 +526,16 @@ sponsors_platinum:
     image: img/patrocinadores/platinum/esPublico.jpg
     web: https://espublico.tech/
     twitter: TEspublico
-  - name: Vueling
-    text: 
-    image: img/patrocinadores/platinum/vueling.png
-    web: https://www.vueling.com/es
-    twitter: vueling
   - name: UST Global
     text: 
     image: img/patrocinadores/platinum/ust_global.png
     web: https://ust-global.com/
     twitter: USTGlobal
+  - name: Vueling
+    text: 
+    image: img/patrocinadores/platinum/vueling.png
+    web: https://www.vueling.com/es
+    twitter: vueling
   #- name: Adidas
   #  text: 
   #  image: img/patrocinadores/platinum/adidas.png
