@@ -599,7 +599,12 @@ sponsors_silver:
   - name: Fundacion Hiberus
     text: 
     image: img/patrocinadores/silver/fundacion_hiberus.png
-    web: 
+    web: https://www.hiberus.com/fundacion-hiberus
+    twitter: 
+  - name: Cátedra -Inycom
+    text: 
+    image: img/patrocinadores/silver/inycom.png
+    web: http://catedra.inycom.es/
     twitter: 
   #- name: Elastic
   #  text: 
@@ -754,7 +759,7 @@ talks_track_1:
   - time: '16:00-16:25'
     track: 1
     name: 'Anatomía de una conversación'
-    descrip: ''
+    descrip: '¿Cómo entiende Google Assistant lo que queremos? Hay mucha ciencia ficción entorno a las interfaces conversacionales.<br/>En "Anatomía de una conversación" te contaré como usé Dialogflow para hacer mi chatbot Eva y la magia que me encontré detrás del NLP.'
     speaker: 'Cristina Santamarina' 
     url_youtube: 
   - time: '16:30-16:55'
