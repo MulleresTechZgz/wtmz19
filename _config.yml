@@ -546,11 +546,11 @@ sponsors_platinum:
   #  image: img/patrocinadores/platinum/enciende_la_luz.png
   #  web: https://enciendelaluz.es/
   #  twitter: enciendelaluzya
-  #- name: Autentia
-  #  text: 
-  #  image: img/patrocinadores/platinum/autentia.png
-  #  web: https://www.autentia.com/
-  #  twitter: autentia  
+  - name: Autentia
+    text: 
+    image: img/patrocinadores/platinum/autentia.png
+    web: https://www.autentia.com/
+    twitter: autentia  
   #- name: Walgreens Boots Alliance
   #  text: 
   #  image: img/patrocinadores/platinum/walgreens_boots_alliance.jpg
@@ -574,6 +574,11 @@ sponsors_gold:
     web: https://www.alerce-group.com/
     twitter: 
     linkedin: alerce
+  - name: Deloitte
+    text: 
+    image: img/patrocinadores/gold/deloitte.png
+    web: http://deloitte.es
+    twitter: Deloitte_ES
   #- name: GDG Zaragoza
   #  text: 
   #  image: img/patrocinadores/gold/gdgzaragoza.png
@@ -679,11 +684,11 @@ sponsors_others:
   #  image: img/patrocinadores/colaboradores/the_neon_project.png
   #  web: https://theneonproject.org/
   #  twitter: tnpgram
-  #- name: Agile Spain
-  #  text: 
-  #  image: img/patrocinadores/colaboradores/agile_spain.png
-  #  web: https://agile-spain.org/
-  #  twitter: agilespain
+  - name: Garrampa
+    text: 
+    image: img/patrocinadores/colaboradores/garrampa.png
+    web: https://garrampa.es/
+    twitter: garrampa_es
   #- name: San Jimes Estudio
   #  text: 
   #  image: img/patrocinadores/colaboradores/san_jimes.png
@@ -743,7 +748,7 @@ talks_track_1:
   - time: '13:30-13:55'
     track: 1
     name: 'Descubrimiento de producto a través de Inception, ¿perder el tiempo o invertirlo?'
-    descrip: ''
+    descrip: 'Antes de empezar a desarrollar un nuevo producto, proyecto, o una funcionalidad, nos deberíamos hacer las preguntas:<br/>¿Qué valor aporta? ¿Es viable? ¿Es el momento? ¿Quién lo va a utilizar? ¿Por qué?<br/>Uno de los sistemas utilizados en las primeras fases de descubrimiento de producto es la Inception.<br/>El principal propósito de una Inception es que todas las personas implicadas en un nuevo producto o proyecto se alineen sobre cuáles son los objetivos y qué significa aquello en lo que vamos a trabajar. Es llegar al entendimiento común de la idea desde el primer momento, y se puede hacer de muchas formas.<br/>Durante los últimos dos años he investigado y aprendido sobre Inception, y la he adaptado a las necesidades del momento, del equipo y del producto.<br/>Los resultados son diferentes, incluso con un mismo equipo. Porque para que sea un éxito, lo más importante son las personas que participan, y no siempre están alineadas o entienden lo que allí está sucediendo. En esta charla quiero compartir las experiencias de dos Inceptions hechas con el mismo equipo, para el mismo producto, pero en distintos momentos, con diferentes personas alrededor del equipo, y para alcanzar dos hitos distintos del producto. Una fue un éxito, la otra no.'
     speaker: 'María Berenguer'
     url_youtube: 
   - time: '13:55-14:00'
@@ -885,8 +890,8 @@ talks_track_2:
     url_youtube: 
   - time: '16:30-16:55'
     track: 2
-    name: 'Smart Visual Data & Grupo LmssLm'
-    descrip: ''
+    name: '#HazteUnaMafia'
+    descrip: '¿Te gusta la pizza y la tecnología? ¡¡Perfecto!! Bueno... aquí realmente no vamos a comer pizza, en nuestros restaurantes las preparan mucho mejor que yo😉 Lo que si vais a conocer es nuestro proceso de transformación Digital. Somos la franquicia de restaurantes La Mafia se sienta a la Mesa, compañía aragonesa con más de 50 restaurantes a nivel nacional. El próximo año cumpliremos 20 años, y durante las últimas dos décadas hemos ido evolucionando tecnológicamente hasta posicionarnos como referentes tecnológicos en el sector de la restauración organizada. Durante este último año hemos implantado un proyecto de Smart Visual Data, que nos permite analizar en tiempo real toda la información relevante de nuestro negocio. Incorpora también una herramienta de Inteligencia Artificial que traduce los comentarios en valoración de sentimiento y reconocimiento de imágenes. ¡Os lo explicaré con más detalle en el WTMZ! #HazteUnaMafia'
     speaker: 'Vanessa Borobia'
     url_youtube: 
   - time: '17:00-17:25'
