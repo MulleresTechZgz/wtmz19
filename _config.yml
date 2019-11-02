@@ -363,13 +363,13 @@ mentors:
     image_card: 
     twitter_account: yayaqueprograma
     linkedin_account: pilar-barbero
-  - name: 'Sandra Escudero'
+  - name: 'Sandra Escudero Sánchez'
     short_name: 'Sandra Escudero'
-    bio: ''
+    bio: 'Soy Ingeniera Informática por la Universidad de Zaragoza y llevo 4 años trabajando en keensoft UST Global. El interés por la tecnología desde que era pequeña y el querer afrontar nuevos retos me llevó hasta este increíble mundo de la informática. Poder analizar y desarrollar sueños cada día es un reto maravilloso.'
     image: img/mentoras/SandraEscudero
     image_card: 
     twitter_account: SandraEscS
-    linkedin_account:
+    linkedin_account: sandra-escudero-sánchez-209b4883
   - name: 'Laura Lacarra Arcos'
     short_name: 'Laura Lacarra'
     bio: 'Ingeniera Informática con 10 años de experiencia en el sector. En los últimos años especializada en arquitecturas BI & Big Data en Telefónica España. Llevo colaborando muchos años en comunidades técnicas organizando y como speaker. También realiza talleres de comunicación/presentaciones a empresa. En la actualidad colabora con  @ WTMZaragoza, @WTMMadrid y @cachirulovalley. '
@@ -409,13 +409,13 @@ mentors:
 
 #List for volunteers
 volunteers:
-  - name: 'Noelia Atarés'
+  - name: 'Noelia Atarés Olid'
     short_name: 'Noelia Atarés'
-    bio: ''
+    bio: '¡Lo confieso! Si hubierais preguntado a mis amigos hace unos años si soy una persona tecnológica os hubieran dicho que no. Sin embargo, tras muchas vueltas por el mundo (“literal”), encontré mi futuro en el marketing digital. Desde entonces, aprendo día a día en Semmantica sobre SEM y Social ads.'
     image: img/voluntarias/NoeliaAtares
     image_card: 
     twitter_account: NoeliAtares
-    linkedin_account: 
+    linkedin_account: noeliaatares
   - name: 'Mary Carmen Bozal'
     short_name: 'Mary Carmen Bozal'
     bio: 'Me llamo Mary Carmen, soy de Zaragoza, periodista y mamá de Gabriela de 10 años. La comunicación es además de mi profesión mi pasión y medio de vida, tengo una pequeña agencia de marketing y comunicación donde con mucho amor, mucha empatía y un poco de magia ayudo a mis clientes a que sus proyectos sean visibles.'
@@ -579,6 +579,11 @@ sponsors_gold:
     image: img/patrocinadores/gold/deloitte.png
     web: http://deloitte.es
     twitter: Deloitte_ES
+  #- name: Grupo Sesé
+  #  text: 
+  #  image: img/patrocinadores/gold/gruposese.png
+  #  web: https://www.gruposese.com/es/
+  #  twitter: 
   #- name: GDG Zaragoza
   #  text: 
   #  image: img/patrocinadores/gold/gdgzaragoza.png
@@ -611,11 +616,11 @@ sponsors_silver:
     image: img/patrocinadores/silver/inycom.png
     web: http://catedra.inycom.es/
     twitter: 
-  #- name: Elastic
-  #  text: 
-  #  image: img/patrocinadores/silver/elastic.png
-  #  web: https://www.elastic.co/
-  #  twitter: elastic
+  - name: Elastic
+    text: 
+    image: img/patrocinadores/silver/elastic.png
+    web: https://www.elastic.co/
+    twitter: elastic
   #- name: Cuéntica
   #  text: 
   #  image: img/patrocinadores/silver/cuentica.png
@@ -792,8 +797,8 @@ talks_track_1:
     url_youtube: 
   - time: '18:30-18:55'
     track: 1
-    name: 'Zapatillas por impresión 3D'
-    descrip: ''
+    name: 'Fabricación Digital para el Diseño de Moda'
+    descrip: 'Existe una necesidad económica, medioambiental y social de implementar las nuevas tecnologías, no solo por los contras que presenta el sistema, como la falta de sostenibilidad y accesibilidad, sino por los pros, a día de hoy es viable desarrollar metodologías innovadoras y flexibles haciendo uso de la fabricación digital.<br/>El corte a láser, la impresión y el escaneado 3d son algunas de las tecnologías de fabricación de bajo coste con las que podemos configurar un futuro más adaptado, más social y más diverso.'
     speaker: 'Susana Sanmartín Garbayo'
   - time: '19:00-19:45'
     track: all
@@ -861,7 +866,7 @@ talks_track_2:
     url_youtube: 
   - time: '13:00-13:25'
     track: 2
-    name: 'Becoming a Remote Worker - an individual''s perspective: best practice; routine, attitude, support & considerations.'
+    name: 'Becoming a Remote Worker - an individual''s perspective: best practice; routine, attitude, support & considerations.<b> [ENGLISH]</b>'
     descrip: 'Becoming a Virtual Worker - an individual''s perspective: best practice, routine, attitude, support & considerations. This session also explores remote working locations options and innovations. Rowena Hennigan, Lecturer, Trainer and Communications Consultant, working remotely since 2007. '
     speaker: 'Rowena Hennigan'
     url_youtube: 
