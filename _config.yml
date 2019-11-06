@@ -145,14 +145,14 @@ speakers:
     short_name: 'María Ballesteros'
     bio: 'Oceanóloga reconvertida, navegando en el mundo de la tecnología, dibujando líneas, puntos y polígonos, gracias a los sistemas de información geográfica. Últimamente, embarcando en el mundo de las visualizaciones como Analista GIS y trabajando en soporte técnico en CARTO. Forma parte de GeochicasOSM y colabora con Women in Geospatial.'
     image: img/ponentes/charlas/MariaBallesteros
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/MariaBallesteros
     twitter_account: maballesrin
     linkedin_account:
   - name: 'Pilar Barbero Iriarte y Laura Fernando López'
     short_name: 'Pilar Barbero y Laura Fernando'
     bio: 'Laura trabaja en el Ayuntamiento de Zaragoza como analista. Pilar trabaja como desarrolladora en Vueling. Pilar necesitaba un referente en el mundo de la tecnología y Laura necesitaba volver a sus orígenes más técnicos. ¿A qué nuevos desafíos se enfrentarán en el mundo techie? ¡Ven a nuestra charla y conócenos!'
     image: img/ponentes/charlas/PilarBarberoLauraFernando
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/PilarBarberoLauraFernando
     twitter_account: yayaqueprograma
     twitter_account_2: lafelop
     linkedin_account:
@@ -189,7 +189,7 @@ speakers:
     short_name: 'Cristina De Propios'
     bio: 'Doctoranda con tesis en el campo del Arte y la Robótica.  Divulgadora del nexo entre tecnología y arte. Profesora de robótica creativa en institutos y colegios de Madrid. Quantum Creative Engineer en Q-Lion, Startup dedicada a la computación cuántica. Construye autómatas y robots siempre y cuando tengan algo de madera.'
     image: img/ponentes/charlas/CristinaDePropios
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/CristinaDePropios
     twitter_account: de_propios
     linkedin_account:
   - name: 'Cristina Fernández Sanz'
@@ -203,7 +203,7 @@ speakers:
     short_name: 'Mónica Giménez'
     bio: 'Especialista en marketing online, UX y consultoría en Hiberus Tecnología. Ayudando a las empresas a alcanzar sus objetivos a través de sus canales digitales. Premio al mejor Blog de Aragón en la Red con misstechin.com. Colabora con la red de emprendedores creativos Made in Zaragoza. También ha colaborado con TEDxZaragoza, Wordpress Zaragoza o Caixa Forum.'
     image: img/ponentes/charlas/MonicaGimenez
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/MonicaGimenez
     twitter_account: misstechin
     linkedin_account:
   - name: 'Débora Gómez Bertoli'
@@ -259,7 +259,7 @@ speakers:
     short_name: 'Celia Martínez'
     bio: 'Programadora, con más de 10 años trabajando en consultoras, actualmente para ViewNext. <br/>He trabajado para diversos sectores, Recursos Humanos, Administración, Utilities, Logística, Banca… Y lo más importante que he aprendido es que todo proyecto es una oportunidad de aprender y el conocimiento nuestra mejor herramienta.'
     image: img/ponentes/charlas/CeliaMartinez
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/CeliaMartinez
     twitter_account: Celta_ML
     linkedin_account: celia-martínez-luengo-85a04440
   - name: 'Sara San Luis Rodríguez y Daniela Solís Morales'
@@ -274,7 +274,7 @@ speakers:
     short_name: 'Susana Sanmartín'
     bio: 'Crecí en una familia de arquitectos, ingenieros y empresarios que me inspiraron a pensar en el futuro. Una curiosidad temprana me involucró en la expresión plástica y, junto a mis estudios de diseño, desarrollé un interés especial en el diseño generativo y creación multidisciplinar de artesanías digitales. Como diseñadora de producto en los últimos meses he creado unas zapatillas impresas en 3D.'
     image: img/ponentes/charlas/SusanaSanmartin
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/SusanaSanmartin
     twitter_account: susisanseso
     linkedin_account:
   - name: 'Cristina Santamarina'
@@ -288,7 +288,7 @@ speakers:
     short_name: 'Marina Serrano'
     bio: 'Software developer con más de 10 años de experiencia en Telefónica I+D. Actualmente, Lead Application Developer en Nexmo, la plataforma API de Vonage. En 2015 fundó Girls in Tech Spain y desde entonces participa en acciones para potenciar el rol de la mujer en STEAM.<br/>Desde 2017 compagina su actividad como cofundadora de la startup BeByDoing.'
     image: img/ponentes/charlas/MarinaSerrano
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/MarinaSerrano
     twitter_account: marinillass
     linkedin_account:
   - name: 'Ana Serrano Pacheco'
@@ -327,7 +327,7 @@ workshop_speakers:
     short_name: 'Nagore de los Ríos'
     bio: '¡Los datos me dan superpoderes!<br/>Brand manager, investigadora, diseñadora de soluciones. Creo en la transparencia real, en el mundo open y en las ciencias que se apoyan en datos para tomar decisiones inteligentes. Dirijo el Departamento de Marketing y Comunicación de TECH Friendly, coordinando la elaboración de estrategias y planes data driven para provocar comportamientos en las audiencias.'
     image: 
-    image_card: 
+    image_card: img/ponentes/talleres/fichas/NagoreDeLosRios
     twitter_account: nagodelos
     linkedin_account:  
   - name: 'Cuentacientíficas: Águeda Giráldez, Beatriz Entralgo y Vanessa Cañadas'
@@ -579,11 +579,11 @@ sponsors_gold:
     image: img/patrocinadores/gold/deloitte.png
     web: http://deloitte.es
     twitter: Deloitte_ES
-  #- name: Grupo Sesé
-  #  text: 
-  #  image: img/patrocinadores/gold/gruposese.png
-  #  web: https://www.gruposese.com/es/
-  #  twitter: 
+  - name: Grupo Sesé
+    text: 
+    image: img/patrocinadores/gold/grupo_sese.png
+    web: https://www.gruposese.com/es/
+    twitter: 
   #- name: GDG Zaragoza
   #  text: 
   #  image: img/patrocinadores/gold/gdgzaragoza.png
