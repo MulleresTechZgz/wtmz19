@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-10 col-lg-offset-1">
-        <h2>Nuestras invitadas</h2>
+        <h2>Nuestra invitada</h2>
         <hr class="small">
         <!--
         <div class="row">
@@ -24,14 +24,14 @@
           {% assign linkedin_guest = guest.linkedin_account | strip_newlines %}
           {% assign web_guest = guest.web | strip_newlines %}
           {% assign bio_guest = guest.bio | strip_newlines %}
-            <div class="col-md-3 col-sm-3 col-xs-5">
+            <div class="col-md-3 col-sm-4 col-xs-6">
               <div class="speaker-item">
-                <a href="#" data-toggle="modal" data-target="#guest-{{ forloop.index0 }}">
-                    <span class="fa-stack fa-5x">
+                <a href="#" data-toggle="modal" data-target="#guest-{{ forloop.index0 }}" title="{{ guest.name }}">
+                    <span class="fa-stack fa-4x">
                       <i class="fa fa-circle fa-stack-2x"></i>
 
                       {% if image_guest != ""  %}
-                      <!--<img src="{{ image_guest }}_c.jpg" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.src='{{ image_guest }}_g.jpg'" onmouseout="this.src='{{ image_guest }}_c.jpg'"/>-->
+                      <!--<img src="{{ image_speaker }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_speaker }}_g.jpg'" onmouseout="this.src='{{ image_speaker }}_c.jpg'"/>-->
                       <img src="{{ image_guest }}_c.jpg" onerror="this.src='img/ponentes/comodin_c.jpg'" class="fa fa-stack-1x text-primary img-circle escala-color" onmouseover="this.classList.remove('escala-color'); this.classList.add('escala-grises');" onmouseout="this.classList.remove('escala-grises'); this.classList.add('escala-color');"/>
                       {% elsif twitter_speaker != "" %}
                       <img src="https://avatars.io/twitter/{{ guest.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
@@ -40,7 +40,11 @@
                       {% endif %}
                     </span>
                       <h4 style="min-height: 40px !important;">
-                        {{ guest.name }}
+                        {% if short_name_guest != ""  %}
+                          {{ guest.short_name }}
+                        {% else %}
+                          {{ guest.name }}
+                        {% endif %}
                       </h4>
                       {% if twitter_guest != ""  %}
                       <a href="https://twitter.com/{{ guest.twitter_account }}" target="_blank">
@@ -52,23 +56,29 @@
                         <i class="fa fa-linkedin fa-fw fa-2x"></i>
                       </a>
                       {% endif %}
+                      {% if web_guest != ""  %}
+                      <a href="{{ guest.web }}" target="_blank">
+                        <i class="fa fa-link fa-fw fa-2x"></i>
+                      </a>
+                      {% endif %}
+                      
                 </a>
-                {% if image_card_guest != ""  %}
+
                 <!-- Modal -->
                 <div class="modal fade" id="guest-{{ forloop.index0 }}" role="dialog">
                   <div class="modal-dialog">
                   
                     <!-- Modal content-->
-                    <div class="modal-content">
-                      {% if image_card_guest != ""  %}
+                    {% if image_card_guest != ""  %}
+                    <div class="modal-content" style="background-color: transparent !important;">
                       <div class="modal-body modal-image-card" style="background-image: url({{ image_card_guest }}.jpg);">
                           <button type="button" class="close" data-dismiss="modal">&times;</button>
                       </div>
-                      {% else  %}
+                    {% else  %}
+                    <div class="modal-content">
                       <div class="modal-body">
                           <button type="button" class="close" data-dismiss="modal">&times;</button>
                           <div class="wtm-modal-content-left">
-                            
                             <span class="fa-stack fa-4x">
                               <i class="fa fa-circle fa-stack-2x"></i>
 
@@ -94,10 +104,8 @@
                                 <a href="{{ guest.web }}" target="_blank">
                                     <i class="fa fa-link fa-fw fa-2x"></i></a>
                                 {% endif %}
-                              
                           </div>
                           <div class="wtm-modal-content-right text-left">
-                            
                               {% if bio_guest != ""  %}
                                 <p>{{ guest.bio }}</p>
                               {% else %}
@@ -114,7 +122,6 @@
                     
                   </div>
                 </div>
-                {% endif %}
               </div>
             </div>
 

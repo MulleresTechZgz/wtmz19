@@ -135,7 +135,7 @@ guests:
     short_name: 'María López'
     bio: 'María López PhD., es Licenciada en Matemáticas, Doctora en Ingeniería Computacional por la Universidad de Zaragoza, y MBA por el Instituto de Empresa. Es CEO y cofundadora de Bitbrain, empresa de neurotecnología aplicada a la investigación científica, la salud o el neuromarketing en la cual asesora a multinacionales como Coca-Cola, L''Oreal o Johnson&Johnson. María ha ganado más de 20 premios como el premio Anita Börg de Google. Es ponente habitual en foros de neuromarketing, la innovación o el emprendimiento, y colabora como investigadora y docente en varias entidades académicas como la Iowa State University, el Imperial College London, la Universidad de Bremen o el IE Business School.'
     image: img/ponentes/invitadas/MariaLopez
-    image_card: 
+    image_card: img/ponentes/invitadas/fichas/MariaLopez
     twitter_account: mlopezBCI
     linkedin_account: 
   
@@ -430,6 +430,13 @@ volunteers:
     image_card: 
     twitter_account: Ana_Cambra
     linkedin_account: 
+  #- name: 'Vanessa Cazzola'
+  #  short_name: 'Vanessa Cazzola'
+  #  bio: 'Me llamo Vanessa y soy traductora freelance. Traduzco del español al italiano y del inglés al italiano y estoy especializada en moda, turismo, marketing y sistemas ERP.  Además de traductora, a lo largo de mi carrera profesional me he ocupado también de comercio exterior y de atención al cliente, y he trabajado en tres países distintos: España, Italia e Inglaterra.'
+  #  image: img/voluntarias/VanessaCazzola
+  #  image_card: 
+  #  twitter_account: 
+  #  linkedin_account: 
   - name: 'Begoña Cuello Baron'
     short_name: 'Begoña Cuello'
     bio: 'Mi nombre es Begoña Cuello y es Licenciada en Ingeniera Informática en el Centro Politécnico Superior (CPS) en la Universidad de Zaragoza.<br/>He tenido la suerte de poder haber trabajado en grandes clientes, dándome la oportunidad de conocer distintas tecnologías y metodologías de trabajo,  además de la implicación en grandes equipos de profesionales, donde he aprendido que las bases de una buena relación,  tanto con clientes como con el propio equipo, son la profesionalidad, el respeto y la honestidad.<br/>Me defino como una persona comunicativa, positiva, segura de que estamos rodeados de alternativas y oportunidades y  que con perseverancia todo lo que me plantee es posible que lo consiga.<br/>- "SI CREES EN TI MISMO NO HABRÁ NADA QUE ESTE FUERA DE TUS POSIBILIDADES"<br/>- "NO SÉ SI LO LOGRARÉ... PERO MÍRAME INTENTARLO"<br/>- "UNA SONRISA EN MI ROSTRO, NO SIGNIFICA LA AUSENCIA DE PROBLEMAS, SINO LA HABILIDAD DE SER FELIZ, POR ENCIMA DE ELLOS"'
@@ -551,11 +558,16 @@ sponsors_platinum:
     image: img/patrocinadores/platinum/autentia.png
     web: https://www.autentia.com/
     twitter: autentia  
-  #- name: Walgreens Boots Alliance
-  #  text: 
-  #  image: img/patrocinadores/platinum/walgreens_boots_alliance.jpg
-  #  web: http://www.walgreensbootsalliance.com/
-  #  twitter: 
+  - name: Walgreens Boots Alliance
+    text: 
+    image: img/patrocinadores/platinum/walgreens_boots_alliance.png
+    web: http://www.walgreensbootsalliance.com/
+    twitter: 
+  - name: Etopia
+    text: 
+    image: img/patrocinadores/platinum/etopia_ayuntamiento.png
+    web: http://www.zaragoza.es/ciudad/etopia/
+    twitter: etopia_
   #- name: Zara
   #  text: 
   #  image: img/patrocinadores/platinum/zara.jpg
@@ -584,11 +596,6 @@ sponsors_gold:
     image: img/patrocinadores/gold/grupo_sese.png
     web: https://www.gruposese.com/es/
     twitter: 
-  #- name: GDG Zaragoza
-  #  text: 
-  #  image: img/patrocinadores/gold/gdgzaragoza.png
-  #  web: 
-  #  twitter: GDGZaragoza
 
 sponsors_silver:
   - name: GeoSLab
@@ -700,6 +707,26 @@ sponsors_others:
   #  web: http://www.sanjimes.com/
   #  instagram: sanjimes
   #  facebook: sanjimes
+  - name: Minivinci
+    text: 
+    image: img/patrocinadores/colaboradores/minivinci.png
+    web: https://www.minivinci.es/
+    twitter: minivinci
+  - name: Zafiro Tv
+    text: 
+    image: img/patrocinadores/colaboradores/zafiro_tv.png
+    web: https://www.zafiro.tv/index.php
+    twitter: EntertSolutions
+  - name: Cosicas Co
+    text: 
+    image: img/patrocinadores/colaboradores/cosicas_co.png
+    web: http://cosicas.co/b/
+    twitter: CosicasCo
+  - name: GDG Zaragoza
+    text: 
+    image: img/patrocinadores/gold/gdgzaragoza.png
+    web: 
+    twitter: GDGZaragoza
 
 # Agenda
 talks_track_1:
