@@ -785,12 +785,12 @@ talks_track_1:
     url_youtube: 
   - time: '13:55-14:00'
     track: all
-    name: Fotografía de grupo (Track 1)
+    name: Fotografía de grupo (Auditorio)
     descrip: 
     speaker: 
   - time: '14:00-15:55'
     track: all
-    name: COMIDA
+    name: COMIDA (Cantina Wallgreens Boots Alliance)
     descrip: 
     speaker: 
   - time: '16:00-16:25'
@@ -840,7 +840,7 @@ talks_track_1:
     speaker: 
   - time: '20:00-22:00'  
     track: all
-    name: 'DJ, NETWORKING Y CENA'
+    name: 'DJ Alerce, FOTOMATÓN Deloitte, NETWORKING Y CENA Grupo Sesé'
     descrip: 
     speaker: 
 
@@ -911,7 +911,7 @@ talks_track_2:
     speaker: 
   - time: '14:00-15:55'
     track: all
-    name: COMIDA
+    name: COMIDA (Cantina Wallgreens Boots Alliance)
     descrip: 
     speaker: 
   - time: '16:00-16:25'
@@ -961,7 +961,7 @@ talks_track_2:
     speaker: 
   - time: '20:00-22:00'  
     track: all
-    name: 'DJ, NETWORKING Y CENA'
+    name: 'DJ Alerce, FOTOMATÓN Deloitte, NETWORKING Y CENA Grupo Sesé'
     descrip: 
     speaker: 
 
@@ -1013,7 +1013,7 @@ workshops_track_1:
   - time: '14:00-15:55'
     time_start: '14:00'
     track: all
-    name: COMIDA
+    name: COMIDA (Cantina Wallgreens Boots Alliance)
     descrip: 
     speaker: 
     duration: 1
@@ -1067,7 +1067,7 @@ workshops_track_1:
   - time: '20:00-22:00' 
     time_start: '20:00' 
     track: all
-    name: 'DJ, NETWORKING Y CENA'
+    name: 'DJ Alerce, FOTOMATÓN Deloitte, NETWORKING Y CENA Grupo Sesé'
     descrip: 
     speaker: 
     duration: 1
@@ -1120,7 +1120,7 @@ workshops_track_2:
   - time: '14:00-15:55'
     time_start: '14:00'
     track: all
-    name: COMIDA
+    name: COMIDA (Cantina Wallgreens Boots Alliance)
     descrip: 
     speaker: 
     duration: 1
@@ -1171,7 +1171,7 @@ workshops_track_2:
   - time: '20:00-22:00' 
     time_start: '20:00' 
     track: all
-    name: 'DJ, NETWORKING Y CENA'
+    name: 'DJ Alerce, FOTOMATÓN Deloitte, NETWORKING Y CENA Grupo Sesé'
     descrip: 
     speaker: 
     duration: 1
