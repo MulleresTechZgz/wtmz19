@@ -430,13 +430,13 @@ volunteers:
     image_card: 
     twitter_account: Ana_Cambra
     linkedin_account: 
-  #- name: 'Vanessa Cazzola'
-  #  short_name: 'Vanessa Cazzola'
-  #  bio: 'Me llamo Vanessa y soy traductora freelance. Traduzco del español al italiano y del inglés al italiano y estoy especializada en moda, turismo, marketing y sistemas ERP.  Además de traductora, a lo largo de mi carrera profesional me he ocupado también de comercio exterior y de atención al cliente, y he trabajado en tres países distintos: España, Italia e Inglaterra.'
-  #  image: img/voluntarias/VanessaCazzola
-  #  image_card: 
-  #  twitter_account: 
-  #  linkedin_account: 
+  - name: 'Vanessa Cazzola'
+    short_name: 'Vanessa Cazzola'
+    bio: 'Me llamo Vanessa y soy traductora freelance. Traduzco del español al italiano y del inglés al italiano y estoy especializada en moda, turismo, marketing y sistemas ERP.  Además de traductora, a lo largo de mi carrera profesional me he ocupado también de comercio exterior y de atención al cliente, y he trabajado en tres países distintos: España, Italia e Inglaterra.'
+    image: img/voluntarias/VanessaCazzola
+    image_card: 
+    twitter_account: 
+    linkedin_account: vanessa-cazzola-36bb62a3
   - name: 'Begoña Cuello Baron'
     short_name: 'Begoña Cuello'
     bio: 'Mi nombre es Begoña Cuello y es Licenciada en Ingeniera Informática en el Centro Politécnico Superior (CPS) en la Universidad de Zaragoza.<br/>He tenido la suerte de poder haber trabajado en grandes clientes, dándome la oportunidad de conocer distintas tecnologías y metodologías de trabajo,  además de la implicación en grandes equipos de profesionales, donde he aprendido que las bases de una buena relación,  tanto con clientes como con el propio equipo, son la profesionalidad, el respeto y la honestidad.<br/>Me defino como una persona comunicativa, positiva, segura de que estamos rodeados de alternativas y oportunidades y  que con perseverancia todo lo que me plantee es posible que lo consiga.<br/>- "SI CREES EN TI MISMO NO HABRÁ NADA QUE ESTE FUERA DE TUS POSIBILIDADES"<br/>- "NO SÉ SI LO LOGRARÉ... PERO MÍRAME INTENTARLO"<br/>- "UNA SONRISA EN MI ROSTRO, NO SIGNIFICA LA AUSENCIA DE PROBLEMAS, SINO LA HABILIDAD DE SER FELIZ, POR ENCIMA DE ELLOS"'
