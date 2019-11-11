@@ -192,6 +192,14 @@ speakers:
     image_card: img/ponentes/charlas/fichas/CristinaDePropios
     twitter_account: de_propios
     linkedin_account:
+  - name: 'Eva Del Ruste y Susana Romero'
+    short_name: 'Eva Del Ruste y Susana Romero'
+    bio: ''
+    image: img/ponentes/charlas/EvaDelRusteSusanaRomero
+    image_card: 
+    twitter_account: EvadelRuste13
+    twitter_account_2: suromig
+    linkedin_account:
   - name: 'Cristina Fernández Sanz'
     short_name: 'Cristina Fernández'
     bio: 'Desarrolladora front-end desde hace 5 años, anteriormente era desarrolladora back-end pero el CSS me cautivó. Sigo aprendiendo sobre HTML, CSS y JavaScript, accesibilidad y performance e intento compartirlo a través de twitter, charlas y como mentora en Node Girls y VueVixens Madrid.'
@@ -284,13 +292,13 @@ speakers:
     image_card: img/ponentes/charlas/fichas/CristinaSantamarina
     twitter_account: crissantamarina
     linkedin_account:
-  - name: 'Marina Serrano Montes'
-    short_name: 'Marina Serrano'
-    bio: 'Software developer con más de 10 años de experiencia en Telefónica I+D. Actualmente, Lead Application Developer en Nexmo, la plataforma API de Vonage. En 2015 fundó Girls in Tech Spain y desde entonces participa en acciones para potenciar el rol de la mujer en STEAM.<br/>Desde 2017 compagina su actividad como cofundadora de la startup BeByDoing.'
-    image: img/ponentes/charlas/MarinaSerrano
-    image_card: img/ponentes/charlas/fichas/MarinaSerrano
-    twitter_account: marinillass
-    linkedin_account:
+  #- name: 'Marina Serrano Montes'
+  #  short_name: 'Marina Serrano'
+  #  bio: 'Software developer con más de 10 años de experiencia en Telefónica I+D. Actualmente, Lead Application Developer en Nexmo, la plataforma API de Vonage. En 2015 fundó Girls in Tech Spain y desde entonces participa en acciones para potenciar el rol de la mujer en STEAM.<br/>Desde 2017 compagina su actividad como cofundadora de la startup BeByDoing.'
+  #  image: img/ponentes/charlas/MarinaSerrano
+  #  image_card: img/ponentes/charlas/fichas/MarinaSerrano
+  #  twitter_account: marinillass
+  #  linkedin_account:
   - name: 'Ana Serrano Pacheco'
     short_name: 'Ana Serrano'
     bio: 'Ana es investigadora postdoctoral en el Graphics and Imaging Lab de la U. de Zaragoza. Su investigación se centra en estudiar la atención en entornos de Realidad Virtual. Ha sido galardonada con una Adobe Research Fellowship, y una Nvidia Graduate Fellowship. Ha sido ganadora de los premios Tercer Milenio en la categoría joven talento investigador, y finalista en los premios Aragonés del año.'
@@ -503,31 +511,6 @@ volunteers:
 
 #List for sponsors
 sponsors_platinum:
-  #- name: Fundacion Zaragoza Conocimiento
-  #  text: 
-  #  image: img/patrocinadores/platinum/fzc.png
-  #  web: http://www.fundacionzcc.org/
-  #  twitter: FundacionZCC
-  #- name: Fundacion Ibercaja
-  #  text: 
-  #  image: img/patrocinadores/platinum/fundacion_ibercaja.png
-  #  web: https://obrasocial.ibercaja.es/
-  #  twitter: IbercajaSocial
-  #- name: Etopia
-  #  text: 
-  #  image: img/patrocinadores/platinum/etopia.jpg
-  #  web: http://www.zaragoza.es/ciudad/etopia/
-  #  twitter: etopia_
-  #- name: Ayuntamiento de Zaragoza
-  #  text: 
-  #  image: img/patrocinadores/platinum/ayuntamiento_zaragoza.jpg
-  #  web: https://www.zaragoza.es/
-  #  twitter: zaragoza_es
-  #- name: Deiser
-  #  text: 
-  #  image: img/patrocinadores/platinum/deiser.png
-  #  web: https://deiser-enterprise-day.deiser.com/
-  #  twitter: deiser
   - name: Tecnología esPublico
     text: 
     image: img/patrocinadores/platinum/esPublico.jpg
@@ -543,16 +526,6 @@ sponsors_platinum:
     image: img/patrocinadores/platinum/vueling.png
     web: https://www.vueling.com/es
     twitter: vueling
-  #- name: Adidas
-  #  text: 
-  #  image: img/patrocinadores/platinum/adidas.png
-  #  web: https://www.adidas.es/
-  #  twitter: adidas_ES
-  #- name: Enciende la Luz
-  #  text: 
-  #  image: img/patrocinadores/platinum/enciende_la_luz.png
-  #  web: https://enciendelaluz.es/
-  #  twitter: enciendelaluzya
   - name: Autentia
     text: 
     image: img/patrocinadores/platinum/autentia.png
@@ -568,16 +541,6 @@ sponsors_platinum:
     image: img/patrocinadores/platinum/etopia_ayuntamiento.png
     web: http://www.zaragoza.es/ciudad/etopia/
     twitter: etopia_
-  #- name: Zara
-  #  text: 
-  #  image: img/patrocinadores/platinum/zara.jpg
-  #  web: https://www.zara.com/es/
-  #  twitter: zaraes
-  #- name: Telefonica
-  #  text: 
-  #  image: img/patrocinadores/platinum/telefonica.jpg
-  #  web: https://www.telefonica.com/es/home
-  #  twitter: telefonica
 
 sponsors_gold:
   - name: Alerce
@@ -628,42 +591,11 @@ sponsors_silver:
     image: img/patrocinadores/silver/elastic.png
     web: https://www.elastic.co/
     twitter: elastic
-  #- name: Cuéntica
-  #  text: 
-  #  image: img/patrocinadores/silver/cuentica.png
-  #  web: https://cuentica.com/
-  #  twitter: cuentica
-  #- name: Asociacion de mujeres investigadoras y tecnologas
-  #  text: 
-  #  image: img/patrocinadores/silver/amit.png
-  #  web: https://www.amit-es.org/
-  #  twitter: twitamit_es
-  #- name: Commit Conf
-  #  text: 
-  #  image: img/patrocinadores/silver/commit.png
-  #  web: https://2018.commit-conf.com/
-  #  twitter: commitconf
-  #- name: KeenSoft
-  #  text: 
-  #  image: img/patrocinadores/silver/keensoft.png
-  #  web: http://www.keensoft.es/
-  #  twitter: keensoft_es
-  #- name: T3chFest
-  #  text: 
-  #  image: img/patrocinadores/silver/t3chfest.png
-  #  web: https://t3chfest.uc3m.es/2019/?lang=es
-  #  twitter: t3chfest
-  #- name: Cabify
-  #  text: 
-  #  image: img/patrocinadores/silver/cabify.jpg
-  #  web: https://cabify.com/es
-  #  twitter: CabifyDev
-  #- name: Codurance
-  #  text: 
-  #  image: img/patrocinadores/silver/codurance.png
-  #  web: https://codurance.es/
-  #  twitter: codurance_ES
-    
+  - name: Everis
+    text: 
+    image: img/patrocinadores/silver/everis.png
+    web: https://www.everis.com/spain/es
+    twitter: everis    
 
 sponsors_others:
   - name: Eboca
@@ -681,21 +613,6 @@ sponsors_others:
     image: img/patrocinadores/colaboradores/continuum_security.png
     web: https://www.ptwalqa.com/empresa-detalle/112/continuum-security/
     twitter: 
-  #- name: Donuts
-  #  text: 
-  #  image: img/patrocinadores/colaboradores/donuts.png
-  #  web: http://donuts.es/
-  #  twitter: Donuts_es
-  #- name: Eventbrite
-  #  text: 
-  #  image: img/patrocinadores/colaboradores/eventbrite.png
-  #  web: https://www.eventbrite.es/
-  #  twitter: eventbrite
-  #- name: Te Neon Project
-  #  text: 
-  #  image: img/patrocinadores/colaboradores/the_neon_project.png
-  #  web: https://theneonproject.org/
-  #  twitter: tnpgram
   - name: Garrampa
     text: 
     image: img/patrocinadores/colaboradores/garrampa.png
@@ -885,11 +802,17 @@ talks_track_2:
     name: DESCANSO CAFÉ
     descrip: 
     speaker:  
+  #- time: '12:30-12:55'
+  #  track: 2
+  #  name: 'Developer Experience: ¿Cómo diseñar una buena API y por qué es importante?'
+  #  descrip: 'El valor de la API: ‘Developer experience’ y Empresa<br/>Desde hace más de diez años, organizaciones como Twitter, Google, Amazon, Facebook, entre muchas otras, trabajan con APIs. Actualmente, son muchas las Pymes que han empezado a integrarlas en sus plataformas, mejorando así la calidad y la funcionalidad de su producto, e incrementando sus beneficios.<br/>En 20 minutos hablaré desde el punto de vista de la experiencia del desarrollador, qué es una API, estrategia, principios y buenas prácticas diseñando una API REST para una nueva ''user story'' definida. Y desde el punto de vista de la empresa, qué puede hacer una API para el éxito de la misma.'
+  #  speaker: 'Marina Serrano Montes'
+  #  url_youtube: 
   - time: '12:30-12:55'
     track: 2
-    name: 'Developer Experience: ¿Cómo diseñar una buena API y por qué es importante?'
-    descrip: 'El valor de la API: ‘Developer experience’ y Empresa<br/>Desde hace más de diez años, organizaciones como Twitter, Google, Amazon, Facebook, entre muchas otras, trabajan con APIs. Actualmente, son muchas las Pymes que han empezado a integrarlas en sus plataformas, mejorando así la calidad y la funcionalidad de su producto, e incrementando sus beneficios.<br/>En 20 minutos hablaré desde el punto de vista de la experiencia del desarrollador, qué es una API, estrategia, principios y buenas prácticas diseñando una API REST para una nueva ''user story'' definida. Y desde el punto de vista de la empresa, qué puede hacer una API para el éxito de la misma.'
-    speaker: 'Marina Serrano Montes'
+    name: 'Dale una vuelta'
+    descrip: 'Todos podemos aportar soluciones creativas desde la iniciativa individual a problemas globales. Esto no sería posible si los encuentros que realizamos, las interacciones con la gente sensibilizando y las mesas hexagonales no se amplificase su efecto por las RRSS, la tienda online. Este proyecto tan ambicioso  se llama "Mercado del 13" y nace para visibilizar y crear empatía con las más de 350 millones de personas afectadas en el mundo por una Enfermedad Rara (ER)'
+    speaker: 'Eva Del Ruste y Susana Romero'
     url_youtube: 
   - time: '13:00-13:25'
     track: 2
