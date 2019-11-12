@@ -452,6 +452,13 @@ volunteers:
     image_card: 
     twitter_account: BegoCuello
     linkedin_account: 
+  - name: 'Julia Guerrero Viu'
+    short_name: 'Julia Guerrero'
+    bio: '22 años. Recién graduada en Ingeniería Informática en Zaragoza y estudiante de máster en Freiburg. Especialmente interesada en temas de inteligencia artificial, visión por computador e informática gráfica. Me apasiona lo que estudio, y disfruto compartiéndolo con l@s demás. Orgullosa de ser una de las Google Women Techmakers Scholars de este 2019.'
+    image: img/ponentes/charlas/JuliaGuerrero
+    image_card: 
+    twitter_account: juliagviu
+    linkedin_account:
   - name: 'Sandra Malpica Mallo'
     short_name: 'Sandra Malpica'
     bio: 'Soy una estudiante de doctorado (graduada en ingeniería informática y máster en ingeniería biomédica) bajo la supervisión de Belén Masiá y Diego Gutiérrez en la universidad de Zaragoza, dentro del Graphics and Imaging Lab. Mis intereses se centran en la percepción humana en realidad virtual.'
