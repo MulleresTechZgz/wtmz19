@@ -757,7 +757,7 @@ talks_track_1:
     speaker: 
   - time: '20:00-22:00'  
     track: all
-    name: 'DJ Alerce, FOTOMATÓN Deloitte, NETWORKING Y CENA Grupo Sesé'
+    name: 'DJ patrocinada por Alerce, FOTOMATÓN patrocinado por Deloitte, NETWORKING Y CENA patrocinada por Grupo Sesé'
     descrip: 
     speaker: 
 
@@ -884,7 +884,7 @@ talks_track_2:
     speaker: 
   - time: '20:00-22:00'  
     track: all
-    name: 'DJ Alerce, FOTOMATÓN Deloitte, NETWORKING Y CENA Grupo Sesé'
+    name: 'DJ patrocinada por Alerce, FOTOMATÓN patrocinado por Deloitte, NETWORKING Y CENA patrocinada por Grupo Sesé'
     descrip: 
     speaker: 
 
@@ -990,7 +990,7 @@ workshops_track_1:
   - time: '20:00-22:00' 
     time_start: '20:00' 
     track: all
-    name: 'DJ Alerce, FOTOMATÓN Deloitte, NETWORKING Y CENA Grupo Sesé'
+    name: 'DJ patrocinada por Alerce, FOTOMATÓN patrocinado por Deloitte, NETWORKING Y CENA patrocinada por Grupo Sesé'
     descrip: 
     speaker: 
     duration: 1
@@ -1094,7 +1094,7 @@ workshops_track_2:
   - time: '20:00-22:00' 
     time_start: '20:00' 
     track: all
-    name: 'DJ Alerce, FOTOMATÓN Deloitte, NETWORKING Y CENA Grupo Sesé'
+    name: 'DJ patrocinada por Alerce, FOTOMATÓN patrocinado por Deloitte, NETWORKING Y CENA patrocinada por Grupo Sesé'
     descrip: 
     speaker: 
     duration: 1
