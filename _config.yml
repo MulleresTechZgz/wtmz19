@@ -196,7 +196,7 @@ speakers:
     short_name: 'Eva Del Ruste y Susana Romero'
     bio: ''
     image: img/ponentes/charlas/EvaDelRusteSusanaRomero
-    image_card: 
+    image_card: img/ponentes/charlas/fichas/EvaDelRusteSusanaRomero
     twitter_account: EvadelRuste13
     twitter_account_2: suromig
     linkedin_account:
@@ -387,11 +387,11 @@ mentors:
     linkedin_account: lauralacarra
   - name: 'Eva Omedes'
     short_name: 'Eva Omedes'
-    bio: ''
+    bio: 'Eva Omedes es graduada en ingeniería mecánica en la universidad de Zaragoza. Ha trabajado en el sector de la construcción 4.0. Ahora está trabajando en Hiberus Tecnología en el departamento de Data&Analytics'
     image: img/mentoras/EvaOmedes
     image_card: 
     twitter_account: 
-    linkedin_account: eva-omedes-domene-366315128
+    linkedin_account: eva-omedes-domene
   - name: 'Marta Pérez Campos'
     short_name: 'Marta Pérez'
     bio: 'Marta Pérez Campos (Mallén, Zaragoza, 1990)<br/>Artista multidisciplinar. Graduada en Bellas Artes por la Universidad de Zaragoza y Máster Interface Cultures de la Kunstuniversität Linz (Austria). Sus creaciones han sido expuestas en numerosos festivales, conferencias y exposiciones nacionales e internacionales. <br/>En su trabajo reflexiona sobre la presencia del error en nuestras interacciones sociales, creando para ello interfaces y experiencias que intervengan y especulen sobre la (in)comunicación y nuestra relación con el lenguaje. '
@@ -452,6 +452,13 @@ volunteers:
     image_card: 
     twitter_account: BegoCuello
     linkedin_account: 
+  - name: 'Estefanía Gómez (Nia)'
+    short_name: 'Estefanía Gómez'
+    bio: 'Mi trallectoria profesional ha ido pasando por diferentes campos. En los últimos 14 años he trabajado como diseñadora gráfica, ilustradora y desarrolladora web. Hace poco más de un año y con mucha ilusión, comencé mi formación en programación, ya que es una de mis pasiones (junto con la ilustración). Hoy trabajo como QA Specialist en BSH con Pariver.<br/>Últimamente he estado haciendo malabares con el tiempo para poder asistir a diferentes eventos como la WordCamps, Zaragoza Game JAM… sin olvidar las Meetup. Este 2020 seré la primera mujer Leader Organizer de una WordCamp en España. Estoy súper contenta de poder participar como voluntaria en la Women Techmakers! Nos vemos allí!'
+    image: img/voluntarias/EstefaniaGomez
+    image_card: 
+    twitter_account: NiaDsg
+    linkedin_account: estefaniagomezh
   - name: 'Julia Guerrero Viu'
     short_name: 'Julia Guerrero'
     bio: '22 años. Recién graduada en Ingeniería Informática en Zaragoza y estudiante de máster en Freiburg. Especialmente interesada en temas de inteligencia artificial, visión por computador e informática gráfica. Me apasiona lo que estudio, y disfruto compartiéndolo con l@s demás. Orgullosa de ser una de las Google Women Techmakers Scholars de este 2019.'
@@ -489,25 +496,25 @@ volunteers:
     linkedin_account:
   - name: 'Abril Robles'
     short_name: 'Abril Robles'
-    bio: ''
+    bio: 'Lo reconozco siempre he sido más de ciencias que de letras. Esto hizo que me decantara primero por el mundo de la arquitectura para pasar posteriormente a mi gran pasión, la ingeniería informática.<br/>¿A quién no le gusta las cosas bonitas? a mi por supuesto sí, y por eso soy más de frontend que de backend.'
     image: img/voluntarias/AbrilRobles
     image_card: 
-    twitter_account: 
-    linkedin_account: 
+    twitter_account: AbrilRob
+    linkedin_account: abril-robles
   - name: 'María del Carmen Rodriguez'
     short_name: 'María del Carmen Rodriguez'
     bio: 'Soy ingeniera informática y graduada del doctorado en Ingeniería de Sistemas e Informática de la Universidad de Zaragoza. Soy amante del ámbito académico y especialista en las áreas de Sistemas de Recomendación, Inteligencia Artificial, Recuperación de Información, Computación Móvil y Procesamiento del Lenguaje Natural.'
     image: img/voluntarias/MariadelCarmenRodriguez
     image_card: 
-    twitter_account: 
-    linkedin_account: 
-  - name: 'Sara Subijana Gracia'
-    short_name: 'Sara Subijana'
-    bio: 'Maña, desarrolladora backend, amiga de Laura Lacarra, amante de los animales y del CrossFit. Residente en Madrid desde hace 9 años pero con Zaragoza y Aragón en el corazón :) <br/>Trabajo en Autentia desde hace casi 6 años. Soy una apasionada del desarrollo con Java, Spring, TDD, patrones de diseño y metodologías ágiles.'
-    image: img/voluntarias/SaraSubijana
-    image_card: 
-    twitter_account: Sara_Subidon
-    linkedin_account:
+    twitter_account: mary170485
+    linkedin_account: maría-del-carmen-rodríguez-3241a863
+  #- name: 'Sara Subijana Gracia'
+  #  short_name: 'Sara Subijana'
+  #  bio: 'Maña, desarrolladora backend, amiga de Laura Lacarra, amante de los animales y del CrossFit. Residente en Madrid desde hace 9 años pero con Zaragoza y Aragón en el corazón :) <br/>Trabajo en Autentia desde hace casi 6 años. Soy una apasionada del desarrollo con Java, Spring, TDD, patrones de diseño y metodologías ágiles.'
+  #  image: img/voluntarias/SaraSubijana
+  #  image_card: 
+  #  twitter_account: Sara_Subidon
+  #  linkedin_account:
   - name: 'María Cristina Ventura Tomás'
     short_name: 'Cristina Ventura'
     bio: 'Maña desde hace veinticuatro primaveras. Soy estudiante de Ingeniería Informática en UNIZAR. También soy técnico superior en Desarrollo de Aplicaciones Multiplataforma desde 2017. Me ha inquietado la tecnología (la informática, sobre todo) desde pequeña. Algunas de mis aficciones ajenas a los ordenadores son la lectura, el senderismo y la historia en cualquiera de sus vertientes.<br/>Además de creer firmemente en el mensaje que quiere transmitir el evento, también estoy implicada con mi facultad (la EINA, antes CPS), y fuera de ella, en el cumplimiento de la Agenda 2030.'
