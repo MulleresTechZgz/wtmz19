@@ -920,7 +920,7 @@ workshops_track_1:
   - time: '10:30-12:00'
     time_start: '10:30'
     track: workshop
-    name: 'Yincana Encuentra Científicas'
+    name: 'Yincana Encuentra Científicas (para niñ@s)'
     descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 12 <br/>Niñas y niños<br/><br/>Cuentacientíficas nace como actividad del 11F para aumentar el conocimiento de referentes femeninos STEAM. En la Yincana Encuentra Científicas escondemos “guisantes” que representan áreas de investigación, descubrimientos o inventos de científicas, ingenieras e inventoras que os animamos a descubrir. ¡Ven a contarlas! ¡Cuenta con ellas!'
     speaker: 'Águeda Giráldez, Beatriz Entralgo y Vanessa Cañadas'
     duration: 1
@@ -935,7 +935,7 @@ workshops_track_1:
   - time: '12:30-14:00'
     time_start: '12:30'
     track: workshop
-    name: 'Estadística "tidy" con R'
+    name: 'Estadística "tidy" con R (para adultos)'
     descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 20 <br/>Adultos<br/><br/>Un taller estupendo tanto para empezar con R como para empezar a explorar tus datos con R. Usaremos una serie de paquetes que siguen una gramática concreta y fácil de utilizar para hacer análisis de datos con R. Cubriremos importar los datos, limpiarlos, explorarlos, y modelos simples para ver la estructura. <br/><br/><b>Trae tu propio portátil</b>'
     speaker: 'Bea Hernández'
     duration: 1
@@ -957,7 +957,7 @@ workshops_track_1:
   - time: '16:00-17:30'
     time_start: '16:00'
     track: workshop
-    name: 'Estrategia de comunicación basada en datos'
+    name: 'Estrategia de comunicación basada en datos (para adultos)'
     descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 20 <br/>Adultos<br/><br/>Como elaborar una estrategia de comunicación utilizando datos y tecnología '
     speaker: 'Nagore de los Ríos'
     duration: 1 
@@ -1027,7 +1027,7 @@ workshops_track_2:
   - time: '10:30-12:00'
     time_start: '10:30'
     track: workshop
-    name: 'Juega y aprende con Arduino & Raspberry Pi'
+    name: 'Juega y aprende con Arduino & Raspberry Pi (para niñ@s)'
     descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 12 <br/>Niñas y niños entre 6 y 12 años<br/><br/>Sumérgete en el mundo de la informática y electrónica de una manera fácil y divertida montando tu primer proyecto con Arduino y Raspberry junto a todos tus compañeros.' 
     speaker: 'Beatriz Aguas Luzón, Sheila Blasco Clavero y Clara Cirac Nerín'
     duration: 1
@@ -1042,7 +1042,7 @@ workshops_track_2:
   - time: '12:30-14:00'
     time_start: '12:30'
     track: workshop
-    name: 'Crea tus propias gafas de realidad virtual'
+    name: 'Crea tus propias gafas de realidad virtual (para niñ@s)'
     descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 12 <br/>Niñas y niños a partir de 7 años <br/><br/>¿Quieres crear tus propias gafas de realidad virtual? En este taller aprenderás para que sirven, podrás crear y decorar tus propias gafas de realidad virtual y para finalizar el taller....¡Podrás probar lo bien que funcionan! Además podrás llevártelas a casa y seguir disfrutando de ellas ¡Será súper divertido!'
     speaker: 'María Mora Fernández , Mercedes Medrano Gil, Ana Cruz Galán, Raquel Noé Martínez'
     duration: 1
@@ -1064,7 +1064,7 @@ workshops_track_2:
   - time: '16:00-17:45'
     time_start: '16:00'
     track: workshop
-    name: 'App Inventor - Apps móviles al alcance de tod@s'
+    name: 'App Inventor - Apps móviles al alcance de tod@s (para niñ@s)'
     descrip: 'Duracion: 2h 30m<br/>Plazas disponibles: 12 <br/>Niñas y niños entre 9 a 13 años<br/><br/>¿Sabes qué es APP Inventor? ¿Quieres aprender a programar una app para móvil?  Cuando termines el taller sabrás ésto y mucho más porque descubrirás que hay un mundo infinito de posibilidades para desarrollar tu creatividad y plasmarla en una aplicación móvil de una forma relativamente sencilla y bastante intuitiva. Vas a aprender cómo acceder a App Inventor, los requisitos que necesitas para empezar un proyecto, cómo es el espacio de trabajo con App Inventor, vas a diseñar el interface de una aplicación, la vas a programar y te la vas a llevar instalada en tu móvil para que puedas jugar con ella. ¡Ven a divertirte con nosotras!'
     speaker: 'Leticia Gracia y María Gracia'
     duration: 2
