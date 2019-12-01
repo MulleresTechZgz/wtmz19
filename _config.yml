@@ -677,7 +677,7 @@ talks_track_1:
     name: '¿Qué hace una chica como tú en una Startup como ésta?'
     descrip: 'En esta charla se hablará sobre las relaciones entre el arte y la tecnología; la notable presencia de las máquinas, el arte y la robótica, desembocando así en la llamada inteligencia artificial creativa. Qué pueden aportar los artistas y diseñadores al mundo de la robótica y sistemas inteligentes y cómo la divulgación de la tecnología se puede abordar desde muchos campos si se tiene ingenio y creatividad. '
     speaker: 'Cristina de Propios Martínez'
-    url_youtube: 
+    url_youtube: sXTzqyPZUOE
   - time: '11:00-11:25'
     track: 1
     name: '¡Ojo qué se ve!'
@@ -689,7 +689,7 @@ talks_track_1:
     name: 'Cómo puede la Inteligencia Artificial ayudar en la detección del cáncer de mama.'
     descrip: 'El cáncer de mama es el tipo de cáncer más común entre mujeres y el segundo tipo de cáncer más común, siendo uno de las principales causas de muerte de las mujeres a nivel global. Sin embargo, la probabilidad de curación cuando éste es detectado en estados iniciales, es prácticamente del 100%. Las imágenes mamográficas son el método más empleado para examinar los senos de las pacientes. Y, a pesar de que estas imágenes ayudan a reducir en gran medida la mortalidad del cáncer de mama, son también las causantes de un tema de intenso debate por los daños que lleva asociados la exposición a la radiación. Además, en la práctica, la obtención de un diagnóstico basado solamente en la mamografía es muy difícil, por lo que, en muchos casos, antes de que un doctor pueda hacer un diagnóstico, se requiere de la realización de una biopsia. Esta, es una operación quirúrgica y, como tal, tiene unos riesgos asociados como pueden ser dolores crónicos e infecciones. Por otra parte, el tiempo que pasa entre obtener la cita para realizar la biopsia y la obtención de los resultados, puede llevar un tiempo hasta que se realiza el diagnóstico, lo que puede darle al cáncer tiempo suficiente para tener efectos irreversibles en la salud del paciente. La Inteligencia Artificial (IA) puede ser una gran aliada para agilizar el diagnóstico reduciendo eficazmente tanto los tiempos de espera como el número de biopsias necesarias, aumentando de esta forma las probabilidades de curación. En esta charla veremos cómo.  ¿Te lo vas a perder?'
     speaker: 'Sara San Luís Rodríguez y Daniela Solís Morales'
-    url_youtube: 
+    url_youtube: pNu8Zr6DZWk
   - time: '12:00-12:25'
     track: all
     name: DESCANSO CAFÉ
@@ -700,20 +700,20 @@ talks_track_1:
     name: 'Comunicación en equipos de alto rendimiento: desmontando la Torre de Babel'
     descrip: 'La comunicación es la base del agilismo y a veces la gran olvidada. Si una de las cosas que nos diferencia de los animales es nuestra capacidad para comunicarnos, ¿por qué lo hacemos tan mal? En mi charla compartiré mi experiencia sobre las dificultades para conseguir una buena comunicación y qué herramientas e iniciativas me han ayudado a mejorarla.'
     speaker: 'Patricia Martínez Jaray'
-    url_youtube: 
+    url_youtube: Bs6RCQjTbKU
   - time: '13:00-13:25'
     track: 1
     #rowspan: '2'
     name: '¿Por qué dices padding cuando quieres decir margin?'
     descrip: 'En esta charla voy a contar algunos recursos que me están ayudado a organizarme mejor en los proyectos, maquetar diseños web con HTML y CSS más eficientemente y testear el resultado, tanto funcionalmente como comprobando la accesibilidad o la performance.'
     speaker: 'Cristina Fernández Sanz'
-    url_youtube: 
+    url_youtube: Dy7NbToxXlw
   - time: '13:30-13:55'
     track: 1
     name: 'Descubrimiento de producto a través de Inception, ¿perder el tiempo o invertirlo?'
     descrip: 'Antes de empezar a desarrollar un nuevo producto, proyecto, o una funcionalidad, nos deberíamos hacer las preguntas:<br/>¿Qué valor aporta? ¿Es viable? ¿Es el momento? ¿Quién lo va a utilizar? ¿Por qué?<br/>Uno de los sistemas utilizados en las primeras fases de descubrimiento de producto es la Inception.<br/>El principal propósito de una Inception es que todas las personas implicadas en un nuevo producto o proyecto se alineen sobre cuáles son los objetivos y qué significa aquello en lo que vamos a trabajar. Es llegar al entendimiento común de la idea desde el primer momento, y se puede hacer de muchas formas.<br/>Durante los últimos dos años he investigado y aprendido sobre Inception, y la he adaptado a las necesidades del momento, del equipo y del producto.<br/>Los resultados son diferentes, incluso con un mismo equipo. Porque para que sea un éxito, lo más importante son las personas que participan, y no siempre están alineadas o entienden lo que allí está sucediendo. En esta charla quiero compartir las experiencias de dos Inceptions hechas con el mismo equipo, para el mismo producto, pero en distintos momentos, con diferentes personas alrededor del equipo, y para alcanzar dos hitos distintos del producto. Una fue un éxito, la otra no.'
     speaker: 'María Berenguer'
-    url_youtube: 
+    url_youtube: cPm1xPh2a2w
   - time: '13:55-14:00'
     track: all
     name: Fotografía de grupo (Auditorio)
@@ -729,13 +729,13 @@ talks_track_1:
     name: 'Anatomía de una conversación'
     descrip: '¿Cómo entiende Google Assistant lo que queremos? Hay mucha ciencia ficción entorno a las interfaces conversacionales.<br/>En "Anatomía de una conversación" te contaré como usé Dialogflow para hacer mi chatbot Eva y la magia que me encontré detrás del NLP.'
     speaker: 'Cristina Santamarina' 
-    url_youtube: 
+    url_youtube: U-5gV5t7OZs
   - time: '16:30-16:55'
     track: 1
     name: '¿Cómo contamos historias en realidad virtual? Los usuarios como creadores de su propia experiencia'
     descrip: 'La realidad virtual es un nuevo medio que nos permite transmitir información y contar historias con unas capacidades de inmersión difícilmente alcanzables por otras plataformas. En este nuevo medio, los usuarios toman un papel mucho más activo, pudiendo interactuar con el entorno de diversas formas, y construyendo su propia experiencia a través de la exploración libre de los 360 grados que ofrece la realidad virtual. Sin embargo, esta nueva libertad adquirida por los usuarios puede suponer una dificultad para los creadores de contenido: si cada usuario puede crear su propia experiencia, ¿cómo puede asegurarse el creador de contenido de que está transmitiendo su historia y su información de manera efectiva? En esta charla hablaremos acerca de cómo exploran los usuarios entornos de realidad virtual, si existen o no patrones comunes de exploración, a qué prestan atención los usuarios, y cómo podemos usar todo este conocimiento a nuestro favor para crear diferentes tipos de contenido.'
     speaker: 'Ana Serrano'
-    url_youtube: 
+    url_youtube: 21Nt_jFNHNQ
   - time: '17:00-17:25'
     track: all
     name: 'DESCANSO CAFÉ'
@@ -746,18 +746,19 @@ talks_track_1:
     name: 'Ingredientes para ser una Woman Tech'
     descrip: 'Google selecciona cada año a sus Women Techmakers Scholars... ¿quieres ser la siguiente? Trataré de transmitir, desde la sencilla y cercana perspectiva de una joven estudiante de Zaragoza, lo mucho que significa recibir este importante reconocimiento, en qué consiste, el potencial de la comunidad global que hay detrás y cuál es la receta para formar parte de ella. La próxima podrías ser tú, no te la pierdas!'
     speaker: 'Julia Guerrero Viu' 
-    url_youtube: 
+    url_youtube: zziDRMjfR9M
   - time: '18:00-18:25'
     track: 1
     name: 'SOLID: internet sin espías'
     descrip: 'Tim Berners-Lee creó el estándar WWW en 1989, su idea era crear una herramienta universal y gratuita que permitiera la comunicación, nada más lejos de en lo que ha acabado convirtiéndose: manipulación y robo de datos por grandes compañías. <br/><br/>Presentaremos cómo funciona Solid, la nueva era de Internet en la que los usuarios somos los únicos dueños y poseedores de nuestros datos'
     speaker: 'Pilar Barbero Iriarte y Laura Fernando López'
-    url_youtube: 
+    url_youtube: u8MZJqhQsLY
   - time: '18:30-18:55'
     track: 1
     name: 'Fabricación Digital para el Diseño de Moda'
     descrip: 'Existe una necesidad económica, medioambiental y social de implementar las nuevas tecnologías, no solo por los contras que presenta el sistema, como la falta de sostenibilidad y accesibilidad, sino por los pros, a día de hoy es viable desarrollar metodologías innovadoras y flexibles haciendo uso de la fabricación digital.<br/>El corte a láser, la impresión y el escaneado 3d son algunas de las tecnologías de fabricación de bajo coste con las que podemos configurar un futuro más adaptado, más social y más diverso.'
     speaker: 'Susana Sanmartín Garbayo'
+    url_youtube: Bc6LxaXv8T8
   - time: '19:00-19:45'
     track: all
     name: 'CIERRE Staff WTM Zaragoza'
