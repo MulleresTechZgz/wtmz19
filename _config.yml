@@ -799,19 +799,19 @@ talks_track_2:
     name: 'Yo para ser feliz quiero un Blockchain'
     descrip: 'El Blockchain es una de las tendencias tecnológicas que más en auge se encuentra. No solo se trata de una tecnología estratégica a día de hoy, sino que, según indican varios estudios, entre los años 2020 y 2025 se producirá una plena implementación de esta tecnología en todos los ámbitos de la vida, produciéndose por tanto un claro un impacto social. <br/><br/>Como consecuencia a la inminente y supuesta “revolución Blockchain” que nos depara este futuro cercano, la charla está orientada a ofrecer una aproximación a este concepto desde un punto de vista no puramente técnico, estableciendo un acercamiento a esta tecnología que sea asequible para un público diverso, explicando el porqué del actual auge tecnológico, los posibles campos de aplicación (más allá de las criptomonedas) y en qué contextos se está aplicando y cómo está funcionando.<br/><br/>Se trata por lo tanto de una charla que nos permitirá poder entender el motivo real del por qué se está hablando tanto de Blockchain y si realmente es y será útil en nuestra vida.'
     speaker: 'Silvia Laiglesia Martínez'
-    url_youtube: 
+    url_youtube: AnhhE1sQuyk
   - time: '11:00-11:25'
     track: 2
     name: 'ValPat - motivando en tecnología'
     descrip: 'Valeria con tan sólo 10 años se ha convertido en toda una referente en carreras STEAM para otras niñas. A principios de años lanzó junto con su profesora y compañera Patricia una exitosa campaña de crowdfunding para sacar adelante su proyecto "ValPat STEAM" un canal de YouTube con el que pretenden inspirar y fomentar los campos STEAM entre las niñas y los niños. ¿Qué han hicieron para lograrlo? ¿Cómo crean los videos? ¿Qué han aprendido por el camino?...'
     speaker: 'Valeria Corrales y Patricia Heredia'
-    url_youtube: 
+    url_youtube: y5etz56haxQ
   - time: '11:30-11:55'
     track: 2
     name: 'El cerebro digital 5.0'
     descrip: 'Si piensas que tu hija es “nativa digital”, “eres multitasking”, estás conectada 24/7, te “enganchaste” literalmente a Pokémon GO y/o Candy Crush -porque sí, reconócelo, tú también solicitaste vidas a tus contactos de Facebook para seguir jugando en bucle…- y conoces las mejores apps para ligar (o las quieres actualizar)… ¡¡¡Esta es tu conferencia!!! TRA-TRA. <br/>Vincularemos cerebro y tecnología para que esta unión no acabe en una traumática enemistad con catastrófica ruptura. Para ello contaremos, entre otras, con la espléndida colaboración de Paulova y sus perros que, en exclusiva, nos descubrirán cómo funciona el procesador más complejo, versátil y eficaz creado hasta la fecha. Lidera tu vida en la era de la hiperconectividad, ¡¡descubre el poder del cerebro 5.0!!'
     speaker: 'Paula Gracia Andrés'
-    url_youtube: 
+    url_youtube: 2lfPy2Xf_R8
   - time: '12:00-12:25'
     track: all
     name: DESCANSO CAFÉ
@@ -834,14 +834,14 @@ talks_track_2:
     name: 'Becoming a Remote Worker - an individual''s perspective: best practice; routine, attitude, support & considerations.<b> [ENGLISH]</b>'
     descrip: 'Becoming a Virtual Worker - an individual''s perspective: best practice, routine, attitude, support & considerations. This session also explores remote working locations options and innovations. Rowena Hennigan, Lecturer, Trainer and Communications Consultant, working remotely since 2007. '
     speaker: 'Rowena Hennigan'
-    url_youtube: 
+    url_youtube: t1jHZ49oZg8
   - time: '13:30-13:55'
     track: 2
     #rowspan: '0'
     name: 'Web Semántica: Factores SEO que aumentan tu visibilidad en Google'
     descrip: 'Ya no basta con que nos busquen por nombre o marca, mola ser encontradas por temas relacionados con lo que hacemos. El algoritmo de búsqueda semántica cada vez da más importancia al significado y a la intención de las búsquedas de los usuarios. En esta charla quiero compartir la metodología y las herramientas gratuitas para identificar palabras clave LSI (Latent Semantic Indexing Keywords), cómo aprovecharlas para optimizar el SEO On-Site y Off-Site y ganar visibilidad en Internet.'
     speaker: 'Laura López Navaz'
-    url_youtube: 
+    url_youtube: 2GNlFSrVLeg
   - time: '15:55-14:00'
     track: all
     name: Foto de grupo
@@ -857,13 +857,13 @@ talks_track_2:
     name: 'El Cartero llama a tu puerta'
     descrip: 'Os voy a contar la situacion en la que me encontré en un proyecto nuevo y cómo Postman, aprovechando el aprendizaje de la herramientas  e invertiendo el tiempo suficiente en aprender a manejar y averiguar cómo utilizarla y aplicarla en nuesto caso, consiguio mejorar el proyecto.'
     speaker: 'Celia Martinez Luengo'
-    url_youtube: 
+    url_youtube: upaJxv6zoPM
   - time: '16:30-16:55'
     track: 2
     name: '#HazteUnaMafia'
     descrip: '¿Te gusta la pizza y la tecnología? ¡¡Perfecto!! Bueno... aquí realmente no vamos a comer pizza, en nuestros restaurantes las preparan mucho mejor que yo😉 Lo que si vais a conocer es nuestro proceso de transformación Digital. Somos la franquicia de restaurantes La Mafia se sienta a la Mesa, compañía aragonesa con más de 50 restaurantes a nivel nacional. El próximo año cumpliremos 20 años, y durante las últimas dos décadas hemos ido evolucionando tecnológicamente hasta posicionarnos como referentes tecnológicos en el sector de la restauración organizada. Durante este último año hemos implantado un proyecto de Smart Visual Data, que nos permite analizar en tiempo real toda la información relevante de nuestro negocio. Incorpora también una herramienta de Inteligencia Artificial que traduce los comentarios en valoración de sentimiento y reconocimiento de imágenes. ¡Os lo explicaré con más detalle en el WTMZ! #HazteUnaMafia'
     speaker: 'Vanessa Borobia'
-    url_youtube: 
+    url_youtube: ltHfceqZqwg
   - time: '17:00-17:25'
     track: all
     name: 'DESCANSO CAFÉ'
@@ -880,13 +880,13 @@ talks_track_2:
     name: 'From zero to hero with kotlin & springboot'
     descrip: 'Eres frontend?? Alguna vez te has preguntado que hay más allá del muro??? En esta sesión haremos un live coding de un pequeño microservicio que ofrecerá una API de interacción. Usaremos Spring boot y kotlin para conseguirlo! Anímate al reto de construir tu primer microservicio en 15 minutos.'
     speaker: 'Debora Gomez Bertoli'
-    url_youtube:  
+    url_youtube: H37LuAeBGiA
   - time: '18:30-18:55'
     track: 2
     name: '¿Truco o dato?'
     descrip: 'Somos dos mujeres, ingenieras de formación, que acercan la innovación a través de la tecnología  a usuarios no tecnológicos, la administración pública local. Automatizar procesos, modificar flujos de trabajo reglados hasta el extremo es una labor compleja y dura que tiene un encanto especial.<br/>Cuándo abran la puerta del ayuntamiento ¿Qué crees que responden ante la pregunta de truco o dato?. Truco seguramente, copy-paste, Windows es su dios. Sin embargo la tecnología, la interoperabilidad, el Big Data nos permite acceder al dato mediante procesos eficientes <br/>La información NO es el poder, el poder está en el dato.  '
     speaker: 'Ana Bernal y Cristina Gimeno'
-    url_youtube:    
+    url_youtube: DdlO3aD0Abo
   - time: '19:00-19:45'
     track: all
     name: 'CIERRE'
