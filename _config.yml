@@ -828,7 +828,7 @@ talks_track_2:
     name: 'Dale una vuelta de tuerca'
     descrip: 'Vivimos un momento mágico donde el conocimiento, las relaciones interpersonales, la empatía y la creatividad se potencian gracias a la tecnología.<br/>La experiencia personal y profesional se mezclan creando Mercado del 13; un proyecto empresarial para visibilizar, sensibilizar a la sociedad y generar recursos para la investigación de las Enfermedades Raras (ER). Una dura realidad que viven + de 3 millones de personas en España y 350 millones en el mundo. Eventos, mesas hexagonales, pop up efímeros, charlas, talleres 3R, diseño de productos y más acciones creativas que, gracias a las RRSS y la web nos conectan, empatizan y multiplican el efecto #visibilidadER<br/>Personas, Propósito y Tecnología juntos para hacer del mundo un lugar mejor. ¿Quieres cambiarlo con tu acción?'
     speaker: 'Eva Del Ruste y Susana Romero'
-    url_youtube: 
+    url_youtube: alU52Jq3C5
   - time: '13:00-13:25'
     track: 2
     name: 'Becoming a Remote Worker - an individual''s perspective: best practice; routine, attitude, support & considerations.<b> [ENGLISH]</b>'
@@ -874,7 +874,7 @@ talks_track_2:
     name: 'Cómo conseguir más de 2.800 oportunidades de negocio (leads) a través de canales digitales'
     descrip: 'El principal objetivo de las empresas en los canales digitales es generar negocio. En base a nuestra experiencia con la estrategia digital de Hiberus Tecnología, explicaremos como poner nuestra maquinaria en marcha para conseguir leads de calidad para aumentar nuestra cartera de clientes. Optimización de portales web, creación de landing pages, estrategia inbound, lanzamiento de campañas de pago, seguimiento de resultados con analítica... Compartiremos un montón de ideas para que los asistentes puedan probarlo en sus organizaciones y negocios.'
     speaker: 'Mónica Giménez'
-    url_youtube:  
+    url_youtube: 2M6xHgkRGlo
   - time: '18:00-18:25'
     track: 2
     name: 'From zero to hero with kotlin & springboot'
